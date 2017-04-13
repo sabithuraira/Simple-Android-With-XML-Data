@@ -31,7 +31,7 @@ public class DataMenuActivity extends AppCompatActivity  {
     private ViewPager viewPager;
     private Toolbar toolbar;
 
-    public Boolean is_root=true;
+    //public Boolean is_root=true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +51,7 @@ public class DataMenuActivity extends AppCompatActivity  {
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
+        /*
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,6 +70,7 @@ public class DataMenuActivity extends AppCompatActivity  {
 
             }
         });
+        */
     }
 
     private void setupViewPager(ViewPager viewPager) {

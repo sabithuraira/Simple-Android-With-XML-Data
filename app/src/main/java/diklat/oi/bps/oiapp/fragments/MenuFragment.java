@@ -34,7 +34,7 @@ import diklat.oi.bps.oiapp.components.ImageAdapter;
 
 public class MenuFragment extends Fragment {
 
-    private Integer parent_position=0;
+    //private Integer parent_position=0;
     private String[] listDataHeader={
             "Pemerintahan", "Penduduk", "Ketenagakerjaan", "Kemiskinan", "IPM",
             "Pendidikan", "Kesehatan", "Pertanian", "Industri dan Pertambangan",
@@ -74,6 +74,7 @@ public class MenuFragment extends Fragment {
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
+                /*
                 DataMenuActivity activity = (DataMenuActivity) getActivity();
 
                 if(activity.is_root){
@@ -88,6 +89,13 @@ public class MenuFragment extends Fragment {
                     intent.putExtra("label_str", temp_source);
                     startActivity(intent);
                 }
+                */
+
+                String temp_source=(listDataHeader[position].toLowerCase()).replace(' ','_');
+                Intent intent = new Intent(getActivity(), DataActivity.class);
+                intent.putExtra("real_text", listDataHeader[position]);
+                intent.putExtra("label_str", temp_source);
+                startActivity(intent);
             }
         });
     }

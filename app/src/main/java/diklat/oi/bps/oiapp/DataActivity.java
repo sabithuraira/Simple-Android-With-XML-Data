@@ -90,29 +90,32 @@ public class DataActivity extends AppCompatActivity   {
                 analisis.putString("txt_aboutus", r.getString(analisisId));
             }
             else{
-                int konsepId = r.getIdentifier("jumlah_penduduk", "string", this.getPackageName());
-                konsep.putString("txt_aboutus", r.getString(konsepId));
-
                 tabel.putString("init","kec_"+data_file);
-
-                int analisisId = r.getIdentifier("analisis_jumlah_penduduk", "string", this.getPackageName());
-                analisis.putString("txt_aboutus", r.getString(analisisId));
             }
         }
 
-        SimpleFragment konsep_frag=new SimpleFragment();
-        konsep_frag.setArguments(konsep);
+        if(type_data<2){
+            SimpleFragment konsep_frag=new SimpleFragment();
+            konsep_frag.setArguments(konsep);
 
-        TableFragment tabel_frag=new TableFragment();
-        tabel_frag.setArguments(tabel);
+            TableFragment tabel_frag=new TableFragment();
+            tabel_frag.setArguments(tabel);
 
-        SimpleFragment analisis_frag=new SimpleFragment();
-        analisis_frag.setArguments(analisis);
+            SimpleFragment analisis_frag=new SimpleFragment();
+            analisis_frag.setArguments(analisis);
 
-        adapter.addFragment(konsep_frag, "Konsep Definisi");
-        adapter.addFragment(tabel_frag, "Tabel");
-        adapter.addFragment(analisis_frag, "Analisis");
-        adapter.addFragment(new ImageFragment(), "Infografis");
+            adapter.addFragment(konsep_frag, "Konsep Definisi");
+            adapter.addFragment(tabel_frag, "Tabel");
+            adapter.addFragment(analisis_frag, "Analisis");
+            adapter.addFragment(new ImageFragment(), "Infografis");
+        }
+        else{
+            TableFragment tabel_frag=new TableFragment();
+            tabel_frag.setArguments(tabel);
+
+            adapter.addFragment(tabel_frag, "Tabel");
+        }
+
         viewPager.setAdapter(adapter);
     }
 

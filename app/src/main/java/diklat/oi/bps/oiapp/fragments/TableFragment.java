@@ -19,9 +19,11 @@ import android.widget.BaseAdapter;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.GridView;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -87,7 +89,6 @@ public class TableFragment extends Fragment {
 
                     ++current_index;
                 }
-
             }
             else{
                 int titleId = r.getIdentifier("data_title_"+this.data, "array", this.getActivity().getPackageName());
@@ -102,9 +103,18 @@ public class TableFragment extends Fragment {
         Integer total_var=0;
         total_var=title.length;
 
+        ScrollView scrollView=new ScrollView(this.getActivity());
+        scrollView.setLayoutParams(new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT ));
+
+
+        HorizontalScrollView hscrollView=new HorizontalScrollView(this.getActivity());
+        hscrollView.setLayoutParams(new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT ));
+
         TableLayout tbl_layout= new TableLayout(this.getActivity());
-        //LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        //lp.setMargins(5, 0, 5, 0);
 
         tbl_layout.setLayoutParams(new ViewGroup.LayoutParams(
                         ViewGroup.LayoutParams.MATCH_PARENT,
@@ -170,7 +180,9 @@ public class TableFragment extends Fragment {
 
         tbl_layout.addView(title_footer);
 
-        rel_layout.addView(tbl_layout);
+        hscrollView.addView(tbl_layout);
+        scrollView.addView(hscrollView);
+        rel_layout.addView(scrollView);
     }
 
     @Override

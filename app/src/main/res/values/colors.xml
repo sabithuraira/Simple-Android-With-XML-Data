@@ -6,4 +6,14 @@
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#000000</color>
+
+
+    <color name="violet">#7a4dff</color>
+    <color name="darkgreen">#08938c</color>
+    <color name="lightgreen">#46B04A</color>
+    <color name="orange">#FD9800</color>
+    <color name="blue">#00A1EA</color>
+    <color name="gray">#9D9D9D</color>
+    <color name="red">#EA1660</color>
+
 </resources>

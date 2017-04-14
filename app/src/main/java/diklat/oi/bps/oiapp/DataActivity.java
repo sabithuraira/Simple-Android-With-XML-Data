@@ -75,6 +75,7 @@ public class DataActivity extends AppCompatActivity   {
         Bundle konsep=new Bundle();
         Bundle tabel=new Bundle();
         Bundle analisis=new Bundle();
+        Bundle image_bundle=new Bundle();
 
         if(data_file.length()>0){
             if(type_data<2) {
@@ -88,18 +89,19 @@ public class DataActivity extends AppCompatActivity   {
 
                 int analisisId = r.getIdentifier("analisis_" + data_file, "string", this.getPackageName());
                 analisis.putString("txt_aboutus", r.getString(analisisId));
+                image_bundle.putString("rsc","info_"+data_file);
             }
             else{
                 tabel.putString("init","kec_"+data_file);
             }
         }
 
+        TableFragment tabel_frag=new TableFragment();
+        tabel_frag.setArguments(tabel);
+
         if(type_data<2){
             SimpleFragment konsep_frag=new SimpleFragment();
             konsep_frag.setArguments(konsep);
-
-            TableFragment tabel_frag=new TableFragment();
-            tabel_frag.setArguments(tabel);
 
             SimpleFragment analisis_frag=new SimpleFragment();
             analisis_frag.setArguments(analisis);
@@ -107,12 +109,15 @@ public class DataActivity extends AppCompatActivity   {
             adapter.addFragment(konsep_frag, "Konsep Definisi");
             adapter.addFragment(tabel_frag, "Tabel");
             adapter.addFragment(analisis_frag, "Analisis");
-            adapter.addFragment(new ImageFragment(), "Infografis");
+
+            if(type_data==0) {
+                ImageFragment image_frag=new ImageFragment();
+                image_frag.setArguments(image_bundle);
+
+                adapter.addFragment(image_frag, "Infografis");
+            }
         }
         else{
-            TableFragment tabel_frag=new TableFragment();
-            tabel_frag.setArguments(tabel);
-
             adapter.addFragment(tabel_frag, "Tabel");
         }
 

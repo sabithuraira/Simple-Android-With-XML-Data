@@ -45,6 +45,13 @@ public class DataMenuActivity extends AppCompatActivity  {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                (DataMenuActivity.this).finish();
+            }
+        });
+
         viewPager = (ViewPager) findViewById(R.id.pager);
         setupViewPager(viewPager);
 

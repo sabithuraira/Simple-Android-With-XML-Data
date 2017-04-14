@@ -31,6 +31,46 @@ import diklat.oi.bps.oiapp.components.ImageAdapter;
  */
 
 public class MenuKabFragment extends Fragment {
+    private String[] listDataHeader={
+            "Pemerintahan", "Penduduk", "Pendidikan", "Kesehatan", "Pertanian", "Industri dan Pertambangan"
+    };
+
+    private GridView gridview;
+
+    public MenuKabFragment(){}
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        gridview = (GridView) getView().findViewById(R.id.gridview);
+        gridview.setAdapter(new ImageAdapter(this.getActivity(), this.listDataHeader));
+
+        gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View v,
+                                    int position, long id) {
+                String temp_source=(listDataHeader[position].toLowerCase()).replace(' ','_');
+                Intent intent = new Intent(getActivity(), DataActivity.class);
+                intent.putExtra("real_text", listDataHeader[position]);
+                intent.putExtra("label_str", temp_source);
+                intent.putExtra("is_kab",1);
+                startActivity(intent);
+            }
+        });
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_menu, container, false);
+    }
+
+    /*
     ExpandableListAdapter listAdapter;
     ExpandableListView expListView;
 
@@ -88,4 +128,5 @@ public class MenuKabFragment extends Fragment {
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_menu_kab, container, false);
     }
+    */
 }

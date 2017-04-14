@@ -5,12 +5,14 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.List;
@@ -24,6 +26,9 @@ import diklat.oi.bps.oiapp.R;
 public class ImageAdapter extends BaseAdapter {
     private Context mContext;
     private String[] data;
+
+    private String[] list_color={"#7a4dff", "#08938c",
+        "#46B04A", "#FD9800", "#00A1EA","#9D9D9D", "#EA1660"};
 
     public ImageAdapter(Context c, String[] data) {
 
@@ -64,6 +69,12 @@ public class ImageAdapter extends BaseAdapter {
 
         LayoutInflater li = ((Activity) mContext).getLayoutInflater();
         myView = li.inflate(R.layout.grid_layout, null);
+
+        RelativeLayout relativeLayout=(RelativeLayout) myView.findViewById(R.id.relaGrid);
+        int color_index=position%6;
+
+        relativeLayout.setBackgroundColor(Color.parseColor(list_color[color_index]));
+
         ImageView img = (ImageView) myView.findViewById(R.id.img_grid);
         TextView txt = (TextView) myView.findViewById(R.id.txt_grid);
 

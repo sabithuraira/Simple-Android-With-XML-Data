@@ -2,15 +2,37 @@
     <string name="app_name">SIMANIS-OI</string>
 
     <string name="address">Jl. Palembang - Prabumulih Km 33 Desa Tanjung Pering 30813 Indralaya, Telp (0711) 581713, Faks (0711) 581713</string>
-    <string name="email">bps1610@bps.go.id</string>
+    <string name="email">Email : bps1610@bps.go.id</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
 
+    <string-array name="home_menu_array">
+        <item>Email</item>
+        <item>Website</item>
+        <item>Alamat</item>
+    </string-array>
+
+    <string-array name="aboutsimanis_title_array">
+        <item></item>
+        <item>SIMANIS-OI</item>
+    </string-array>
+
+    <string-array name="aboutsimanis_data_array">
+        <item>simanis</item>
+        <item>
+            <![CDATA[
+                <p>SISTEM PENYEDIAAN DATA DAN INFORMASI STATISTIK KABUPATEN OGAN ILIR</p>
+                <p>SIMANIS-OI adalah aplikasi berbasis android yang bertujuan menyediakan data dan informasi statistik Kabupaten Ogan Ilir Provinsi Sumatera Selatan secara lebih cepat, lebih mudah dan lebih murah. Himpunan data pada SIMANIS-OI ini adalah data resmi yang bersumber dari Badan Pusat Statistik (BPS) maupun data sektoral hasil kompilasi produk administrasi. Pengembangan dan penyempurnaan aplikasi akan terus dilaksanakan sesuai perkembangan IPTEK serta tuntutan pengguna data. Aplikasi SIMANIS-OI dikelola oleh BPS Kabupaten Ogan Ilir bersama Forum Satu Data Kabupaten Ogan Ilir, jika terdapat kritik, saran dan pertanyaan dapat disampaikan melalui:</p>
+                <p>Email: SIMANIS_OI@gmail.com</p>
+	        ]]>
+        </item>
+    </string-array>
 
     <string-array name="aboutus_title_array">
+        <item></item>
         <item>Informasi Umum</item>
         <item>Visi dan Misi</item>
         <item>Nilai-Nilai Inti</item>
@@ -25,7 +47,7 @@
         <item>Rambang Kuang</item>
         <item>Lubuk Keliat</item>
         <item>Tanjung Batu</item>
-        <item>Panyaraman</item>
+        <item>Payaraman</item>
         <item>Rantau Alai</item>
         <item>Kandis</item>
         <item>Tanjung Raja</item>
@@ -40,6 +62,7 @@
     </string-array>
 
     <string-array name="aboutus_data_array">
+        <item>muktiriadi</item>
         <item>
             <![CDATA[
                 <p ><span >Badan Pusat Statistik adalah Lembaga Pemerintah Non-Departemen yang bertanggung jawab langsung kepada Presiden. </span></p>
@@ -68,7 +91,6 @@
             ]]>
         </item>
         <item>
-
             <![CDATA[
             <p ><span >Nilai-nilai Inti (Core Values) BPS terdiri dari: </span></p>
 <p ><span >1. PROFESIONAL</span></p>
@@ -157,8 +179,11 @@
 
 
     <string-array name="aboutoi_title_array">
+        <item></item>
         <item>Profil</item>
+        <item></item>
         <item>Kondisi Geografis</item>
+        <item></item>
         <item>Wilayah Administratif</item>
         <item>Iklim dan Topografi</item>
         <item>Pemerintahan</item>
@@ -166,9 +191,9 @@
     </string-array>
 
     <string-array name="aboutoi_data_array" formatted="false">
+        <item>wabup</item>
         <item>
             <![CDATA[
-                <p ><span ><b>Lambang Daerah</b></span></p>
                 <p ><span ><b>Visi </b></span></p>
                 <p ><span >TERWUJUDNYA MASYARAKAT OGAN ILIR LEBIH SEJAHTERA, UNGGUL DAN BERKUALITAS DILANDASI KEIMANAN DAN KETAQWAAN KEPADA TUHAN YANG MAHA ESA</span></p>
                 <p ><span ><b>Misi </b></span></p>
@@ -183,6 +208,7 @@
                 <p ><span>SIAP MELANJUTKAN PEMBANGUNAN MENUJU OGAN ILIR GEMILANG DENGAN SEMANGAT BARU DAN JIWA BARU</span></p>
 	        ]]>
         </item>
+        <item>lambang</item>
         <item>
             <![CDATA[
                 <p ><span >Luas wilayah: 2.666,07 km</span><span ><sup>2</sup></span></p>
@@ -196,6 +222,7 @@
                 <p ><span >Peta Wilayah</span></p>
             ]]>
         </item>
+        <item>peta</item>
         <item>
             <![CDATA[
                 <p ><span >Kabupaten Ogan Ilir memiliki 16 kecamatan, 227 desa dan 14 kelurahan.</span></p>
@@ -338,15 +365,25 @@
 
         <p><b>Angka Harapan Hidup saat Lahir (AHH)</b> didefinisikan sebagai rata-rata perkiraan banyak tahun yang dapat ditempuh oleh seseorang sejak lahir. AHH mencerminkan derajat kesehatan suatu masyarakat. AHH dihitung dari hasil sensus dan survei kependudukan.</p>
 
+        <p><b>I <sub>kesehatan</sub> = (AHH - AHH <sub>min</sub>) / (AHH <sub>maks</sub> - AHH <sub>min</sub>)</b></p>
         <p>AHH = Angka Harapan Hidup</p>
 
         <p><b>Angka Harapan Lama Sekolah (HLS)</b> didefinisikan sebagai lamanya sekolah (dalam tahun) yang diharapkan akan dirasakan oleh anak pada umur tertentu di masa mendatang. HLS dihitung pada usia 7 tahun ke atas. HLS dapat digunakan untuk mengetahui kondisi pembangunan sistem pendidikan di berbagai jenjang yang ditunjukkan dalam bentuk lamanya pendidikan (dalam tahun) yang diharapkan dapat dicapai oleh setiap anak.</p>
         <p><b>Rata-rata Lama Sekolah (RLS)</b> didefinisikan sebagai jumlah tahun yang digunakan oleh penduduk dalam menjalani pendidikan formal. Cakupan penduduk yang dihitung RLS adalah penduduk berusia 25 tahun ke atas.</p>
 
+
+        <p><b>I <sub>HLS</sub> = (HLS - HLS <sub>min</sub>) / (HLS <sub>maks</sub> - HLS <sub>min</sub>)</b></p>
+        <p><b>I <sub>RLS</sub> = (RLS - RLS <sub>min</sub>) / (RLS <sub>maks</sub> - RLS <sub>min</sub>)</b></p>
+        <p><b>I <sub>pendidikan</sub> = (I <sub>HLS</sub> - I <sub>RLS</sub>) / 2</b></p>
+
+
         <p>HLS = Harapan Lama Sekolah</p>
         <p>RLS = Rata-Rata Lama Sekolah</p>
 
         <p><b>Pengeluaran per Kapita</b> disesuaikan ditentukan dari nilai pengeluaran per kapita dan paritas daya beli. Rata-rata pengeluaran per kapita setahun diperoleh dari Susenas, dihitung dari level provinsi hingga level kab/kota. Rata-rata pengeluaran per kapita dibuat konstan/riil dengan tahun dasar 2012=100. Perhitungan paritas daya beli pada metode baru menggunakan 96 komoditas dimana 66 komoditas merupakan makanan dan sisanya merupakan komoditas nonmakanan. Metode penghitungannya menggunakan Metode Rao.</p>
+
+        <p><b>I <sub>pengeluaran</sub> = (ln <sub>pengeluaran</sub> - ln <sub>pengeluaran min</sub>) / (ln <sub>pengeluaran maks</sub> - ln <sub>pengeluaran maks</sub>)</b></p>
+
         <p>Pengeluaran = Pengeluaran per Kapita</p>
 	]]>
 	</string>
@@ -363,16 +400,16 @@
         <p><b>Guru</b> adalah pendidik profesional dengan tugas utama mendidik, mengajar, membimbing, mengarahkan, melatih, menilai, dan mengevaluasi peserta didik pada pendidikan anak usia dini jalur pendidikan formal, pendidikan dasar, dan pendidikan menengah.</p>
         <p><b>Murid</b> adalah peserta didik di setiap jenjang pendidikan.</p>
         <p><b>Angka Partisipasi Sekolah (APS)</b> adalah proporsi anak sekolah pada usia jenjang pendidikan tertentu dalam kelompok usia yang sesuai dengan jejang pendidikan tersebut.</p>
-
-
+        <p><b>APS 7 -12 Tahun = (Jml penduduk masih sekolah 7 - 12 tahun) / (Jml penduduk usia 7 - 12 tahun) x 100</b></p>
 
         <p>Catatan: kelompok usia sekolah (7-12, 13-15 tahun, 16-18 dan 19-24 tahun)</p>
         <p><b>Angka Partisipasi Murni (APM)</b> adalah proporsi anak sekolah pada satu kelompok usia tertentu yang bersekolah pada jenjang yang sesuai dengan kelompok usianya.</p>
 
-
+        <p><b>APM SD/MI = (Jml murid SD/MI usia 7 - 12 tahun) / (Jml penduduk usia 7 - 12 tahun) x 100</b></p>
         <p>Catatan: Jenjang SD/MI usia 7-12 tahun, SMP/MTs: usia 13-15 tahun, SM/MA : usia 16 -18 tahun</p>
 
         <p><b>Angka Partisipasi Kasar (APK)</b> adalah proporsi anak sekolah pada suatu jenjang tertentu dalam kelompok usia yang sesuai dengan jenjang pendidikan tersebut.</p>
+        <p><b>APK SD/MI = (Jml penduduk yang masih sekolah di SD/MI) / (Jml penduduk usia 7 - 12 tahun) x 100</b></p>
         <p>Catatan: Jenjang SD/MI usia 7-12 tahun, SMP/MTs: usia 13-15 tahun, SM/MA : usia 16 -18 tahun</p>
 	]]>
 	</string>
@@ -1837,8 +1874,8 @@
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
-    <string-array name="data_title_kec_panyaraman">
-        <item>Jumlah Penduduk Kecamatan Panyaraman Tahun 2015</item>
+    <string-array name="data_title_kec_payaraman">
+        <item>Jumlah Penduduk Kecamatan Payaraman Tahun 2015</item>
         <item>Desa/Kelurahan</item>
         <item>Jumlah Penduduk</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
@@ -1997,7 +2034,7 @@
         <item>Tanjung Atap Barat;	1.748</item>
     </string-array>
 
-    <string-array name="data_array_kec_panyaraman">
+    <string-array name="data_array_kec_payaraman">
         <item>Tebedak I	;2.080</item>
         <item>Lubuk Bandung;	1.180</item>
         <item>Rengas I	;1.579</item>

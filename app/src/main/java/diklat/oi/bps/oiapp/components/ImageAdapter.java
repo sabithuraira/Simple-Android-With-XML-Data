@@ -6,6 +6,7 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,8 +28,8 @@ public class ImageAdapter extends BaseAdapter {
     private Context mContext;
     private String[] data;
 
-    private String[] list_color={"#7a4dff", "#08938c",
-        "#46B04A", "#FD9800", "#00A1EA","#9D9D9D", "#EA1660"};
+    private String[] list_color={"#F1BA23", "#19A050",
+        "#AD1414", "#890988", "#22B0F2","#F25023"};
 
     public ImageAdapter(Context c, String[] data) {
 
@@ -87,6 +88,7 @@ public class ImageAdapter extends BaseAdapter {
         //this.createTable(r.getStringArray(titleId),r.getStringArray(dataId));
         img.setImageResource(imageId);
         txt.setText(data[position]);
+        txt.setTypeface(null, Typeface.BOLD);
 
         return myView;
     }

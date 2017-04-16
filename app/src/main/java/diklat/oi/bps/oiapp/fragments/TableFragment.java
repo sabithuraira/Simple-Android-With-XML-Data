@@ -145,7 +145,8 @@ public class TableFragment extends Fragment {
             TextView tv0 = new TextView(this.getActivity());
             tv0.setBackgroundResource(R.drawable.cell_shape);
             tv0.setTypeface(null, Typeface.BOLD);
-            tv0.setPadding(5,5,5,5);
+            tv0.setPadding(10,5,10,5);
+            tv0.setGravity(Gravity.CENTER);
             tv0.setText(title[i]);
             tbrow0.addView(tv0);
         }
@@ -160,7 +161,7 @@ public class TableFragment extends Fragment {
                 TextView tv1 = new TextView(this.getActivity());
 
                 tv1.setBackgroundResource(R.drawable.cell_shape);
-                tv1.setPadding(5,5,5,5);
+                tv1.setPadding(10,5,10,5);
                 tv1.setText(explode_data[j]);
                 tv1.setGravity(Gravity.CENTER);
                 tbrow.addView(tv1);

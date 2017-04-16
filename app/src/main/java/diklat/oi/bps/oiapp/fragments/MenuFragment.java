@@ -41,6 +41,7 @@ public class MenuFragment extends Fragment {
             "Infrastruktur", "PDRB"
     };
 
+    /*
     private String[][] listDataChild={
             {"Wilayah", "PNS", "DPRD"},
             {"Jumlah Penduduk", "Kepadatan Penduduk", "Rasio Jenis Kelamin"},
@@ -54,6 +55,7 @@ public class MenuFragment extends Fragment {
             {"Jalan"},
             {"PDRB", "PDRB ADHB", "PDRB ADHK", "PDRB Lapangan Usaha", "PDRB Pengeluaran", "Pertumbuhan Ekonomi", "Distribusi Persentase"}
     };
+    */
 
     private GridView gridview;
 

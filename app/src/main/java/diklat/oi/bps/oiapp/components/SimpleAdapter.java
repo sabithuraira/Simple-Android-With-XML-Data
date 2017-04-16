@@ -2,6 +2,8 @@ package diklat.oi.bps.oiapp.components;
 
 import android.content.ClipData;
 import android.content.Context;
+import android.content.res.Resources;
+import android.media.Image;
 import android.os.Build;
 import android.text.Html;
 import android.view.LayoutInflater;
@@ -9,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -24,6 +27,7 @@ public class SimpleAdapter extends BaseAdapter {
 
     private List<SimpleData> datas=new ArrayList<SimpleData>();
     private LayoutInflater mInflater;
+    private Context context;
 
     /*
     public SimpleAdapter(Context context, int textViewResourceId) {
@@ -36,6 +40,7 @@ public class SimpleAdapter extends BaseAdapter {
     */
 
     public SimpleAdapter(Context context, List<SimpleData> datas){
+        this.context=context;
         this.mInflater=LayoutInflater.from(context);
         this.datas=datas;
     }
@@ -59,30 +64,44 @@ public class SimpleAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         View v = convertView;
-
-        if (v == null) {
-            v = this.mInflater.inflate(R.layout.list_simple, null);
-        }
-
         SimpleData p = datas.get(position);
 
-        if (p != null) {
-            TextView title = (TextView) v.findViewById(R.id.title);
-            TextView deskripsi = (TextView) v.findViewById(R.id.deskripsi);
+        //if (v == null) {
+        if(p!=null && p.getTitle().length()==0){
+            v = this.mInflater.inflate(R.layout.list_image, null);
+        }
+        else{
+            v = this.mInflater.inflate(R.layout.list_simple, null);
+        }
+        //}
 
-            if (title != null) {
-                title.setText(p.getTitle());
+        if(p!=null){
+            if(p.getTitle().length()==0){
+                ImageView img=(ImageView) v.findViewById(R.id.img_grid);
+
+                Resources r = this.context.getResources();
+                int imageId = r.getIdentifier(p.getDeskripsi(), "mipmap", this.context.getPackageName());
+
+                if(imageId!=0)
+                    img.setImageResource(imageId);
             }
+            else {
+                TextView title = (TextView) v.findViewById(R.id.title);
+                TextView deskripsi = (TextView) v.findViewById(R.id.deskripsi);
 
-            if (deskripsi != null) {
-                if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
-                    deskripsi.setText(Html.fromHtml(p.getDeskripsi(), Html.FROM_HTML_MODE_COMPACT));
-                else
-                    deskripsi.setText(Html.fromHtml(p.getDeskripsi()));
+                if (title != null) {
+                    title.setText(p.getTitle());
+                }
+
+                if (deskripsi != null) {
+                    if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
+                        deskripsi.setText(Html.fromHtml(p.getDeskripsi(), Html.FROM_HTML_MODE_COMPACT));
+                    else
+                        deskripsi.setText(Html.fromHtml(p.getDeskripsi()));
+                }
             }
         }
 
         return v;
     }
-
 }

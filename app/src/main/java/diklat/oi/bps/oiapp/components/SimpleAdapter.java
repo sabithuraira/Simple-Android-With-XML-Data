@@ -14,6 +14,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -77,13 +79,22 @@ public class SimpleAdapter extends BaseAdapter {
 
         if(p!=null){
             if(p.getTitle().length()==0){
+                String[] split = p.getDeskripsi().split(";");
+
                 ImageView img=(ImageView) v.findViewById(R.id.img_grid);
+                TextView nama=(TextView) v.findViewById(R.id.nama);
+                TextView jabatan=(TextView) v.findViewById(R.id.jabatan);
 
                 Resources r = this.context.getResources();
-                int imageId = r.getIdentifier(p.getDeskripsi(), "mipmap", this.context.getPackageName());
+                int imageId = r.getIdentifier(split[0], "mipmap", this.context.getPackageName());
 
                 if(imageId!=0)
                     img.setImageResource(imageId);
+
+                if(split.length==3){
+                    nama.setText(split[1]);
+                    jabatan.setText(split[2]);
+                }
             }
             else {
                 TextView title = (TextView) v.findViewById(R.id.title);

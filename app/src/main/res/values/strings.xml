@@ -25,7 +25,7 @@
         <item>
             <![CDATA[
                 <p>SISTEM PENYEDIAAN DATA DAN INFORMASI STATISTIK KABUPATEN OGAN ILIR</p>
-                <p>SIMANIS-OI adalah aplikasi berbasis android yang bertujuan menyediakan data dan informasi statistik Kabupaten Ogan Ilir Provinsi Sumatera Selatan secara lebih cepat, lebih mudah dan lebih murah. Himpunan data pada SIMANIS-OI ini adalah data resmi yang bersumber dari Badan Pusat Statistik (BPS) maupun data sektoral hasil kompilasi produk administrasi. Pengembangan dan penyempurnaan aplikasi akan terus dilaksanakan sesuai perkembangan IPTEK serta tuntutan pengguna data. Aplikasi SIMANIS-OI dikelola oleh BPS Kabupaten Ogan Ilir bersama Forum Satu Data Kabupaten Ogan Ilir, jika terdapat kritik, saran dan pertanyaan dapat disampaikan melalui:</p>
+                <p>SIMANIS-OI adalah aplikasi berbasis android yang bertujuan menyediakan data dan informasi statistik Kabupaten Ogan Ilir Provinsi Sumatera Selatan secara lebih cepat, lebih mudah dan lebih murah. Himpunan data pada SIMANIS-OI ini adalah data resmi yang bersumber dari Badan Pusat Statistik (BPS) maupun data sektoral hasil kompilasi produk administrasi. Pengembangan dan penyempurnaan aplikasi akan terus dilaksanakan sesuai perkembangan IPTEK serta tuntutan pengguna data. Aplikasi SIMANIS-OI dikelola oleh BPS Kabupaten Ogan Ilir bersama Forum Satu Data Kabupaten Ogan Ilir. Jika terdapat kritik, saran dan pertanyaan dapat disampaikan melalui:</p>
                 <p>Email: SIMANIS_OI@gmail.com</p>
 	        ]]>
         </item>
@@ -62,17 +62,20 @@
     </string-array>
 
     <string-array name="aboutus_data_array">
-        <item>muktiriadi</item>
+        <item>muktiriadi;Mukti Riadi  SST., M.Si;Kepala BPS Kabupaten Ogan Ilir</item>
         <item>
             <![CDATA[
-                <p ><span >Badan Pusat Statistik adalah Lembaga Pemerintah Non-Departemen yang bertanggung jawab langsung kepada Presiden. </span></p>
-                <p ><span >Berdasarkan UU Nomor 16 Tahun 1997 peran BPS adalah:   </span></p>
-
-                    <p>&#149; \t <span >Menyediakan kebutuhan data bagi pemerintah dan masyarakat. </span></p>
-                    <p>&#149; \t <span >Membantu kegiatan statistik di departemen, lembaga pemerintah atau institusi lainnya, dalam membangun sistem perstatistikan nasional. </span></p>
-                    <p>&#149; \t <span >Mengembangkan dan mempromosikan standar teknik dan metodologi statistik, dan menyediakan pelayanan pada bidang pendidikan dan pelatihan statistik. </span></p>
-                    <p>&#149; \t <span >Membangun kerjasama dengan institusi internasional dan negara lain untuk kepentingan perkembangan statistik Indonesia. </span></p>
-
+               <p>Badan Pusat Statistik adalah Lembaga Pemerintah Non Kementerian yang bertanggung jawab langsung kepada Presiden. Sebelumnya, BPS merupakan Biro Pusat Statistik, yang dibentuk berdasarkan UU Nomor 6 Tahun 1960 tentang Sensus dan UU Nomer 7 Tahun 1960 tentang Statistik. Sebagai pengganti kedua UU tersebut ditetapkan UU Nomor 16 Tahun 1997 tentang Statistik. Berdasarkan UU ini yang ditindaklanjuti dengan peraturan perundangan dibawahnya, secara formal nama Biro Pusat Statistik diganti menjadi Badan Pusat Statistik.</p>
+               <p>Materi yang merupakan muatan baru dalam UU Nomor 16 Tahun 1997, antara lain :</p>
+               <p>&#149; \t \t Jenis statistik berdasarkan tujuan pemanfaatannya terdiri atas statistik dasar yang sepenuhnya diselenggarakan oleh BPS, statistik sektoral yang dilaksanakan oleh instansi Pemerintah secara mandiri atau bersama dengan BPS, serta statistik khusus yang diselenggarakan oleh lembaga, organisasi, perorangan, dan atau unsur masyarakat lainnya secara mandiri atau bersama dengan BPS.</p>
+               <p>&#149; \t \t  Hasil statistik yang diselenggarakan oleh BPS diumumkan dalam Berita Resmi Statistik (BRS) secara teratur dan transparan agar masyarakat dengan mudah mengetahui dan atau mendapatkan data yang diperlukan.</p>
+               <p>&#149; \t \t  Sistem Statistik Nasional yang andal, efektif, dan efisien.</p>
+               <p>&#149; \t \t  Dibentuknya Forum Masyarakat Statistik sebagai wadah untuk menampung aspirasi masyarakat statistik, yang bertugas memberikan saran dan pertimbangan kepada BPS.</p>
+               <p>Berdasarkan undang-undang yang telah disebutkan di atas, peranan yang harus dijalankan oleh BPS adalah sebagai berikut :</p>
+               <p>&#149; \t \t  Menyediakan kebutuhan data bagi pemerintah dan masyarakat. Data ini didapatkan dari sensus atau survey yang dilakukan sendiri dan juga dari departemen atau lembaga pemerintahan lainnya sebagai data sekunder</p>
+               <p>&#149; \t \t  Membantu kegiatan statistik di departemen, lembaga pemerintah atau institusi lainnya, dalam membangun sistem perstatistikan nasional.</p>
+               <p>&#149; \t \t  Mengembangkan dan mempromosikan standar teknik dan metodologi statistik, dan menyediakan pelayanan pada bidang pendidikan dan pelatihan statistik.</p>
+               <p>&#149; \t \t  Membangun kerjasama dengan institusi internasional dan negara lain untuk kepentingan perkembangan statistik Indonesia.</p>
 	        ]]>
         </item>
         <item>
@@ -81,40 +84,32 @@
                 <p ><span ><b>Pelopor data statistik terpercaya untuk semua</b></span></p>
                 <p ><span ><b>Misi</b></span></p>
 
-
-                    <p>&#149; \t <span >Memperkuat landasan konstitusional dan operasional lembaga statistik untuk penyelenggaraan statistik yang efektif dan efisien.</span></p>
-                    <p>&#149; \t <span >Menciptakan insan statistik yang kompeten dan profesional, didukung pemanfaatan teknologi informasi mutakhir untuk kemajuan perstatistikan Indonesia.</span></p>
-                    <p>&#149; \t <span >Meningkatkan penerapan standar klasifikasi, konsep dan definisi, pengukuran, dan kode etik statistik yang bersifat universal dalam setiap penyelenggaraan statistik.</span></p>
-                    <p>&#149; \t <span >Meningkatkan kualitas pelayanan informasi statistik bagi semua pihak.</span></p>
-                    <p>&#149; \t <span >Meningkatkan koordinasi, integrasi, dan sinkronisasi kegiatan statistik yang diselenggarakan pemerintah dan swasta, dalam kerangka Sistem Statistik Nasional (SSN) yang efektif dan efisien. </span></p>
-
+                    <p>&#149; \t \t  Menyediakan data statistik berkualitas melalui kegiatan statistik yang terintegrasi dan berstandar nasional maupun internasional.</p>
+                    <p>&#149; \t \t  Memperkuat Sistem Statistik Nasional yang berkesinambungan melalui pembinaan dan koordinasi di bidang statistik</p>
+                    <p>&#149; \t \t  Membangun insan statistik yang profesional, berintegritas dan amanah untuk kemajuan perstatistikan</p>
             ]]>
         </item>
         <item>
             <![CDATA[
-            <p ><span >Nilai-nilai Inti (Core Values) BPS terdiri dari: </span></p>
-<p ><span >1. PROFESIONAL</span></p>
-
- 	<p>&#149; \t <span >Kompeten</span></p>
- 	<p>&#149; \t <span >Efektif</span></p>
- 	<p>&#149; \t <span >Efisien</span></p>
- 	<p>&#149; \t <span >Inovatif</span></p>
- 	<p>&#149; \t <span >Sistemik</span></p>
-
-<p ><span >2. INTEGRITAS</span></p>
-
- 	<p>&#149; \t <span >Dedikasi</span></p>
- 	<p>&#149; \t <span >Disiplin</span></p>
- 	<p>&#149; \t <span >Konsisten</span></p>
- 	<p>&#149; \t <span >Terbuka</span></p>
- 	<p>&#149; \t <span >Akuntabel  </span></p>
-
-<p ><span >3. AMANAH</span></p>
-
- 	<p>&#149; \t <span >Terpercaya</span></p>
- 	<p>&#149; \t <span >Jujur</span></p>
- 	<p>&#149; \t <span >Tulus</span></p>
- 	<p>&#149; \t <span >Adil</span></p>
+                <p>Core values (nilai–nilai inti) BPS merupakan pondasi yang kokoh untuk membangun jati diri dan penuntun perilaku setiap insan BPS dalam melaksanakan tugas.</p>
+                <p>Nilai-nilai Inti BPS terdiri dari:</p>
+                <p>1. PROFESIONAL</p>
+                <p>&#149; \t \t  a. Kompeten: Mempunyai keahlian dalam bidang tugas yang diemban</p>
+                <p>&#149; \t \t  b. Efektif: Memberikan hasil maksimal</p>
+                <p>&#149; \t \t  c. Efisien: Mengerjakan setiap tugas secara produktif, dengan sumber daya minimal</p>
+                <p>&#149; \t \t  d. Inovatif: Selalu melaukan permbaruan dan/atau penyempurnaan melalui proses pembelajaran diri secara terus menerus</p>
+                <p>&#149; \t \t  e. Sistemik: Meyakini bahwa setiap pekerjaan mempunyai tata urutan proses perkerjaan yang satu menjadi bagian tidak terpisahkan dari  pekerjaan yang lain.</p>
+                <p>2. INTEGRITAS</p>
+                <p>&#149; \t \t  a. Dedikasi: Memiliki pengabdian yang tinggi terhadap profesi yang diemban dan institusi</p>
+                <p>&#149; \t \t  b. Disiplin: Melaksanakan pekerjaan sesuai dengan ketentuan yang telah ditetapkan</p>
+                <p>&#149; \t \t  c. Konsisten: Satunya kata dengan perbuatan</p>
+                <p>&#149; \t \t  d. Terbuka: Menghargai ide, saran, pendapat, masukan, dan kritik dari berbagai pihak</p>
+                <p>&#149; \t \t  e. Akuntabel: Bertanggung jawab dan setiap langkahnya terukur</p>
+                <p>3. AMANAH</p>
+                <p>&#149; \t \t  a. Terpercaya: Melaksanakan pekerjaan sesuai dengan ketentuan, yang tidak hanya didasarkan pada logika tetapi juga sekaligus menyentuh dimensi mental spiritual</p>
+                <p>&#149; \t \t  b. Jujur: Melaksanakan semua pekerjaan dengan tidak menyimpang dari prinsip moralitas</p>
+                <p>&#149; \t \t  c.Tulus: Melaksanakan tugas tanpa pamrih, menghindari konflik kepentingan (pribadi, kelompok, dan golongan), serta mendedikasikan semua tugas untuk perlindungan kehidupan manusia, sebagai amal ibadah atau perbuatan untuk Tuhan Yang Maha Esa</p>
+                <p>&#149; \t \t  d. Adil: Menempatkan sesuatu secara berkeadilan dan memberikan haknya</p>
             ]]>
         </item>
         <item>
@@ -163,12 +158,6 @@
 
         <item>
             <![CDATA[
-                <p ><span >Alamat kantor BPS Pusat</span></p>
-                <p ><span >Badan Pusat Statistik (BPS)</span></p>
-                <p ><span >Jl. Dr. Sutomo No. 6-8 Jakarta 10710 Indonesia</span></p>
-                <p ><span >Telp (62-21) 3841195, 3842508, 3810291, Faks (62-21) 3857046</span></p>
-                <p ><span >Mailbox : bpshq@bps.go.id</span></p>
-                <p ><span >Alamat kantor BPS Daerah</span></p>
                 <p ><span >Badan Pusat Statistik (BPS) Kabupaten Ogan Ilir</span></p>
                 <p ><span >Jl. Palembang-Prabumulih Desa Tanjung Pering Kec. Indralaya Utara 30813 Ogan Ilir</span></p>
                 <p ><span >Telp (0711) 7583048</span></p>
@@ -182,6 +171,7 @@
         <item></item>
         <item>Profil</item>
         <item></item>
+        <item>Lambang</item>
         <item>Kondisi Geografis</item>
         <item></item>
         <item>Wilayah Administratif</item>
@@ -191,7 +181,7 @@
     </string-array>
 
     <string-array name="aboutoi_data_array" formatted="false">
-        <item>wabup</item>
+        <item>wabup;H.M. ILYAS PANJI ALAM, SH, SE, MM;Plt. Bupati Ogan Ilir</item>
         <item>
             <![CDATA[
                 <p ><span ><b>Visi </b></span></p>
@@ -209,6 +199,22 @@
 	        ]]>
         </item>
         <item>lambang</item>
+        <item>
+            <![CDATA[
+                <p>Arti Lambang Daerah Kabupaten Ogan Ilir sesuai dengan Peraturan Daerah Kabupaten Ogan Ilir Nomor 8 Tahun 2005 adalah sebagai berikut :</p>
+
+                <p>&#149; \t \t Dasar Lambang berwarna biru muda, berbentuk perisai yang melambangkan pertahanan dan kekuatan masyarakat, pemerintah dan rakyat bahu membahu untuk membangun Kabupaten Ogan Ilir.</p>
+                <p>&#149; \t \t Atap berwarna merah bergaris hitam sebanyak 6 (enam) garis yang melambangkan awal terbentuknya Kabupaten Ogan Ilir.</p>
+                <p>&#149; \t \t Perahu berwarna putih di atas air, berwarna biru muda melambangkan salah satu alat transportasi masyarakat Ogan Ilir.</p>
+                <p>&#149; \t \t Tulisan Ogan Ilir berwarna hitam di atas warna dasar hijau melambangkan wilayah administrasi Pemerintahan Kabupaten Ogan Ilir.</p>
+                <p>&#149; \t \t Bintang berwarna kuning emas melambangkan bahwa masyarakat Ogan Ilir bertaqwa kepada Allah SWT.</p>
+                <p>&#149; \t \t Padi dan kapas, padi berjumlah 18 bulir dan kapas berjumlah 12 kuntum melambangkan kemakmuran dan kesejahteraan serta tanggal dan bulan lahirnya Kabupaten Ogan Ilir.</p>
+                <p>&#149; \t \t Buku berwarna putih dan hitam melambangkan pendidikan dan penguasaan ilmu pengetahuan.</p>
+                <p>&#149; \t \t Menara berwarna hitam melambangkan penguasaan teknologi dan Sumber Daya Alam Migas,</p>
+                <p>&#149; \t \t Sungai berwarna kuning emas sebanyak 5 (lima) garis melambangkan 5 (lima) sungai dan potensi rawa lebak.</p>
+                <p>&#149; \t \t Pita berwarna putih; Motto ”Caram Seguguk”, berwarna hitam merupakan motto Kabupaten Ogan Ilir yang mengandung makna kebersamaan atau gotong royong dengan azas kekeluargaan, demokratis dan menjunjung tinggi HAM dalam mewujudkan kesejahteraan dan kemakmuran masyarakat Ogan Ilir.</p>
+            ]]>
+        </item>
         <item>
             <![CDATA[
                 <p ><span >Luas wilayah: 2.666,07 km</span><span ><sup>2</sup></span></p>
@@ -642,6 +648,7 @@
 
     <string-array name="data_title_pendidikan1">
         <item>Jumlah Sekolah, Guru, dan Murid Sekolah Negeri di Kabupaten Ogan Ilir Tahun 2013-2015</item>
+        <item>Sekolah</item>
         <item>Jumlah Sekolah 2013</item>
         <item>Jumlah Sekolah 2014</item>
         <item>Jumlah Sekolah 2015</item>
@@ -656,6 +663,7 @@
 
     <string-array name="data_title_pendidikan2">
         <item>Jumlah Sekolah, Guru, dan Murid Sekolah Swasta di Kabupaten Ogan Ilir Tahun 2013-2015</item>
+        <item>Sekolah</item>
         <item>Jumlah Sekolah 2013</item>
         <item>Jumlah Sekolah 2014</item>
         <item>Jumlah Sekolah 2015</item>

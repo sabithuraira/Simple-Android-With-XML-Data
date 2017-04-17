@@ -6,8 +6,30 @@
     <ImageView
         android:id="@+id/img_grid"
         android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:layout_marginBottom="5dp"
         android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12dip"
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:textStyle="normal|bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/jabatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="12dip"
+        android:layout_marginBottom="5dp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:fontFamily="serif-monospace">
+    </TextView>
 </LinearLayout>

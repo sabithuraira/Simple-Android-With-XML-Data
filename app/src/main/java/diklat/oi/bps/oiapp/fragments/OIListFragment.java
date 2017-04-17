@@ -70,6 +70,6 @@ public class OIListFragment extends ListFragment implements OnItemClickListener 
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position,long id) {
-        Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getActivity(), "Item: " + position, Toast.LENGTH_SHORT).show();
     }
 }

@@ -28,6 +28,18 @@
             android:layout_marginTop="10dip"
             android:fontFamily="monospace" />
 
+
+        <TextView
+            android:text="SISTEM PENYEDIAAN DATA DAN INFORMASI STATISTIK KABUPATEN OGAN ILIR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:fontFamily="serif-monospace"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+
         <ListView
             android:id="@+id/listView"
             android:background="@drawable/list_border"
@@ -38,20 +50,22 @@
 
         <Button
             android:layout_height="wrap_content"
-            android:layout_width="match_parent"
+            android:layout_width="305dp"
             android:layout_marginTop="25dp"
             android:id="@+id/ttg_kami"
             android:background="#3F3F46"
             android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
             android:text="Tentang Kami" />
 
         <Button
             android:layout_height="wrap_content"
-            android:layout_width="match_parent"
+            android:layout_width="305dp"
             android:layout_marginTop="10dp"
             android:id="@+id/kontak_kami"
             android:background="#3F3F46"
             android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
             android:text="Kontak Kami" />
     </LinearLayout>
 </RelativeLayout>

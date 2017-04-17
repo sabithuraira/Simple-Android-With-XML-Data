@@ -64,6 +64,10 @@ public class DataActivity extends AppCompatActivity   {
         setupViewPager(viewPager);
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
+
+        if(type_data==0) {
+            tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
+        }
         tabLayout.setupWithViewPager(viewPager);
     }
 

@@ -1858,111 +1858,143 @@
     <string-array name="data_title_kec_muara_kuang">
         <item>Jumlah Penduduk Kecamatan Muara Kuang Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_rambang_kuang">
         <item>Jumlah Penduduk Kecamatan Rambang Kuang Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
     <string-array name="data_title_kec_lubuk_keliat">
         <item>Jumlah Penduduk Kecamatan Lubuk Keliat Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_tanjung_batu">
         <item>Jumlah Penduduk Kecamatan Tanjung Batu Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_payaraman">
         <item>Jumlah Penduduk Kecamatan Payaraman Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_rantau_alai">
         <item>Jumlah Penduduk Kecamatan Rantau Alai Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_kandis">
         <item>Jumlah Penduduk Kecamatan Kandis Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_tanjung_raja">
         <item>Jumlah Penduduk Kecamatan Tanjung Raja Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_rantau_panjang">
         <item>Jumlah Penduduk Kecamatan Rantau Panjang Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_sungai_pinang">
         <item>Jumlah Penduduk Kecamatan Sungai Pinang Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_pemulutan">
         <item>Jumlah Penduduk Kecamatan Pemulutan Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_pemulutan_selatan">
         <item>Jumlah Penduduk Kecamatan Pemulutan Selatan Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_pemulutan_barat">
         <item>Jumlah Penduduk Kecamatan Pemulutan Barat Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_indralaya">
         <item>Jumlah Penduduk Kecamatan Indralaya Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_indralaya_utara">
         <item>Jumlah Penduduk Kecamatan Indralaya Utara Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
     <string-array name="data_title_kec_indralaya_selatan">
         <item>Jumlah Penduduk Kecamatan Indralaya Selatan Tahun 2015</item>
         <item>Desa/Kelurahan</item>
-        <item>Jumlah Penduduk</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+        <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
 
@@ -1974,290 +2006,291 @@
 
 
     <string-array name="data_array_kec_muara_kuang">
-        <item>Munggu	;1.723</item>
-        <item>Seri Menanti;	1.142</item>
-        <item>Rantau Sialang;	947</item>
-        <item>Kuang Anyar	;853</item>
-        <item>Kasah	;944</item>
-        <item>Muara Kuang;	1.440</item>
-        <item>Tanabang Ilir;	1.216</item>
-        <item>Seri Kembang;	1.651</item>
-        <item>Naga Sari	;1.767</item>
-        <item>Suka Cinta	;1.947</item>
-        <item>Kelampadu	;1.651</item>
-        <item>Sukajadi	;1.366</item>
-        <item>Rama Kasih	;1.231</item>
-        <item>Tanabang Ulu;	890</item>
+        <item>Munggu	        ;858	;865	;99,19</item>
+        <item>Seri Menanti	;576	;566	;101,76</item>
+        <item>Rantau Sialang	;488	;459	;106,31</item>
+        <item>Kuang Anyar	    ;414	;439	;94,30</item>
+        <item>Kasah	        ;468	;476	;98,31</item>
+        <item>Muara Kuang	    ;690	;750	;92,00</item>
+        <item>Tanabang Ilir	;598	;618	;96,76</item>
+        <item>Tanabang Ulu	;473	;417	;113,4</item>
+        <item>Seri Kembang	;819	;832	;98,43</item>
+        <item>Naga Sari	    ;894	;873	;102,4</item>
+        <item>Suka Cinta	    ;993	;954	;104,00</item>
+        <item>Sukajadi	    ;701	;665	;105,40</item>
+        <item>Rama Kasih	    ;619	;612	;101,14</item>
+        <item>Kelampadu	    ;833	;818	;101,83</item>
     </string-array>
 
     <string-array name="data_array_kec_rambang_kuang">
-        <item>Ibul Dalam	;896</item>
-        <item>Beringin Dalam	;1.384</item>
-        <item>Kuang Dalam Barat	;1.795</item>
-        <item>Lubuk Tunggal	;954</item>
-        <item>Ulak Segara	;690</item>
-        <item>Tambang Rambang	;4.560</item>
-        <item>Tangai	;802</item>
-        <item>Tanjung Miring;	2.818</item>
-        <item>Kayu Ara	;1,530</item>
-        <item>Tanjung Bulan;	2.281</item>
-        <item>Sunur	;1.384</item>
-        <item>Kuang Dalam Timur;	1.606</item>
-        <item>Sukananti	;606</item>
+        <item>Ibul Dalam	    ;480	;416	;115.38</item>
+        <item>Beringin Dalam	;660	;724	;91.16</item>
+        <item>Kuang Dalam Barat;887	;908	;97.68</item>
+        <item>Kuang Dalam Timur;802	;804	;99.75</item>
+        <item>Lubuk Tunggal	;486	;468	;103.84</item>
+        <item>Ulak Segara	    ;343	;347	;98.84</item>
+        <item>Sunur	        ;695	;689	;100.87</item>
+        <item>Tanjung Bulan	;1.143	;1.138	;100.43</item>
+        <item>Tambang Rambang	;2.388	;2.172	;109.94</item>
+        <item>Tangai	        ;418	;384	;108.85</item>
+        <item>Sukananti	    ;314	;292	;107.53</item>
+        <item>Kayu Ara	    ;780	;750	;104</item>
+        <item>Tanjung Miring	;1.474	;1.344	;109.67</item>
     </string-array>
 
     <string-array name="data_array_kec_lubuk_keliat">
-        <item>Ulak Kembahang	;1.468</item>
-        <item>Lubuk Keliat	;2.298</item>
-        <item>Embacang	;772</item>
-        <item>Betung I	;1.440</item>
-        <item>Kasih Raja	;1.441</item>
-        <item>Talang Tengah	;2.630</item>
-        <item>Ketiau	;4.414</item>
-        <item>Betung II	;1.662</item>
-        <item>Payalingkung	;896</item>
-        <item>Talang Tengah Laut	;666</item>
+        <item>Ulak Kembahang	;770	;698	;90,65</item>
+        <item>Lubuk Keliat	;1.137	;1.161	;102,2</item>
+        <item>Embacang	    ;392	;380	;96,89</item>
+        <item>Betung I	    ;715	;725	;101.5</item>
+        <item>Betung II	    ;819	;843	;103.0</item>
+        <item>Kasih Raja	    ;735	;706	;96,00</item>
+        <item>Talang Tengah	;1.366	;1.264	;92,65</item>
+        <item>Talang Tengah Laut	;342;324	;94,95</item>
+        <item>Ketiau 	        ;2.343	;2.071	;88,48</item>
+        <item>Payalingkung	;447	;449	;100,4</item>
     </string-array>
 
     <string-array name="data_array_kec_tanjung_batu">
-        <item>Seri Tanjung	;4.262</item>
-        <item>Bangun Jaya	;2.587</item>
-        <item>Tanjung Tambak;	1.168</item>
-        <item>Tanjung Baru Petai;	1.147</item>
-        <item>Tanjung Batu Seberang;	1.359</item>
-        <item>Tanjung Atap	;2.047</item>
-        <item>Limbang Jaya I	;1.954</item>
-        <item>Tanjung Laut	;1.576</item>
-        <item>Tanjung Pinang I;	2.490</item>
-        <item>Tanjung Batu	;3.174</item>
-        <item>Pajar Bulan	;1.728</item>
-        <item>Senuro Timur;	1.522</item>
-        <item>Sentul	;1.497</item>
-        <item>Burai	;2.004</item>
-        <item>Tanjung Batu Timur;	3.607</item>
-        <item>Tanjung Tambak Baru;	1.062</item>
-        <item>Limbang Jaya II	;1.956</item>
-        <item>Senuro Barat	;2.407</item>
-        <item>Tanjung Pinang II;	1.469</item>
-        <item>Tanjung Atap Barat;	1.748</item>
+        <item>SERI BANDUNG	;2,132	;2,108	;101</item>
+        <item>SERI TANJUNG	;2,072	;2,190	;95</item>
+        <item>BANGUN JAYA	    ;1,299	;1,288	;101</item>
+        <item>TANJUNG TAMBAK	;563	;605	;93</item>
+        <item>TANJUNG BARU PETAI	;565	;582	;97</item>
+        <item>TANJUNG BATU SEBERANG;664	;695	;96</item>
+        <item>TANJUNG ATAP	;1,020	;1,027	;99</item>
+        <item>LIMBANG JAYA I	;964	;990	;97</item>
+        <item>TANJUNG LAUT	;759	;817	;93</item>
+        <item>TANJUNG PINANG I;1,200	;1,290	;93</item>
+        <item>TANJUNG BATU	;1,586	;1,588	;100</item>
+        <item>PAJAR BULAN	    ;858	;870	;99</item>
+        <item>SENURO TIMUR	;753	;769	;98</item>
+        <item>SENTUL	        ;743	;754	;99</item>
+        <item>BURAI	        ;1005	;999	;101</item>
+        <item>TANJUNG BATU TIMUR	;1,837	;1,770	;104</item>
+        <item>TANJUNG TAMBAK BARU	;529	;533	;99</item>
+        <item>LIMBANG JAYA II	;991	;965	;103</item>
+        <item>SENURO BARAT	;1,167	;1,240	;94</item>
+        <item>TANJUNG PINANG II	;699	;760	;91</item>
+        <item>TANJUNG ATAP BARAT	;848	;888	;94</item>
     </string-array>
 
     <string-array name="data_array_kec_payaraman">
-        <item>Tebedak I	;2.080</item>
-        <item>Lubuk Bandung;	1.180</item>
-        <item>Rengas I	;1.579</item>
-        <item>Paya Besar	;1.141</item>
-        <item>Talang Seleman;	1.715</item>
-        <item>Payaraman Timur;	2.126</item>
-        <item>Seri Kembang I;	2.159</item>
-        <item>Tanjung Lalang;	2.809</item>
-        <item>Seri Kembang II;	1.675</item>
-        <item>Seri Kembang III;	1.288</item>
-        <item>Tebedak II	;1.896</item>
-        <item>Rengas II	;1.771</item>
-        <item>Payaraman Barat;	2.150</item>
+        <item>TEBEDAK I	    ;1.037	;1.043	;0.994</item>
+        <item>LUBUK BANDUNG	;587	;593	;98.98</item>
+        <item>RENGAS I	    ;793	;786	;100.8</item>
+        <item>PAYA BESAR	    ;575	;566	;0.010</item>
+        <item>TALANG SELEMAN	;859	;856	;0.010</item>
+        <item>PAYARAMAN TIMUR	;1.125	;1001	;112.3</item>
+        <item>SERI KEMBANG I	;1.077	;1.082	;99.53</item>
+        <item>TJG. LALANG	    ;1.415	;1.394	;101.5</item>
+        <item>SERI KEMBANG II	;822	;853	;96.36</item>
+        <item>SERI KEMBANG III;642	;646	;99.38</item>
+        <item>TEBEDAK II	    ;970	;926	;104.7</item>
+        <item>RENGAS II	    ;905	;866	;104.5</item>
+        <item>PAYARAMAN BARAT	;1.038	;1.112	;93.34</item>
     </string-array>
 
     <string-array name="data_array_kec_rantau_alai">
-        <item>Kelampaian	;633</item>
-        <item>Suka Nanti	;508</item>
-        <item>Rantau Alai	;1.435</item>
-        <item>Kertabayang	;719</item>
-        <item>Suka Maju	;698</item>
-        <item>Sukamarga	;768</item>
-        <item>Sanding Marga	;1.116</item>
-        <item>Tanjung Mas	;1.307</item>
-        <item>Lebung Bandung	;686</item>
-        <item>Talang Sari	;422</item>
-        <item>Sirah Pulau Kilip;	564</item>
-        <item>Mekar Sari	;1.552</item>
-        <item>Sukananti  Baru;	832</item>
+        <item>KELAMPAIAN	    ;336	;297	;113</item>
+        <item>SUKANANTI LAMA	;252	;256	;98</item>
+        <item>SUKANANTI BARU	;456	;376	;121</item>
+        <item>RANTAU ALAI	    ;695	;740	;94</item>
+        <item>KERTABAYANG	    ;353	;366	;96</item>
+        <item>SUKAMAJU	    ;354	;344	;103</item>
+        <item>SUKAMARGA	    ;379	;389	;98</item>
+        <item>SANDING MARGA	;563	;553	;102</item>
+        <item>TANJUNG MAS	    ;663	;644	;103</item>
+        <item>LEBUNG BANDUNG	;336	;350	;96</item>
+        <item>TALANG SARI	    ;212	;210	;101</item>
+        <item>SIRAH PULAU KILIP;259	;305	;85</item>
+        <item>MEKAR SARI	    ;800	;752	;106</item>
     </string-array>
 
     <string-array name="data_array_kec_kandis">
-        <item>Kumbang Ulu	;573</item>
-        <item>Kumbang Ilir;	480</item>
-        <item>Tanjung Alai;	323</item>
-        <item>Muara Kumbang;	808</item>
-        <item>Lubuk Rukam	;541</item>
-        <item>Pandan Arang;	546</item>
-        <item>Kandis I	;1.235</item>
-        <item>Santapan Barat;	1.959</item>
-        <item>Miji	;1.392</item>
-        <item>Santapan Timur;	1.179</item>
-        <item>Kandis II	;1.055</item>
-        <item>Lubuk Segonang;	1.030</item>
+        <item>Kumbang Ulu	    ;298	;275	;108.36</item>
+        <item>Kumbang Ilir	;239	;241	;99.17</item>
+        <item>Tanjung Alai	;179	;144	;124.30</item>
+        <item>Muara Kumbang	;405	;403	;100.49</item>
+        <item>Lubuk Rukam	    ;273	;268	;101.86</item>
+        <item>Pandan Arang	;268	;278	;96.40</item>
+        <item>Kandis I	    ;607	;628	;96.65</item>
+        <item>Santapan Barat	;934	;1.025	;91.12</item>
+        <item>Miji	        ;732	;660	;110.91</item>
+        <item>Kandis II	    ;591	;588	;100.51</item>
+        <item>Santapan Timur 	;504	;551	;91.47</item>
+        <item>Lubuk Segonang	;541	;489	;110.63</item>
     </string-array>
 
     <string-array name="data_array_kec_tanjung_raja">
-        <item>Tanjung Temiang;	2.186</item>
-        <item>Seridalam	;1.878</item>
-        <item>Tanjung Raja;	5.995</item>
-        <item>Tanjung Raja Barat;	4.812</item>
-        <item>Tanjung Raja Utara;	3.476</item>
-        <item>Talang Balai Baru I;	2.278</item>
-        <item>Siring Alam	;1.083</item>
-        <item>Tjg. Agas	;1.148</item>
-        <item>Talang Balai Lama;	1.696</item>
-        <item>Suka Pindah	;1.164</item>
-        <item>Ulak Kerbau Lama;	2.074</item>
-        <item>Ulak Kerbau Baru;	1.639</item>
-        <item>Kerinjing	;1.279</item>
-        <item>Tanjung Raja Timur;	2.736</item>
-        <item>Belanti	;2.105</item>
-        <item>Tanjung Raja Selatan;	3.530</item>
-        <item>Talang Balai Baru II;	1.963</item>
-        <item>Skonjing	;1.847</item>
-        <item>Tanjung Harapan;	925</item>
+        <item>TANJUNG TEMIANG	    ;1103	;1.083	;101,85</item>
+        <item>SERIDALAM	        ;921	;957	;96,23</item>
+        <item>TANJUNG RAJA	    ;3.040	;2.955	;102,88</item>
+        <item>TANJUNG RAJA BARAT	;2.782	;2.030	;137,04</item>
+        <item>TANJUNG RAJA UTARA	;1.745	;1.731	;100,80</item>
+        <item>TALANG BALAI BARU I	;1.135	;1.143	;99,30</item>
+        <item>SIRING ALAM	        ;541	;542	;99,81</item>
+        <item>TANJUNG AGAS	    ;562	;586	;95,90</item>
+        <item>TALANG BALAI LAMA	;816	;880	;92,72</item>
+        <item>SUKA PINDAH	        ;591	;573	;103,14</item>
+        <item>ULAK KERBAU LAMA	;1.024	;1.050	;97,52</item>
+        <item>ULAK KERBAU BARU	;803	;836	;9605</item>
+        <item>KERINJING	        ;647	;632	;102,37</item>
+        <item>TANJUNG RAJA TIMUR	;1.343	;1.393	;96,41</item>
+        <item>BELANTI	            ;1.080	;1.025	;105,36</item>
+        <item>TANJUNG RAJA SELATAN;1.736	;1.794	;96,77</item>
+        <item>TALANG BALAI BARU II;947	;1.016	;93,21</item>
+        <item>SKONJING	        ;928	;919	;100.97</item>
+        <item>TANJUNG HARAPAN	    ;462	;463	;99,78</item>
     </string-array>
 
     <string-array name="data_array_kec_rantau_panjang">
-        <item>Ketapang I	;1.260</item>
-        <item>Jagalana	;1.331</item>
-        <item>Kota Daro I	;2.402</item>
-        <item>Kota Daro II;	2.194</item>
-        <item>Rantau Panjang Ilir;	1.271</item>
-        <item>Jagaraja	;1.507</item>
-        <item>Sejangko I	;1.058</item>
-        <item>Sungai Rotan;	1.473</item>
-        <item>Sejangko II	;1.156</item>
-        <item>Rantau Panjang Ulu;	1.363</item>
-        <item>Ketapang II	;774</item>
-        <item>Arisan Deras;	1.527</item>
+        <item>KETAPANG I	;644	;616	;104,55</item>
+        <item>JAGALANA	;668	;663	;100,75</item>
+        <item>KOTA DARO I	;1195	;1207	;99,01</item>
+        <item>KOTA DARO II;1093	;1101	;99,27</item>
+        <item>RANTAU PANJANG ILIR	;613	;658	;93,16</item>
+        <item>JAGARAJA	;758	;749	;101,20</item>
+        <item>SEJANGKO I	;525	;533	;98,50</item>
+        <item>SUNGAI ROTAN;724	;749	;96,66</item>
+        <item>SEJANGKO II	;583	;573	;101,75</item>
+        <item>RANTAU PANJANG ULU	;672	;691	;97,25</item>
+        <item>KETAPANG II	        ;423	;351	;120,51</item>
+        <item>ARISAN DERAS	    ;782	;745	;104,97</item>
     </string-array>
 
     <string-array name="data_array_kec_sungai_pinang">
-        <item>Tanjung Serian;	952</item>
-        <item>Talang Dukun	;1.686</item>
-        <item>Sungai Pinang III;	1.752</item>
-        <item>Sungai Pinang	;2.403</item>
-        <item>Sungai Pinang II;	3.083</item>
-        <item>Serijabo	;3.076</item>
-        <item>Penyandingan;	1.557</item>
-        <item>Pinang Jaya	;2.116</item>
-        <item>Sungai Pinang I	;1.542</item>
-        <item>Pinang Mas	;2.127</item>
-        <item>Sungai Pinang Lagati;	1.865</item>
-        <item>Sungai Pinang Nibung;	1.529</item>
-        <item>Serijabo Baru	;1.120</item>
+        <item>Kel. Sungai Pinang	;1.228	;1.175	;104,51</item>
+        <item>Sungai Pinang II	;1.578	;1.505	;104,85</item>
+        <item>Sungai Pinang III	;908	;844	;107,58</item>
+        <item>Serijabo	        ;1.600	;1.476	;108,40</item>
+        <item>Penyandingan	    ;826	;731	;112,99</item>
+        <item>Talang Dukun	    ;831	;855	;97,19</item>
+        <item>Tanjung Serian	    ;470	;482	;97,51</item>
+        <item>Sungai Pinang I	    ;759	;783	;96,93</item>
+        <item>Pinang Jaya	        ;1.101	;1.015	;108,47</item>
+        <item>Sungai Pinang Lagati;986	;879	;112,17</item>
+        <item>Sungai Pinang Nibung;779	;750	;103,86</item>
+        <item>Pinang Mas 	        ;1.093	;1.034	;105,70</item>
+        <item>Serijabo Baru	    ;594	;526	;112,92</item>
     </string-array>
 
     <string-array name="data_array_kec_pemulutan">
-        <item>Aur Standing	;1.992</item>
-        <item>Suka Rami	;1.243</item>
-        <item>Palu	;2.021</item>
-        <item>Muara Dua;	1.681</item>
-        <item>Teluk Kecapi;	1.968</item>
-        <item>Pelabuhan Dalam;	3.390</item>
-        <item>Pemulutan Ulu	;2.319</item>
-        <item>Pemulutan Ilir	;2.404</item>
-        <item>Sungai Rasau	;1.255</item>
-        <item>Pegayut	;2.172</item>
-        <item>Ibul Besar I	;2.432</item>
-        <item>Ibul Besar II	;3.586</item>
-        <item>Ibul Besar III	;2.591</item>
-        <item>Mekar Jaya	;1.134</item>
-        <item>Lebung Jangkar	;1.381</item>
-        <item>Kedukan Bujang	;1.024</item>
-        <item>Rawa Jaya	;646</item>
-        <item>Babatan Saudagar	;1.503</item>
-        <item>Tanjung Pasir	;733</item>
-        <item>Harapan	;1.012</item>
-        <item>Pipa Putih	;2.322</item>
-        <item>Sungai Buaya	;1.755</item>
-        <item>Muara Baru	;751</item>
-        <item>Sembadak	;1.012</item>
-        <item>Simpang Pelabuhan Dalam	;1.900</item>
+        <item>Aurstanding	;977	;1.015	;103,89</item>
+        <item>Sukarami	    ;596	;647	;108,56</item>
+        <item>Palu	        ;965	;1.056	;109,43</item>
+        <item>Muara Dua	    ;801	;880	;109,87</item>
+        <item>Teluk Kecapi	;995	;973	;97,79</item>
+        <item>Pelabuhan Dalam	;1.695	;1.695	;100</item>
+        <item>Pemulutan Ulu	;1.130	;1.189	;105,22</item>
+        <item>Pemulutan Ilir	;1.201	;1.203	;100,16</item>
+        <item>Sungai Rasau	;645	;610	;94,58</item>
+        <item>Pegayut	        ;1.147	;1.025	;89,36</item>
+        <item>Ibul Besar	    ;1.246	;1.186	;95,18</item>
+        <item>Ibul Besar II	;1.848	;1.738	;94,04</item>
+        <item>Ibul Besar III	;1.315	;1.276	;97,03</item>
+        <item>Mekar Jaya	    ;541	;593	;109,61</item>
+        <item>Lebung Jangkar	;685	;696	;101,60</item>
+        <item>Kedukan Bujang	;491	;533	;108,55</item>
+        <item>Rawa Jaya	    ;318	;328	;103,14</item>
+        <item>Babatan Saudagar;762	;741	;97,24</item>
+        <item>Tanjung Pasir	;368	;365	;99,18</item>
+        <item>Harapan	        ;524	;488	;93,12</item>
+        <item>Pipa Putih	    ;1.229	;1.093	;88,93</item>
+        <item>Sungai Buaya	;876	;879	;100,34</item>
+        <item>Muara Baru	    ;369	;382	;103,52</item>
+        <item>Sembadak	    ;519	;493	;94,99</item>
+        <item>Simpang Pelabuhan Dalam	;967	;933	;96,48</item>
     </string-array>
 
     <string-array name="data_array_kec_pemulutan_selatan">
-        <item>Maju Jaya	;1.070</item>
-        <item>Naikan Tembakang	;877</item>
-        <item>Pematang Bangsal	;1.003</item>
-        <item>Sungai Lebung	;2.217</item>
-        <item>Cahaya Marga	;1.174</item>
-        <item>Mayapati	;1.152</item>
-        <item>Kapuk	;1.421</item>
-        <item>Segayam	;1.449</item>
-        <item>Ulak Aur Standing;	1.436</item>
-        <item>Harimau Tandang	;1.209</item>
-        <item>Sungai Keli	;854</item>
-        <item>Sungai Lebung Ulu;	1.244</item>
-        <item>Lebak Pering	;862</item>
-        <item>Sungai Ondok	;565</item>
-        <item>Pematang Bungur	;1.250</item>
+        <item>Maju Jaya	        ;526	;544	;96,69</item>
+        <item>Naikan Tembakang	;430	;447	;96,19</item>
+        <item>Pematang Bangsal	;461	;542	;85,05</item>
+        <item>Sungai Lebung	    ;1.036	;1.181	;87,72</item>
+        <item>Cahaya Marga	    ;549	;625	;87,84</item>
+        <item>Mayapati	        ;554	;598	;92,64</item>
+        <item>Kapuk 	            ;662	;759	;87,22</item>
+        <item>Segayam	            ;710	;739	;96,07</item>
+        <item>Ulak Aur Standing	;688	;748	;91,97</item>
+        <item>Harimau Tandang	    ;590	;619	;95,31</item>
+        <item>Sungai Keli	        ;418	;436	;95,87</item>
+        <item>Sungai Lebung Ulu	;611	;633	;96,52</item>
+        <item>Lebak Pering	    ;416	;446	;94,11</item>
+        <item>Sungai Ondok	    ;280	;285	;98,24</item>
+        <item>Pematang Bungur	    ;608	;642	;94,70</item>
     </string-array>
 
     <string-array name="data_array_kec_pemulutan_barat">
-        <item>Suka Merindu	;1.176</item>
-        <item>Saranglang	;785</item>
-        <item>Kamal	;764</item>
-        <item>Pulau Negara;	1.218</item>
-        <item>Seribanding	;1.278</item>
-        <item>Talang Pangeran Ulu;	2.068</item>
-        <item>Ulak Kembahang I	;949</item>
-        <item>Ulak Petangisan	;889</item>
-        <item>Talang Pangeran Ilir;	1.772</item>
-        <item>Ulak Kembahang II	;1.465</item>
-        <item>Arisan Jaya	;852</item>
+        <item>Suka Merindu	;586	;590	;99,32</item>
+        <item>Saranglang	    ;360	;425	;84,71</item>
+        <item>Kamal	        ;357	;407	;87,71</item>
+        <item>Pulau Negara	;588	;630	;93,33</item>
+        <item>Seri Banding	;601	;677	;88,77</item>
+        <item>Talang Pangeran Ulu	;996	;1.072	;92,91</item>
+        <item>Ulak Kembahang I	;471	;478	;98,53</item>
+        <item>Ulak Petangisan	    ;442	;447	;98,88</item>
+        <item>Talang Pangeran Ilir;883	;889	;99,32</item>
+        <item>Ulak Kembahang II	;720	;745	;96,64</item>
+        <item>Arisan Jaya	    ;422	;430	;98,14</item>
     </string-array>
 
     <string-array name="data_array_kec_indralaya">
-        <item>Lubuk Sakti	;2.105</item>
-        <item>Tanjung Gelam;	1.345</item>
-        <item>Tanjung Agung;	1.233</item>
-        <item>Ulak Bedil	;653</item>
-        <item>Sudi Mampir	;1.923</item>
-        <item>Penyandingan;	615</item>
-        <item>Talang Aur	;1.436</item>
-        <item>Ulak Banding;	287</item>
-        <item>Muara Penimbung Ulu;	1.501</item>
-        <item>Sakatiga	;3.861</item>
-        <item>Tanjung Sejaro;	1.399</item>
-        <item>Sakatiga Seberang;	1.288</item>
-        <item>Tanjung Seteko	;3.444</item>
-        <item>Ulak Segelung	;1.236</item>
-        <item>Indralaya Mulya	;6.662</item>
-        <item>Indralaya Raya	;4.242</item>
-        <item>Indralaya Indah	;3.916</item>
-        <item>Muara Penimbung Ilir	;1.032</item>
-        <item>Tunas Aur	;680</item>
-        <item>Sejaro Sakti	;1.037</item>
+        <item>Lubuk Sakti	    ;1.034	;1.071	;96,55</item>
+        <item>Tanjung Gelam	;638	;707	;90,24</item>
+        <item>Tanjung Agung	;598	;635	;94,17</item>
+        <item>Ulak Bedil	    ;310	;343	;90,37</item>
+        <item>Sudi Mampir	    ;887	;1.036	;85,61</item>
+        <item>Penyandingan	;291	;324	;89,81</item>
+        <item>Ulak Banding	;137	;150	;91,33</item>
+        <item>Muara Penimbung Ulu	;731;770	;94,93</item>
+        <item>Muara Penimbung Ilir;493;539	;91,46</item>
+        <item>Saka Tiga	    ;1.837	;2.024	;90,76</item>
+        <item>Saka Tiga Seberang	;628;660	;95,15</item>
+        <item>Tanjung Seteko	;1.726	;1.718	;100,47</item>
+        <item>Ulak Segelung	;613	;623	;98,39</item>
+        <item>Indralaya Mulya	;3.244	;3.418	;94,90</item>
+        <item>Indralaya Raya	;2.124	;2.118	;100,28</item>
+        <item>Indralaya Indah	;1.953	;1.963	;99,49</item>
+        <item>Talang Aur	    ;678	;758	;89,44</item>
+        <item>Tunas Aur	    ;327	;353	;92,63</item>
+        <item>Tanjung Sejaro	;705	;694	;101,57</item>
+        <item>Sejaro Sakti	;525	;512	;102,53</item>
     </string-array>
 
     <string-array name="data_array_kec_indralaya_utara">
-        <item>Bakung	;1.860</item>
-        <item>Lorok	;1.721</item>
-        <item>Parit	;884</item>
-        <item>Purnajaya	;1.211</item>
-        <item>Payakabung	;2.038</item>
-        <item>Tanjung Baru	;1.591</item>
-        <item>Tanjung Pering	;1.550</item>
-        <item>Sungai Rambutan	;2.306</item>
-        <item>Suak Batok	;2.151</item>
-        <item>Timbangan	;10.522</item>
-        <item>Suka Mulia	;1.464</item>
-        <item>Pulau Kabal	;879</item>
-        <item>Tanjung Pule;	803</item>
-        <item>Permata Baru;	3.794</item>
-        <item>Palem Raya	;3.104</item>
-        <item>Pulau Semambu;	1.707</item>
+        <item>Bakung;958;902;106,20</item>
+        <item>Lorok;897;824;108,85</item>
+        <item>Parit;449;435;103,21</item>
+        <item>Purnajaya;579;632;91,61</item>
+        <item>Payakabung;1.040;998;104,20</item>
+        <item>Tanjung Baru ;815;776;105,02</item>
+        <item>Tanjung Pering;793;757;104,75</item>
+        <item>Sungai Rambutan;1.192;1.114;107,00</item>
+        <item>Soak Batok;1.086;1.065;101,97</item>
+        <item>Kel.Timbangan;5.327;5.195;102,54</item>
+        <item>Suka Mulya;754;710;106,197</item>
+        <item>Pulau Kabal;464;415;111,80</item>
+        <item>Tanjung Pule;440;363;121,21</item>
+        <item>Permata Baru;1.973;1.821;108,34</item>
+        <item>Palemraya;1.598;1.506;106,10</item>
+        <item>Pulau Semambu;878;829;105,91</item>
     </string-array>
 
     <string-array name="data_array_kec_indralaya_selatan">
-        <item>Tanjung Dayang Selatan;	2.075</item>
-        <item>Mandi  Angin	;720</item>
-        <item>Sukaraja Baru	;2.045</item>
-        <item>Sukaraja Lama	;1.436</item>
-        <item>Tjg. Lubuk	;1.747</item>
-        <item>Beti	;850</item>
-        <item>Meranjat Ilir;	1.468</item>
-        <item>Meranjat II	;1.843</item>
-        <item>Meranjat I	;2.541</item>
-        <item>Tebing Gerinting Selatan;	1.445</item>
-        <item>Arisan Gading	;1.402</item>
-        <item>Meranjat III	;1.372</item>
-        <item>Tebing Gerinting Utara;	1.902</item>
-        <item>Tanjung Dayang Utara;	986</item>
+        <item>Tanjung Dayang Selatan;1,059;1,016;104</item>
+        <item>Mandi Angin;347;373;93</item>
+        <item>Sukaraja Baru;1,037;1,008;103</item>
+        <item>Sukaraja Lama;740;696;106</item>
+        <item>Tanjung Lubuk;863;884;98</item>
+        <item>Beti;386;464;83</item>
+        <item>Meranjat Ilir;712;756;94</item>
+        <item>Meranjat II;870;973;89</item>
+        <item>Meranjat I;1,219;1,322;92</item>
+        <item>Tebing Gerinting Selatan;732;713;103</item>
+        <item>Arisan Gading;682;720;95</item>
+        <item>Meranjat III;702;670;105</item>
+        <item>Tebing Gerinting Utara;933;969;96</item>
+        <item>Tanjung Dayang Utara;493;493;100</item>
     </string-array>
 </resources>

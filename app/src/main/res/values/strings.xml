@@ -15,6 +15,16 @@
         <item>Alamat</item>
     </string-array>
 
+
+    <string-array name="data_lainnya_array">
+        <item>Pemerintahan</item>
+        <item>Penduduk</item>
+        <item>Pendidikan</item>
+        <item>Kesehatan</item>
+        <item>Pertanian</item>
+        <item>Industri dan Pertambangan</item>
+    </string-array>
+
     <string-array name="aboutsimanis_title_array">
         <item></item>
         <item>SIHALUAN OKUT</item>
@@ -297,7 +307,7 @@
         </item>
     </string-array>
 
-	<string name="pemerintahan">
+    <string name="pemerintahan">
 	<![CDATA[
 		<p><b>Kecamatan</b> merupakan Satuan Kerja Perangkat Daerah (SKPD) Kabupaten atau Kota yang mempunyai wilayah kerja tertentu yang dipimpin oleh seorang Camat.</p>
 		<p><b>Desa</b> adalah satuan wilayah yang ditempati oleh sejumlah penduduk sebagai kesatuan masyarakat termasuk di dalamnya kesatuan masyarakat hukum yang mempunyai organisasi pemerintahan terendah dan langsung di bawah camat serta berhak menyelenggarakan rumah tangga sendiri dalam ikatan negara kesatuan Republik Indonesia.</p>
@@ -308,7 +318,7 @@
 	]]>
 	</string>
 
-	<string name="penduduk">
+    <string name="penduduk">
 	<![CDATA[
 		<p><b>Penduduk</b> adalah semua orang yang berdomisili di wilayah geografis Republik Indonesia selama 6 bulan atau lebih dan atau mereka yang berdomisili kurang dari 6 bulan tetapi bertujuan untuk menetap.</p>
 		<p><b>Kepadatan penduduk</b> adalah banyaknya penduduk per satuan luas. Kepadatan penduduk kasar atau crude population density (CPD) menunjukkan jumlah penduduk untuk setiap kilometer persegi luas wilayah (km2). Luas wilayah yang dimaksud adalah luas seluruh daratan pada suatu wilayah administrasi.</p>
@@ -316,7 +326,7 @@
 	]]>
 	</string>
 
-	<string name="ketenagakerjaan">
+    <string name="ketenagakerjaan">
 	<![CDATA[
 		<p><b>Penduduk usia kerja</b> adalah penduduk berumur 15 tahun dan lebih.</p>
 		<p><b>Penduduk yang termasuk angkatan kerja</b> adalah penduduk usia kerja (15 tahun dan lebih) yang bekerja, atau punya pekerjaan namun sementara tidak bekerja dan pengangguran.</p>
@@ -336,7 +346,7 @@
 	]]>
 	</string>
 
-	<string name="kemiskinan">
+    <string name="kemiskinan">
 	<![CDATA[
 		<p>BPS menggunakan konsep kemampuan memenuhi kebutuhan dasar (basic needs approach). Dengan pendekatan ini, kemiskinan dipandang sebagai ketidakmampuan dari sisi ekonomi untuk memenuhi kebutuhan dasar makanan dan bukan makanan yang diukur dari sisi pengeluaran.</p>
         <p><b>Penduduk Miskin</b> adalah penduduk yang memiliki rata-rata pengeluaran perkapita perbulan dibawah garis kemiskinan.</p>
@@ -353,7 +363,7 @@
 	]]>
 	</string>
 
-	<string name="ipm">
+    <string name="ipm">
 	<![CDATA[
         <p><b>IPM</b> menjelaskan bagaimana penduduk dapat mengakses hasil pembangunan dalam memperoleh pendapatan, kesehatan, pendidikan, dan sebagainya.</p>
         <p>IPM dibentuk oleh 3 (tiga) dimensi dasar:</p>
@@ -394,7 +404,7 @@
 	]]>
 	</string>
 
-	<string name="pendidikan">
+    <string name="pendidikan">
 	<![CDATA[
         <p><b>Sekolah Dasar</b> adalah sekolah dasar atau yang sederajat (sekolah dasar kecil, sekolah dasar pamong).</p>
         <p><b>Madrasah Ibtidaiyah</b> adalah satuan pendidikan formal yang menyelenggarakan pendidikan umum dengan kekhasan agama Islam yang terdiri atas 6 (enam) tingkat pada jenjang pendidikan dasar (sederajat dengan SD).</p>
@@ -420,7 +430,7 @@
 	]]>
 	</string>
 
-	<string name="kesehatan">
+    <string name="kesehatan">
 	<![CDATA[
 	    <h3>Sarana Kesehatan</h3>
 		<p>Rumah sakit adalah institusi pelayanan kesehatan yang menyelenggarakan pelayanan kesehatan perorangan secara paripurna yang menyediakan pelayanan rawat inap, rawat jalan dan gawat darurat.</p>
@@ -448,7 +458,7 @@
 	]]>
 	</string>
 
-	<string name="pertanian">
+    <string name="pertanian">
 	<![CDATA[
 	    <h4>Tanaman Pangan</h4>
 		<p>Tanaman Pangan terbagi menjadi 2, yaitu :</p>
@@ -477,7 +487,7 @@
 	]]>
 	</string>
 
-	<string name="industri_dan_pertambangan">
+    <string name="industri_dan_pertambangan">
 	<![CDATA[
 		<p><b>Industri Pengolahan</b> adalah suatu kegiatan ekonomi yang melakukan kegiatan mengubah barang dasar (bahan mentah) menjadi barang jadi/setengah jadi dan atau dari barang yang kurang nilainya menjadi barang yang lebih tinggi nilainya, baik secara mekanis, kimiawi dengan mesin ataupun dengan tangan.
 	Industri pengolahan dikelompokkan menjadi 3, yaitu:</p>
@@ -491,7 +501,7 @@
 	]]>
 	</string>
 
-	<string name="infrastruktur">
+    <string name="infrastruktur">
 	<![CDATA[
 		<p>Jalan adalah prasarana transportasi darat yang meliputi segala bagian jalan, termasuk bangunan pelengkap dan perlengkapannya yang diperuntukkan bagi lalu lintas, yang berada pada permukaan tanah, di atas permukaan tanah, di bawah permukaan tanah dan/atau air, serta di atas permukaan air, kecuali jalan kereta api, jalan lori, dan jalan kabel.</p>
 		<p>Jalan nasional merupakan jalan arteri dan jalan kolektor dalam sistem jaringan jalan primer yang menghubungkan antar ibukota provinsi, dan jalan strategis nasional, serta jalan tol.</p>
@@ -501,7 +511,7 @@
 	]]>
 	</string>
 
-	<string name="pdrb">
+    <string name="pdrb">
 	<![CDATA[
 		<p><b>PDRB</b> merupakan nilai tambah bruto seluruh barang dan jasa yang tercipta atau dihasilkan di wilayah domestik suatu negara yang timbul akibat berbagai aktivitas ekonomi dalam suatu periode tertentu tanpa memperhatikan apakah faktor produksi yang dimiliki residen atau non-residen.</p>
 		<p>Penyusunan PDRB dapat dilakukan  melalui 3 (tiga) pendekatan yaitu pendekatan produksi, pengeluaran, dan pendapatan yang disajikan atas dasar harga berlaku dan harga konstan  (riil).</p>
@@ -855,11 +865,6 @@
     </string-array>
 
 
-
-
-
-
-
     <string-array name="data_array_pemerintahan2">
         <item>2013;2.408;3.945;6.353</item>
         <item>2014;2.538;3.834;6.372</item>
@@ -1127,8 +1132,7 @@
     </string-array>
 
 
-
-	<string name="analisis_pemerintahan">
+    <string name="analisis_pemerintahan">
 	<![CDATA[
 	    <p>Terdapat 16 kecamatan di Kabupaten Ogan Ilir. Dari 16 kecamatan tersebut terdapat 227 desa dan 14 kelurahan. Kecamatan Pemulutan merupakan kecamatan dengan jumlah desa terbanyak, yaitu sebanyak 25 desa, sedangkan Kecamatan Lubuk Keliat merupakan kecamatan dengan jumlah desa paling sedikit yaitu 10 desa.</p>
         <p>Jumlah Pegawai Negeri Sipil (PNS) di Kabupaten Ogan Ilir setiap tahun mengalami perubahan diakibatkan beberapa hal, seperti pensiun, mutasi, maupun penerimaan  PNS baru. Hal ini seiring dengan kebutuhan pemerintah daerah Kabupaten Ogan Ilir untuk memberikan pelayanan yang optimal kepada warga Kabupaten Ogan Ilir. Menurut jenis kelamin, sebagian besar PNS di Kabupaten Ogan Ilir berjenis kelamin perempuan. Pada periode 2013 hingga 2015 jumlah PNS perempuan di Kabupaten mencapai 60 persen dari kesuluruhan PNS. Apabila diklasikasikan menurut pendidikan yang dimiliki masing-masing PNS, kurang lebih 75 persen PNS pernah menempuh pendidikan di jenjang universitas maupun akademi, sisanya masih berpendidikan SMA ke bawah.</p>
@@ -1136,7 +1140,7 @@
 	]]>
 	</string>
 
-	<string name="analisis_penduduk">
+    <string name="analisis_penduduk">
 	<![CDATA[
         <p>Jumlah penduduk di Kabupaten Ogan Ilir setiap tahun mengalami peningkatan. Hal ini dipengaruhi oleh jumlah kelahiran dan penduduk datang yang lebih banyak daripada penduduk yang meninggal dan pergi keluar Kabupaten Ogan Ilir. Berdasarkan proyeksi penduduk yang dihitung oleh BPS Kabupaten Ogan Ilir, jumlah penduduk Kabupaten Ogan Ilir pada tahun 2016 sudah mencapai 414 ribu orang. Apabila dibandingkan hasil Sensus Penduduk tahun 2010 jumlahnya sudah meningkat 8,5 persen.</p>
         <p>Seiring dengan pertambahan jumlah penduduk yang terjadi di Kabupaten Ogan Ilir setiap tahun, sedangkan luas wilayah di Kabupaten Ogan Ilir tidak bertambah maka kepadatan penduduk setiap kilometer persegi di Kabupaten Ogan Ilir meningkat setiap tahunnya. Dari tahun 2010 yang kepadatannya mencapai 143 orang per km2, sedangkan pada tahun 2016 kepadatannya sudah mencapai 155 orang per km2.</p>
@@ -1144,13 +1148,13 @@
 	]]>
 	</string>
 
-	<string name="analisis_ketenagakerjaan">
+    <string name="analisis_ketenagakerjaan">
 	<![CDATA[
         <p>Berdasarkan hasil Survei Angkatan Kerja Nasional Tahun 2015, Tingkat Partisipasi Angkatan Kerja (TPAK) mengalami peningkatan dari tahun sebelumnya, yaitu dari 71.83 persen menjadi 73.60 persen. Akan tetapi peningkatan TPAK ini juga diikuti dengan peningkatan Tingkat Pengangguran Terbuka, yaitu dari 3.03 persen menjadi 5.43 persen. Peningkatan jumlah angkatan kerja harusnya diikuti dengan penciptaan lapangan kerja yang baru, sehingga permasalahan pengangguran bisa diatasi. </p>
 	]]>
 	</string>
 
-	<string name="analisis_kemiskinan">
+    <string name="analisis_kemiskinan">
 	<![CDATA[
         <p>BPS Kabupaten Ogan Ilir melakukan penghitungan jumlah penduduk miskin melalui pendataan Survei Sosial Ekonomi Nasional (Susenas). Dari pendataan Susenas dapat dihitung rata-rata pengeluaran perkapita dan garis kemiskinan Kabupaten Ogan Ilir. Penduduk yang memiliki rata-rata pengeluaran perkapita perbulan dibawah garis kemiskinan digolongkan sebagai penduduk miskin. </p>
         <p>Garis Kemiskinan (GK) dari tahun 2010 hingga 2015 cenderung mengalami kenaikan. Hal ini disebabkan tingkat perkembangan harga-harga komoditi kebutuhan pokok (seperti beras, telur, gula pasir, bawang, cabai) yang cenderung naik. Faktor penyumbang lainnya antara lain rokok, listrik dan bensin. Inflasi yang terjadi kalau tidak diimbangi dengan peningkatan pendapatan bisa meningkatkan angka kemiskinan. Pada 2015 Garis Kemiskinan di Kabupaten Ogan Ilir sebesar Rp 338.911 per kapita per bulan. Bila dibandingkan dengan 2014, GK di Kabupaten Ogan Ilir mengalami kenaikan sebesar Rp 16.586 (5,15 persen).</p>
@@ -1160,7 +1164,7 @@
 	]]>
 	</string>
 
-	<string name="analisis_ipm">
+    <string name="analisis_ipm">
 	<![CDATA[
         <p>Kemajuan pembangunan manusia secara umum dapat ditunjukkan melalui perkembangan Indeks Pembangunan Manusia (IPM). Selain merupakan ukuran kinerja pemerintah, IPM juga digunakan sebagai penentu alokasi Dana Alokasi Umum (DAU). Pada tahun 2010, United Nations Development Programme (UNDP), merekomendasikan untuk perubahan metode penghitungan IPM. Perubahan mencakup perubahan dari penggunaan aritmatic mean menjadi geometric mean, serta mengganti komponen Angka Melek Huruf dengan Harapan Usia Sekolah dan Rata-rata Lama Sekolah.</p>
         <p>Selama lima tahun terakhir angka IPM Ogan Ilir terus mengalami peningkatan. Tahun 2010 IPM Kabupaten Ogan Ilir sebesar 61,62 dan terus meningkat menjadi 65,35 di tahun 2015. Peningkatan ini seiring dengan peningkatan seluruh komponen penyusun IPM (angka harapan hidup, harapan usia sekolah, rata-rata lama sekolah dan pengeluaran per kapita) yang juga terus mengalami peningkatan.</p>
@@ -1171,7 +1175,7 @@
     ]]>
 	</string>
 
-	<string name="analisis_pendidikan">
+    <string name="analisis_pendidikan">
 	<![CDATA[
 		<p>Kualitas pendidikan yang memadai diperlukan penduduk untuk meningkatkan kualitas hidup mereka. Tingginya permintaan jasa pendidikan menuntut tersedianya penyelenggara pendidikan yang makin bermutu. Secara nasional, pendidikan diselenggarakan baik oleh pemerintah maupun swasta. Demi terselenggaranya pendidikan yang bermutu maka diperlukan sarana pendidikan yang cukup untuk menunjang kegiatan belajar penduduk usia sekolah, salah satunya adalah jumlah sekolah. Pada tahun 2015 jumlah sekolah negeri paling banyak di Kabupaten Ogan Ilir terdapat pada jenjang pendidikan Sekolah Dasar (SD) yaitu sebanyak 249 sekolah, sedangkan paling sedikit pada jenjang pendidikan Madrasah Ibtidaiyah (MI) dan Madrasah Aliyah (MA) yaitu masing-masing sebanyak 1 sekolah. Berbeda dengan sekolah negeri, jumlah sekolah swasta paling banyak terdapat pada jenjang pendidikan Madrasah Tsanawiyah (MTs) yaitu sebanyak 38 sekolah dan paling sedikit terdapat pada jenjang pendidikan Sekolah Menengah Kejuruan (SMK) yaitu sebanyak 5 sekolah.</p>
         <p>Ketersediaan tenaga pengajar atau guru diperlukan untuk menghasilkan pendidikan yang berkualitas. Pada tahun 2015, seiring dengan banyaknya jumlah sekolah maka jumlah guru di sekolah negeri paling banyak di Kabupaten Ogan Ilir terdapat pada jenjang pendidikan Sekolah Dasar (SD) yaitu sebanyak 3.332 guru, sedangkan paling sedikit pada jenjang pendidikan Madrasah Ibtidaiyah (MI) sebanyak 30 guru. Hal yang sama  juga terjadi pada sekolah swasta dimana jumlah guru paling banyak terdapat pada jenjang pendidikan Madrasah Tsanawiyah (MTs) yaitu sebanyak 722 guru dan paling sedikit terdapat pada jenjang pendidikan Sekolah Menengah Kejuruan (SMK) yaitu sebanyak 146 guru.</p>
@@ -1185,7 +1189,7 @@
 	]]>
 	</string>
 
-	<string name="analisis_kesehatan">
+    <string name="analisis_kesehatan">
 	<![CDATA[
 		<p>Jumlah sarana kesehatan di Kabupaten Ogan Ilir masih jauh dari cukup untuk memberikan pelayanan optimal di bidang kesehatan. Pada tahun 2015 jumlah sarana kesehatan di Kabupaten Ogan Ilir terdiri dari 2 rumah sakit, 25 puskesmas, 319 posyandu, 8 klinik/balai kesehatan dan 202 polindes. Pada tahun mendatang diharapkan jumlah sarana kesehatan terus ditambah seiring jumlah penduduk Kabupaten Ogan Ilir yang bertambah setiap tahun.</p>
         <p>Jumlah tenaga kesehatan di Kabupaten Ogan Ilir pada tahun 2015 mengalami peningkatan dibandingkan dengan tahun sebelumnya seiring dengan permintaan terhadap pelayanan kesehatan yang semakin baik. Jumlah dokter di Kabupaten Ogan Ilir bertambah sebanyak 18 orang atau 90 persen dibandingkan tahun 2014. Selain itu, jumlah perawat dan bidan juga mengalami peningkatan masing-masing sebanyak 96 orang (39 persen) dan 60 orang (25 persen). Dengan penambahan jumlah tenaga kesehatan diharapkan akan tercapai derajat kesehatan masyarakat yang baik, yang pada gilirannya memperoleh kehidupan yang sehat dan produktif.  </p>
@@ -1193,7 +1197,7 @@
 	]]>
 	</string>
 
-	<string name="analisis_pertanian">
+    <string name="analisis_pertanian">
 	<![CDATA[
 		<p>Pada tahun 2015 baik luas tanam dan luas panen sebagian besar komoditi tanaman pangan mengalami penurunan. Tanaman padi sawah mengalami penurunan luas tanam mencapai 5 persen sedangkan luas panen berkurang 4 persen. Penurunan sangat besar  terjadi pada tanaman kedelai yang luas tanam berkurang 76 persen daripada tahun 2014, sedangkan luas panen berkurang 75 persen. Tanaman padi sawah menjadi komoditi yang paling dominan yang dibudidayakan oleh penduduk Kabupaten Ogan Ilir. </p>
         <p>Perkebunan rakyat adalah perkebunan yang diselenggarakan atau dikelola oleh rakyat/pekebun, diluar perkebunan yang dikelola perusahaan berbadan hukum. Di Kabupaten Ogan Ilir, perkebunan rakyat terluas ditanami oleh tanaman karet. Pada tahun 2015 luas perkebunan mencapai 30.235 hektar dengan produksi mencapai 22.584 ton. Perkebunan rakyat yang terluas berikutnya ditanami dengan tanaman kelapa sawit yang luas perkebunannya mencapai 3.551 dengan produksi mencapai 21.484 ton.</p>
@@ -1202,20 +1206,20 @@
 	]]>
 	</string>
 
-	<string name="analisis_industri_dan_pertambangan">
+    <string name="analisis_industri_dan_pertambangan">
 	<![CDATA[
 		<p>Jumlah industri besar yang terdaftar di Dinas Koperasi, UMKM, Industri, dan Perdagangan Kab. Ogan Ilir pada tahun 2015 sebanyak 33 perusahaan dengan jumlah tenaga kerja mencapai 7.167 orang. Jumlahnya meningkat 2 perusahaan dibandingkan tahun sebelumnya. Selain itu, di Kabupaten Ogan Ilir juga terdapat 203 industri kecil yang mampu menampung 1.132 tenaga kerja dimana sebelumnya hanya terdapat 198 industri kecil selama tahun 2014.</p>
         <p>Pada tahun 2015 jumlah produksi minyak dari semua sumur minyak yang dikelola perusahaan sebanyak 1,18 juta barel. Jumlahnya menurun 8 persen dibandingkan tahun 2014. Sedangkan pada penggalian golongan C, produksi terbesar di Kabupaten Ogan Ilir adalah tanah urugan. Pada tahun 2015 jumlah produksinya mencapai 569 ribu m3.</p>
 	]]>
 	</string>
 
-	<string name="analisis_infrastruktur">
+    <string name="analisis_infrastruktur">
 	<![CDATA[
 		<p>Pembangunan infrastruktur yang paling utama di Kabupaten Ogan Ilir adalah jalan karena merupakan sarana penggerak perekonomian. Pembangunan jalan di Kabupaten Ogan Ilir tidak mengalami penambahan yang signifikan dari tahun ke tahun. Panjang jalan nasional di Kabupaten Ogan Ilir selama lima tahun kemarin tidak mengalami perubahan yaitu sepanjang 61,38 km. Hanya terdapat penambahan panjang jalan provinsi dan jalan kabupaten pada tahun 2015 yaitu masing-masing sepanjang 18,78 km dan 37,53 km.</p>
 	]]>
 	</string>
 
-	<string name="analisis_pdrb">
+    <string name="analisis_pdrb">
 	<![CDATA[
 		<p>Setiap tahun PDRB Kabupaten Ogan Ilir mengalami peningkatan daripada tahun sebelumnya baik dihitung berdasarkan harga berlaku maupun harga konstan tahun 2010. Hal ini membuktikan bahwa perekonomian Kabupaten Ogan Ilir terus tumbuh sesuai pembangunan yang dilakukan di Kabupaten Ogan Ilir. Berdasarkan harga berlaku maka dari tahun 2010 hingga tahun 2015 perekonomian Kabupaten Ogan Ilir tumbuh sebesar 85 persen. Dengan tujuan untuk menghilangkan pengaruh inflasi maka pertumbuhan ekonomi dihitung dengan menggunakan harga konstan 2010, selama lima tahun terakhir (2010-2015), perekonomian Kabupaten Ogan Ilir tumbuh dari 4,40 milyar rupiah menjadi 6,12 milyar rupiah atau tumbuh sebesar 38 persen. </p>
 		<p>Untuk melakukan penghitungan pertumbuhan ekonomi lebih tepat menggunakan PDRB atas harga konstan tahun 2010. Hal ini diperlukan untuk menghilangkan pengaruh inflasi yang terjadi hampir di setiap tahun. Pada tahun 2015 PDRB Kabupaten Ogan Ilir atas dasar konstan 2010 bernilai 6,12 milyar rupiah atau naik 4,6 persen dibandingkan dengan tahun 2014. Apabila dihitung mulai dari tahun 2010 maka PDRB Kabupaten Ogan Ilir sudah tumbuh sebesar 38 persen.
@@ -1854,7 +1858,6 @@
     <string name="title_activity_main2">Main2Activity</string>
 
 
-
     <string-array name="data_title_kec_muara_kuang">
         <item>Jumlah Penduduk Kecamatan Muara Kuang Tahun 2015</item>
         <item>Desa/Kelurahan</item>
@@ -1997,12 +2000,6 @@
         <item>Sex Ratio</item>
         <item>Sumber : Badan Pusat Statistik Kab. Ogan Ilir</item>
     </string-array>
-
-
-
-
-
-
 
 
     <string-array name="data_array_kec_muara_kuang">

@@ -28,8 +28,7 @@ public class ImageAdapter extends BaseAdapter {
     private Context mContext;
     private String[] data;
 
-    private String[] list_color={"#F1BA23", "#19A050",
-        "#AD1414", "#890988", "#22B0F2","#F25023"};
+    private String[] list_color={"#672D9C", "#3F3F46"};
 
     public ImageAdapter(Context c, String[] data) {
 
@@ -72,7 +71,7 @@ public class ImageAdapter extends BaseAdapter {
         myView = li.inflate(R.layout.grid_layout, null);
 
         RelativeLayout relativeLayout=(RelativeLayout) myView.findViewById(R.id.relaGrid);
-        int color_index=position%6;
+        int color_index=position%2;
 
         relativeLayout.setBackgroundColor(Color.parseColor(list_color[color_index]));
 

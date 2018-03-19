@@ -12,35 +12,46 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.Arrays;
 
 import diklat.oi.bps.oiapp.components.HomeAdapter;
+import diklat.oi.bps.oiapp.components.HomeImageAdapter;
 
 public class Main2Activity extends AppCompatActivity {
 
-    private HomeAdapter adapter;
-    private ListView listView;
+    private HomeImageAdapter adapter;
+//    private ListView listView;
+    private GridView gridView;
     private Button ttg_kami;
     private Button kontak_kami;
-    private String[] datas={"Data Strategis", "Data Kecamatan", "Data Desa"};
+    private String[] datas= {"Data Strategis", "Data Lainnya"};
+    private String[] descs= {
+            "Berisi data yang bersumber dari BPS Kabupaten OKU Timur",
+            "Berisi data sektoral yang bersumber dari instansi, badan atau lembaga di luar Badan Pusat Statistik",
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
 
-        listView = (ListView) findViewById(R.id.listView);
+//        listView = (ListView) findViewById(R.id.listView);
+
+//        getActionBar().hide();
+        gridView = (GridView) findViewById(R.id.gridview);
         ttg_kami = (Button) findViewById(R.id.ttg_kami);
         kontak_kami = (Button) findViewById(R.id.kontak_kami);
 
-        adapter = new HomeAdapter(this, Arrays.asList(datas));
-        listView.setAdapter(adapter);
+        adapter = new HomeImageAdapter(this, Arrays.asList(datas), Arrays.asList(descs));
+//        listView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        gridView.setAdapter(adapter);
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
@@ -53,10 +64,10 @@ public class Main2Activity extends AppCompatActivity {
                         Intent intent1 = new Intent(Main2Activity.this, KabActivity.class);
                         startActivity(intent1);
                         break;
-                    case 2:
-                        Intent intent2 = new Intent(Main2Activity.this, KecActivity.class);
-                        startActivity(intent2);
-                        break;
+//                    case 2:
+//                        Intent intent2 = new Intent(Main2Activity.this, KecActivity.class);
+//                        startActivity(intent2);
+//                        break;
                 }
             }
         });

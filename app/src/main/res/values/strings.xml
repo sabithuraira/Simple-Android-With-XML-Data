@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">SIMANIS-OI</string>
+    <string name="app_name">SIHALUAN OKUT</string>
 
-    <string name="address">Jl. Palembang - Prabumulih Km 33 Desa Tanjung Pering 30813 Indralaya, Telp (0711) 581713, Faks (0711) 581713</string>
-    <string name="email">Email : bps1610@bps.go.id</string>
+    <string name="address">Jl. Adiwiyata Km 07 (SP. Lingot) Kota Baru Selatan - Martapura  (32181), Telp/Fax : (0735) 481606</string>
+    <string name="email">Email : bps1609@bps.go.id</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -17,7 +17,7 @@
 
     <string-array name="aboutsimanis_title_array">
         <item></item>
-        <item>SIMANIS-OI</item>
+        <item>SIHALUAN OKUT</item>
     </string-array>
 
     <string-array name="aboutsimanis_data_array">
@@ -26,7 +26,7 @@
             <![CDATA[
                 <p>SISTEM PENYEDIAAN DATA DAN INFORMASI STATISTIK KABUPATEN OGAN ILIR</p>
                 <p>SIMANIS-OI adalah aplikasi berbasis android yang bertujuan menyediakan data dan informasi statistik Kabupaten Ogan Ilir Provinsi Sumatera Selatan secara lebih cepat, lebih mudah dan lebih murah. Himpunan data pada SIMANIS-OI ini adalah data resmi yang bersumber dari Badan Pusat Statistik (BPS) maupun data sektoral hasil kompilasi produk administrasi. Pengembangan dan penyempurnaan aplikasi akan terus dilaksanakan sesuai perkembangan IPTEK serta tuntutan pengguna data. Aplikasi SIMANIS-OI dikelola oleh BPS Kabupaten Ogan Ilir bersama Forum Satu Data Kabupaten Ogan Ilir. Jika terdapat kritik, saran dan pertanyaan dapat disampaikan melalui:</p>
-                <p>Email: SIMANIS_OI@gmail.com</p>
+                <p>Email: bps1609@bps.go.id</p>
 	        ]]>
         </item>
     </string-array>

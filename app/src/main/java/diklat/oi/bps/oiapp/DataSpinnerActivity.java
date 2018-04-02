@@ -3,8 +3,6 @@ package diklat.oi.bps.oiapp;
 import android.content.res.Resources;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -18,9 +16,7 @@ import diklat.oi.bps.oiapp.fragments.SimpleFragment;
 import diklat.oi.bps.oiapp.fragments.TableFragment;
 
 public class DataSpinnerActivity extends AppCompatActivity {
-    private String[] listDataHeader={
-            "Pemerintahan", "Penduduk", "Pendidikan", "Kesehatan", "Pertanian", "Industri dan Pertambangan"
-    };
+    private String[] listDataHeader = {};
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
@@ -38,6 +34,11 @@ public class DataSpinnerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_spinner);
 
+        Resources r = getResources();
+        listDataHeader = r.getStringArray(R.array.dinas_menu_array);
+
+//        this.getResources().getStringArray(R.array.dinas_menu_array);
+
         bar_spinner_data = (Spinner) findViewById(R.id.bar_spinner_data);
         viewPager = (ViewPager) findViewById(R.id.pager);
         tabLayout = (TabLayout) findViewById(R.id.tabs);
@@ -47,7 +48,7 @@ public class DataSpinnerActivity extends AppCompatActivity {
     }
 
     private void RefreshData(){
-        String temp_source=(listDataHeader[current_index].toLowerCase()).replace(' ','_');
+        String temp_source= "pemerintahan";//(listDataHeader[current_index].toLowerCase()).replace(' ','_');
         data_file = temp_source;
         real_text = listDataHeader[current_index];
         type_data = 1;
@@ -64,6 +65,9 @@ public class DataSpinnerActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
 //        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 //        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
 //                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -74,7 +78,7 @@ public class DataSpinnerActivity extends AppCompatActivity {
 //        navigationView.setNavigationItemSelectedListener(this);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
-                this, R.array.data_lainnya_array, R.layout.top_spinner);
+                this, R.array.dinas_menu_array, R.layout.top_spinner);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         bar_spinner_data.setAdapter(adapter);

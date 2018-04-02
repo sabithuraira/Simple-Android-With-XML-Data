@@ -1,0 +1,33 @@
+{
+  "dinas_pendidikan":[
+      {
+        "title": "Jumlah Sekolah, Guru, Murid, Gedung Kabupaten OKU Timur 2012 - 2016",
+        "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+      },
+      {
+        "title": "Jumlah sekolah, gedung, dan ruang belajar SD menurut kecamatan dalam Kabupaten OKU Timur 2016",
+        "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
+      },
+      {
+        "title": "Jumlah sekolah, gedung, dan ruang belajar SMP menurut kecamatan dalam Kabupaten OKU Timur 2016",
+        "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
+      },
+      {
+        "title": "Jumlah sekolah, gedung, dan ruang belajar SMA menurut kecamatan dalam Kabupaten OKU Timur 2016",
+        "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
+      },
+      {
+        "title": "Jumlah sekolah, gedung, dan ruang belajar SMK menurut kecamatan dalam Kabupaten OKU Timur 2016",
+        "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
+      }
+  ]
+}
+//[
+//  {
+//    "no":1,
+//    "city": "Palembang",
+//    "name": "Angkot Merah - Public Transportation Red Car",
+//    "rute": "Ampera Bridge - KM5",
+//    "place": "Ampera, Jl Merdeka, Palembang Icon Mall (PIM)"
+//  }
+//]

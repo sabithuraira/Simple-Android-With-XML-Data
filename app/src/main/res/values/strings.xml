@@ -16,6 +16,32 @@
     </string-array>
 
 
+    <string-array name="dinas_menu_array">
+        <item>Dinas Pendidikan</item>
+        <item>Dinas Kesehatan</item>
+        <item>Dinas Pekerjaan Umum dan Tata  Ruang</item>
+        <item>Dinas Perumahan dan Kawasan Pemukiman</item>
+        <item>Satuan Polisi Pamong Praja dan Pemadam Kebakaran</item>
+        <item>Dinas Sosial</item>
+        <item>Dinas Tenaga Kerja Dan Transmigrasi</item>
+        <item>Dinas Pengendalian Penduduk dan Keluarga Berencana</item>
+        <item>Dinas Ketahanan Pangan</item>
+        <item>Dinas Lingkungan Hidup</item>
+        <item>Dinas Catatan Sipil dan Kependudukan</item>
+        <item>Dinas Pemberdayaan Masyarakat dan Desa</item>
+        <item>Dinas Komunikasi dan Informatika</item>
+        <item>Dinas Perhubungan</item>
+        <item>Dinas Koperasi, UKM</item>
+        <item>Dinas Penanaman Modal dan Pelayanan Terpadu</item>
+        <item>Dinas Kepemudaan, Olahraga, Pariwisata dan Kebudayaan</item>
+        <item>Dinas Perpustakaan dan Kearsipan</item>
+        <item>Dinas Perikanan</item>
+        <item>Dinas Perdagangan dan Perindustrian</item>
+        <item>Dinas Pertanian</item>
+        <item>Dinas Pemberdayaan Perempuan dan Perlindungan Anak</item>
+    </string-array>
+
+
     <string-array name="data_lainnya_array">
         <item>Pemerintahan</item>
         <item>Penduduk</item>

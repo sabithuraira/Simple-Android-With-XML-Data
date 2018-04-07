@@ -9,6 +9,8 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
 
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,22 +22,21 @@ import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
 
+import diklat.oi.bps.oiapp.models.TitleIsi;
+import diklat.oi.bps.oiapp.models.TitleTable;
+
 /**
  * Created by sabithuraira on 4/2/18.
  */
 
 public class JsonGetter {
     private Context context;
-    private String name = "";
 
-    public JsonGetter(Context context, String name){
+    public JsonGetter(Context context){
         this.context=context;
-        this.name = name;
     }
 
-    public String[] getJsonTitle(){
-        List<String> result = new ArrayList<String>();
-
+    public TitleTable[] getDinasTitle(String name){
         int jsonFile = this.context.getResources().getIdentifier("data_dinas", "raw", context.getPackageName());
         InputStream is = this.context.getResources().openRawResource(jsonFile);
         Writer writer = new StringWriter();
@@ -56,63 +57,40 @@ public class JsonGetter {
         }
 
         String jsonString =  writer.toString();
-//
-//        Gson gson = new Gson();
-//        return gson.fromJson(jsonString, new TypeToken<String[]>(){}.getType());
 
         JsonElement jelement = new JsonParser().parse(jsonString);
-        JsonArray jobject = jelement.getAsJsonArray(). getAsJsonArray(name);
+        JsonObject jobject =  (JsonObject)jelement;
+        JsonElement jarray = jobject.getAsJsonArray(name);
+
+
+        Gson gson = new Gson();
+        return gson.fromJson(jarray, new TypeToken<TitleTable[]>(){}.getType());
     }
 
-//    public ArrayList<Venue> getJsonVenues(){
-//        int jsonFile = this.context.getResources().getIdentifier("venues", "raw", context.getPackageName());
-//        InputStream is = this.context.getResources().openRawResource(jsonFile);
-//        Writer writer = new StringWriter();
-//        char[] buffer = new char[1024];
-//        try {
-//            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-//            int n;
-//            while ((n = reader.read(buffer)) != -1) {
-//                writer.write(buffer, 0, n);
-//            }
-//            is.close();
-//        }
-//        catch(UnsupportedEncodingException e){
-//
-//        }
-//        catch(IOException e){
-//
-//        }
-//
-//        String jsonString =  writer.toString();
-//
-//        Gson gson = new Gson();
-//        return gson.fromJson(jsonString, new TypeToken<ArrayList<Venue>>(){}.getType());
-//    }
-//
-//    public ArrayList<Transportation> getJsonTransportation(){
-//        int jsonFile = this.context.getResources().getIdentifier("transportations", "raw", context.getPackageName());
-//        InputStream is = this.context.getResources().openRawResource(jsonFile);
-//        Writer writer = new StringWriter();
-//        char[] buffer = new char[1024];
-//        try {
-//            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
-//            int n;
-//            while ((n = reader.read(buffer)) != -1) {
-//                writer.write(buffer, 0, n);
-//            }
-//            is.close();
-//        }
-//        catch(UnsupportedEncodingException e){
-//
-//        }
-//        catch(IOException e){
-//
-//        }
-//
-//        String jsonString =  writer.toString();
-//
-//        Gson gson = new Gson();
-//        return gson.fromJson(jsonString, new TypeToken<ArrayList<Transportation>>(){}.getType());
-//    }
+
+    public TitleIsi[] getDinasIsi(String name){
+        int jsonFile = this.context.getResources().getIdentifier("data_dinas_isi", "raw", context.getPackageName());
+        InputStream is = this.context.getResources().openRawResource(jsonFile);
+        Writer writer = new StringWriter();
+        char[] buffer = new char[1024];
+        try {
+            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            int n;
+            while ((n = reader.read(buffer)) != -1) {
+                writer.write(buffer, 0, n);
+            }
+            is.close();
+        }
+        catch(UnsupportedEncodingException e){}
+        catch(IOException e){}
+
+        String jsonString =  writer.toString();
+
+        JsonElement jelement = new JsonParser().parse(jsonString);
+        JsonObject jobject =  (JsonObject)jelement;
+        JsonElement jarray = jobject.getAsJsonArray(name);
+
+        Gson gson = new Gson();
+        return gson.fromJson(jarray, new TypeToken<TitleIsi[]>(){}.getType());
+    }
 }

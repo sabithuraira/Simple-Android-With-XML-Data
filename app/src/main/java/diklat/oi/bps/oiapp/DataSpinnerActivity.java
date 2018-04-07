@@ -14,6 +14,9 @@ import android.widget.Spinner;
 import diklat.oi.bps.oiapp.fragments.ImageFragment;
 import diklat.oi.bps.oiapp.fragments.SimpleFragment;
 import diklat.oi.bps.oiapp.fragments.TableFragment;
+import diklat.oi.bps.oiapp.helpers.JsonGetter;
+import diklat.oi.bps.oiapp.models.TitleIsi;
+import diklat.oi.bps.oiapp.models.TitleTable;
 
 public class DataSpinnerActivity extends AppCompatActivity {
     private String[] listDataHeader = {};
@@ -29,12 +32,18 @@ public class DataSpinnerActivity extends AppCompatActivity {
     //0= menu, 1= menu kab, 2=menu kec
     Integer type_data;
 
+
+    TableFragment tabel_frag=new TableFragment();
+    ImageFragment image_frag=new ImageFragment();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_spinner);
 
         Resources r = getResources();
+
         listDataHeader = r.getStringArray(R.array.dinas_menu_array);
 
 //        this.getResources().getStringArray(R.array.dinas_menu_array);
@@ -44,14 +53,14 @@ public class DataSpinnerActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         SetToolbar();
 
-        RefreshData();
+        CreateData();
     }
 
-    private void RefreshData(){
-        String temp_source= "pemerintahan";//(listDataHeader[current_index].toLowerCase()).replace(' ','_');
+    private void CreateData(){
+        String temp_source= (listDataHeader[current_index].toLowerCase()).replace(' ','_');
         data_file = temp_source;
         real_text = listDataHeader[current_index];
-        type_data = 1;
+        type_data = 0;
 
         setupViewPager(viewPager);
 
@@ -59,6 +68,13 @@ public class DataSpinnerActivity extends AppCompatActivity {
             tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
         }
         tabLayout.setupWithViewPager(viewPager);
+    }
+
+    private void RefreshData(){
+        String temp_source= (listDataHeader[current_index].toLowerCase()).replace(' ','_');
+        data_file = temp_source;
+        tabel_frag.SetArgument(data_file, "json");
+        tabel_frag.RefreshView();
     }
 
     private void SetToolbar(){
@@ -98,46 +114,48 @@ public class DataSpinnerActivity extends AppCompatActivity {
 
         Resources r = getResources();
 
-        Bundle konsep=new Bundle();
+//        Bundle konsep=new Bundle();
         Bundle tabel=new Bundle();
-        Bundle analisis=new Bundle();
+//        Bundle analisis=new Bundle();
         Bundle image_bundle=new Bundle();
 
         if(data_file.length()>0){
             if(type_data<2) {
-                int konsepId = r.getIdentifier(data_file, "string", this.getPackageName());
-                konsep.putString("txt_aboutus", r.getString(konsepId));
+//                int konsepId = r.getIdentifier(data_file, "string", this.getPackageName());
+//                konsep.putString("txt_aboutus", r.getString(konsepId));
 
                 if (type_data != 0)
                     tabel.putString("init", "kab_" + data_file);
                 else
                     tabel.putString("init", data_file);
 
-                int analisisId = r.getIdentifier("analisis_" + data_file, "string", this.getPackageName());
-                analisis.putString("txt_aboutus", r.getString(analisisId));
+//                int analisisId = r.getIdentifier("analisis_" + data_file, "string", this.getPackageName());
+//                analisis.putString("txt_aboutus", r.getString(analisisId));
                 image_bundle.putString("rsc","info_"+data_file);
             }
             else{
                 tabel.putString("init","kec_"+data_file);
             }
+            tabel.putString("type_data", "json");
         }
 
-        TableFragment tabel_frag=new TableFragment();
+//        TableFragment tabel_frag=new TableFragment();
         tabel_frag.setArguments(tabel);
 
+
         if(type_data<2){
-            SimpleFragment konsep_frag=new SimpleFragment();
-            konsep_frag.setArguments(konsep);
+//            SimpleFragment konsep_frag=new SimpleFragment();
+//            konsep_frag.setArguments(konsep);
 
-            SimpleFragment analisis_frag=new SimpleFragment();
-            analisis_frag.setArguments(analisis);
+//            SimpleFragment analisis_frag=new SimpleFragment();
+//            analisis_frag.setArguments(analisis);
 
-            adapter.addFragment(konsep_frag, "Konsep Definisi");
+//            adapter.addFragment(konsep_frag, "Konsep Definisi");
             adapter.addFragment(tabel_frag, "Tabel");
-            adapter.addFragment(analisis_frag, "Analisis");
+//            adapter.addFragment(analisis_frag, "Analisis");
 
             if(type_data==0) {
-                ImageFragment image_frag=new ImageFragment();
+//                ImageFragment image_frag=new ImageFragment();
                 image_frag.setArguments(image_bundle);
 
                 adapter.addFragment(image_frag, "Infografis");
@@ -148,5 +166,6 @@ public class DataSpinnerActivity extends AppCompatActivity {
         }
 
         viewPager.setAdapter(adapter);
+
     }
 }

@@ -36,20 +36,22 @@ import diklat.oi.bps.oiapp.DataActivity;
 import diklat.oi.bps.oiapp.R;
 import diklat.oi.bps.oiapp.components.ExpendableAdapter;
 import diklat.oi.bps.oiapp.components.ImageAdapter;
+import diklat.oi.bps.oiapp.helpers.JsonGetter;
+import diklat.oi.bps.oiapp.models.TitleIsi;
+import diklat.oi.bps.oiapp.models.TitleTable;
+
 /**
  * Created by sabithuraira on 3/2/17.
  */
 
 public class TableFragment extends Fragment {
-
     String data="";
+    String type_data = "xml";
     Integer total_tabel=0;
     //TableLayout tbl_layout;
     LinearLayout rel_layout;
 
-    public TableFragment(){
-
-    }
+    public TableFragment(){}
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -74,8 +76,31 @@ public class TableFragment extends Fragment {
         rel_layout = (LinearLayout) getView().findViewById(R.id.rel_layout);
 
         if (getArguments() != null) {
-            this.data=this.getArguments().getString("init");
+            SetArgument(this.getArguments().getString("init", "pemerintahan"), this.getArguments().getString("type_data", "xml"));
+        }
+        RefreshView();
+    }
 
+    public void SetArgument(String init, String type_data){
+        this.data = init;
+        this.type_data = type_data;
+    }
+
+    public void RefreshView(){
+        rel_layout.removeAllViews();
+        if(type_data=="json"){
+            JsonGetter jGet = new JsonGetter(this.getActivity());
+
+            TitleTable[] titleTables = jGet.getDinasTitle(this.data);
+            TitleIsi[] titleIsis = jGet.getDinasIsi(this.data);
+
+            if(titleTables != null) {
+                for (int i = 0; i < titleTables.length; ++i) {
+                    this.createTableFromJson(titleTables[i], titleIsis[i]);
+                }
+            }
+        }
+        else{
             Resources r = getResources();
 
             if(r.getIdentifier("data_title_"+this.data, "array", this.getActivity().getPackageName())==0){
@@ -97,6 +122,100 @@ public class TableFragment extends Fragment {
                 this.createTable(r.getStringArray(titleId),r.getStringArray(dataId));
             }
         }
+    }
+
+    private void createTableFromJson(TitleTable title, TitleIsi isi){
+        Integer total_var=0;
+        String[] headers = title.getHeader();
+        String[] data = isi.getData();
+        total_var=title.getHeader().length;
+
+        ScrollView scrollView=new ScrollView(this.getActivity());
+        scrollView.setLayoutParams(new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT ));
+
+
+        HorizontalScrollView hscrollView=new HorizontalScrollView(this.getActivity());
+        hscrollView.setLayoutParams(new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT ));
+
+        TableLayout tbl_layout= new TableLayout(this.getActivity());
+
+        tbl_layout.setLayoutParams(new ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT ));
+        tbl_layout.setStretchAllColumns(true);
+
+
+        TableRow.LayoutParams params = new TableRow.LayoutParams();
+        params.span = total_var;
+
+        TableRow title_table = new TableRow(this.getActivity());
+
+
+        TextView tv_title = new TextView(this.getActivity());
+        tv_title.setTypeface(null, Typeface.BOLD);
+        tv_title.setPadding(5,5,5,5);
+        tv_title.setText(title.getTitle());
+        //title_table.addView(tv_title);
+        title_table.addView(tv_title, 0, params);
+
+
+        //newRow2.addView(newButton, 1, params);
+        tbl_layout.addView(title_table);
+
+
+        TableRow tbrow0 = new TableRow(this.getActivity());
+        for(int i=0;i<total_var;++i){
+            TextView tv0 = new TextView(this.getActivity());
+            tv0.setBackgroundResource(R.drawable.cell_shape);
+            tv0.setTypeface(null, Typeface.BOLD);
+            tv0.setPadding(10,5,10,5);
+            tv0.setGravity(Gravity.CENTER);
+            tv0.setText(headers[i]);
+            tbrow0.addView(tv0);
+        }
+        tbl_layout.addView(tbrow0);
+
+        for (int i = 0; i < data.length; i++) {
+            TableRow tbrow = new TableRow(this.getActivity());
+
+            String[] explode_data=data[i].split(";");
+
+            for(int j=0;j<total_var;++j){
+                TextView tv1 = new TextView(this.getActivity());
+
+                tv1.setBackgroundResource(R.drawable.cell_shape);
+                tv1.setPadding(10,5,10,5);
+                if(explode_data.length<=j){
+                    tv1.setText("");
+                }
+                else{
+                    tv1.setText(explode_data[j]);
+                }
+                tv1.setGravity(Gravity.CENTER);
+                tbrow.addView(tv1);
+            }
+            tbl_layout.addView(tbrow);
+        }
+
+
+//        TableRow title_footer = new TableRow(this.getActivity());
+
+//        TextView tv_footer = new TextView(this.getActivity());
+//        tv_footer.setTypeface(null, Typeface.ITALIC);
+//        tv_footer.setPadding(5,5,5,5);
+//        tv_footer.setText(title[total_var-1]);
+//        //title_footer.addView(tv_footer);
+//        title_footer.addView(tv_footer,0, params);
+
+//        tbl_layout.addView(title_footer);
+
+        hscrollView.addView(tbl_layout);
+        scrollView.addView(hscrollView);
+        rel_layout.addView(scrollView);
     }
 
     private void createTable(String[] title, String[] data){

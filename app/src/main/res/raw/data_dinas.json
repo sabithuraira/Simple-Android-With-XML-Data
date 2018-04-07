@@ -1,33 +1,195 @@
 {
   "dinas_pendidikan":[
-      {
-        "title": "Jumlah Sekolah, Guru, Murid, Gedung Kabupaten OKU Timur 2012 - 2016",
-        "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
-      },
-      {
-        "title": "Jumlah sekolah, gedung, dan ruang belajar SD menurut kecamatan dalam Kabupaten OKU Timur 2016",
-        "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
-      },
-      {
-        "title": "Jumlah sekolah, gedung, dan ruang belajar SMP menurut kecamatan dalam Kabupaten OKU Timur 2016",
-        "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
-      },
-      {
-        "title": "Jumlah sekolah, gedung, dan ruang belajar SMA menurut kecamatan dalam Kabupaten OKU Timur 2016",
-        "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
-      },
-      {
-        "title": "Jumlah sekolah, gedung, dan ruang belajar SMK menurut kecamatan dalam Kabupaten OKU Timur 2016",
-        "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
-      }
+    {
+      "title": "Jumlah Sekolah, Guru, Murid, Gedung Kabupaten OKU Timur 2012 - 2016",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    },
+    {
+      "title": "Jumlah sekolah, gedung, dan ruang belajar SD menurut kecamatan dalam Kabupaten OKU Timur 2016",
+      "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
+    },
+    {
+      "title": "Jumlah sekolah, gedung, dan ruang belajar SMP menurut kecamatan dalam Kabupaten OKU Timur 2016",
+      "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
+    },
+    {
+      "title": "Jumlah sekolah, gedung, dan ruang belajar SMA menurut kecamatan dalam Kabupaten OKU Timur 2016",
+      "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
+    },
+    {
+      "title": "Jumlah sekolah, gedung, dan ruang belajar SMK menurut kecamatan dalam Kabupaten OKU Timur 2016",
+      "header": ["Kecamatan", "Sekolah Negeri", "Gedung Negeri", "R.Belajar Negeri", "Sekolah Swasta", "Gedung Swasta", "R. Belajar Swasta"]
+    }
+  ],
+  "dinas_kesehatan":[
+    {
+      "title": "Rangkuman Data Kesehatan Kabupaten OKU Timur Tahun 2012 - 2016",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    },
+    {
+      "title": "Jumlah Puskesmas & Tenaga Medis menurut kecamatan di Kabupaten Ogan Komering Ulu Timur, 2016 ",
+      "header": ["Kecamatan,Puskesmas,Tenaga Medis,Apotek,Toko Obat"]
+    },
+    {
+      "title": "Jumlah Bayi Usia 0-6 Bulan yang diberi ASI Eksklusif menurut kecamatan di Kabupaten Ogan Komering Ulu Timur, 2016",
+      "header": ["Kecamatan,Bayi yang diberi ASI Ekslusif,Bayi"]
+    },
+    {
+      "title": "Jumlah Kematian Neonatal, Bayi, dan Balita menurut kecamatan di Kabupaten Ogan Komering Ulu Timur, 2016",
+      "header": ["Kecamatan,Neonatal,Bayi,Balita"]
+    },
+    {
+      "title": "Jumlah Kematian Ibu Bersalin menurut kelompok umur dan kecamatan di Kabupaten Ogan Komering Ulu Timur, 2016",
+      "header": ["Kecamatan", "Jumlah Lahir", "Kematian < 20 Thn", "Kematian 20 -34 Thn", "Kematian > 35 Thn", "Jml"]
+    },
+    {
+      "title": "Jumlah Kematian Ibu menurut kelompok umur dan kecamatan di Kabupaten Ogan Komering Ulu Timur, 2016",
+      "header": ["Kecamatan", "Jumlah Lahir", "Kematian < 20 Thn", "Kematian 20 -34 Thn", "Kematian > 35 Thn", "Jml"]
+    }
+  ],
+  "dinas_pekerjaan_umum_dan_tata _ruang":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_perumahan_dan_kawasan_pemukiman":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "satuan_polisi_pamong_praja_dan_pemadam_kebakaran":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_sosial":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    },
+    {
+      "title": "Jumlah Panti Asuhan dan Anak Panti  menurut kecamatan di Kabupaten Ogan Komering Ulu Timur, 2016",
+      "header": ["Kecamatan", "Panti Asuhan", "Anak Asuh", "Pengurus"]
+    }
+  ],
+  "dinas_tenaga_kerja_dan_transmigrasi":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_pengendalian_penduduk_dan_keluarga_berencana":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_ketahanan_pangan":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_lingkungan_hidup":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_catatan_sipil_dan_kependudukan":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_pemberdayaan_masyarakat_dan_desa":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_komunikasi_dan_informatika":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_perhubungan":[
+    {
+      "title": "",
+      "header": ["Jumlah", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_koperasi,_ukm":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_penanaman_modal_dan_pelayanan_terpadu":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_kepemudaan,_olahraga,_pariwisata_dan_kebudayaan":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    },
+    {
+      "title": "Banyaknya Restoran/Rumah Makan Menurut Kecamatan dalam Kabupaten Ogan Komering Ulu Timur, 2016 ",
+      "header": ["Kecamatan", "Restoran/Rumah Makan"]
+    },
+    {
+      "title": "Banyaknya Fasilitas Penunjang Pariwisata dan Hiburan menurut kecamatan dalam Kabupaten Ogan Komering Ulu Timur, 2016 ",
+      "header": ["Kecamatan", "Hotel Bintang", "Hotel Bintang", "Restoran", "Rumah Makan"]
+    },
+    {
+      "title": "Banyaknya objek wisata dan jenis wisata menurut kecamatan dalam Kabupaten Ogan Komering Ulu Timur, 2016 ",
+      "header": ["Kecamatan", "Wisata Air", "Wisata Kuliner", "Wisata Industri", "Wisata Alam", "Wisata Budaya", "Wisata Ziarah", "Wisata Cinderamata", "Wisata Holtikultura", "Wisata Persawahan", "Wisata Perkebunan", "Wisata Persawahan dan Perkebunan", "Wisata Outbound", "Wisata Sejarah", "Wisata Kerajinan", "Desa Wisata", "Wisata Perkemahan", "Total",]
+    }
+
+  ],
+  "dinas_perpustakaan_dan_kearsipan":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_perikanan":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_perdagangan_dan_perindustrian":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    },
+    {
+      "title": "Persebaran Unit Usaha dan Tenaga Kerja pada industri kecil dirinci menurut kelompok industri dan kecamatan dalam Kabupaten Ogan Komering Ulu Timur, 2016 ",
+      "header": ["Kecamatan", "Unit Usaha", "Tenaga Kerja (Orang)", "investasi (Rp. 000)", "2015", "2016"]
+    },
+    {
+      "title": "Persebaran perusahaan dagang berdasarkan penerbitan SIUP di setiap kecamatan dalam Kabupaten Ogan Komering Ulu Timur, 2016 ",
+      "header": ["Kecamatan", "Perusahaan Kecil dan rumah Tangga", "Perusahaan Menengah", "Perusahaan Besar"]
+    }
+  ],
+  "dinas_pertanian":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
+  ],
+  "dinas_pemberdayaan_perempuan_dan_perlindungan_anak":[
+    {
+      "title": "",
+      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+    }
   ]
 }
-//[
-//  {
-//    "no":1,
-//    "city": "Palembang",
-//    "name": "Angkot Merah - Public Transportation Red Car",
-//    "rute": "Ampera Bridge - KM5",
-//    "place": "Ampera, Jl Merdeka, Palembang Icon Mall (PIM)"
-//  }
-//]

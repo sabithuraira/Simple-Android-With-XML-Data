@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="diklat.oi.bps.oiapp.fragments.SimpleFragment">
+    tools:context="diklat.com.bps.sihaluan.fragments.SimpleFragment">
 
     <TextView
         android:layout_width="match_parent"

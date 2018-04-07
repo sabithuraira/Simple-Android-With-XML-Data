@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "diklat.oi.bps.oiapp"
+        applicationId "diklat.com.bps.sihaluan"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 4

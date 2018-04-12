@@ -69,7 +69,7 @@ public class DataSpinnerActivity extends AppCompatActivity {
     private void RefreshData(){
         String temp_source= (listDataHeader[current_index].toLowerCase()).replace(' ','_');
         data_file = temp_source;
-        tabel_frag.SetArgument(data_file, "json");
+        tabel_frag.SetArgument(data_file, "json", "dinas");
         tabel_frag.RefreshView();
     }
 
@@ -79,6 +79,13 @@ public class DataSpinnerActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                (DataSpinnerActivity.this).finish();
+            }
+        });
 
 //        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 //        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -162,6 +169,5 @@ public class DataSpinnerActivity extends AppCompatActivity {
         }
 
         viewPager.setAdapter(adapter);
-
     }
 }

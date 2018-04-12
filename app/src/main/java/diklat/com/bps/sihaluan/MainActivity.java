@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity { //BaseActivity {
         bundle_ttg_simanis.putString("caption", "aboutsimanis" );
         OIListFragment ttg_simanis=new OIListFragment();
         ttg_simanis.setArguments(bundle_ttg_simanis);
-        adapter.addFragment(ttg_simanis, "SIMANIS-OI");
+        adapter.addFragment(ttg_simanis, "SIHALUAN OKUT");
 
         Bundle bundle_ttg_kami = new Bundle();
         bundle_ttg_kami.putString("caption", "aboutus" );
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity { //BaseActivity {
         bundle_ttg_oi.putString("caption", "aboutoi" );
         OIListFragment ttg_oi=new OIListFragment();
         ttg_oi.setArguments(bundle_ttg_oi);
-        adapter.addFragment(ttg_oi, "Tentang Ogan Ilir");
+        adapter.addFragment(ttg_oi, "Tentang OKU Timur");
         viewPager.setAdapter(adapter);
     }
 }

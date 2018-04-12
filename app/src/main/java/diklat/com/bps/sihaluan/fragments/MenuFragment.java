@@ -20,10 +20,17 @@ public class MenuFragment extends Fragment {
 
     //private Integer parent_position=0;
     private String[] listDataHeader={
-            "Pemerintahan", "Penduduk", "Ketenagakerjaan", "Kemiskinan", "IPM",
-            "Pendidikan", "Kesehatan", "Pertanian", "Industri dan Pertambangan",
-            "Infrastruktur", "PDRB"
+//            "Pemerintahan", "Penduduk", "Ketenagakerjaan", "Kemiskinan", "IPM",
+//            "Pendidikan", "Kesehatan", "Pertanian", "Industri dan Pertambangan",
+//            "Infrastruktur", "PDRB"
+            "Pemerintahan", "Penduduk", "Kemiskinan", "IPM", "Tenaga Kerja", "Pertanian",
+            "PDRB", "Indikator Pendidikan", "Indikator Kesehatan", "IKK"
     };
+
+//    private String[] listDataHeader={
+//            "Pemerintahan", "Penduduk", "Kemiskinan ", "IPM", "Tenaga Kerja", "Pertanian ",
+//            "PDRB ", "Indikator Pendidikan", "Indikator Kesehatan", "IKK" 
+//    };
 
     /*
     private String[][] listDataChild={

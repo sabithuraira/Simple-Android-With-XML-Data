@@ -88,4 +88,63 @@ public class JsonGetter {
         Gson gson = new Gson();
         return gson.fromJson(jarray, new TypeToken<TitleIsi[]>(){}.getType());
     }
+
+
+    public TitleTable[] getStatDasarTitle(String name){
+        int jsonFile = this.context.getResources().getIdentifier("stat_dasar_title", "raw", context.getPackageName());
+        InputStream is = this.context.getResources().openRawResource(jsonFile);
+        Writer writer = new StringWriter();
+        char[] buffer = new char[1024];
+        try {
+            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            int n;
+            while ((n = reader.read(buffer)) != -1) {
+                writer.write(buffer, 0, n);
+            }
+            is.close();
+        }
+        catch(UnsupportedEncodingException e){
+
+        }
+        catch(IOException e){
+
+        }
+
+        String jsonString =  writer.toString();
+
+        JsonElement jelement = new JsonParser().parse(jsonString);
+        JsonObject jobject =  (JsonObject)jelement;
+        JsonElement jarray = jobject.getAsJsonArray(name);
+
+
+        Gson gson = new Gson();
+        return gson.fromJson(jarray, new TypeToken<TitleTable[]>(){}.getType());
+    }
+
+
+    public TitleIsi[] getStatDasarIsi(String name){
+        int jsonFile = this.context.getResources().getIdentifier("stat_dasar_isi", "raw", context.getPackageName());
+        InputStream is = this.context.getResources().openRawResource(jsonFile);
+        Writer writer = new StringWriter();
+        char[] buffer = new char[1024];
+        try {
+            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            int n;
+            while ((n = reader.read(buffer)) != -1) {
+                writer.write(buffer, 0, n);
+            }
+            is.close();
+        }
+        catch(UnsupportedEncodingException e){}
+        catch(IOException e){}
+
+        String jsonString =  writer.toString();
+
+        JsonElement jelement = new JsonParser().parse(jsonString);
+        JsonObject jobject =  (JsonObject)jelement;
+        JsonElement jarray = jobject.getAsJsonArray(name);
+
+        Gson gson = new Gson();
+        return gson.fromJson(jarray, new TypeToken<TitleIsi[]>(){}.getType());
+    }
 }

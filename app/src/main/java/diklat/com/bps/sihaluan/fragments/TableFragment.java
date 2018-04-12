@@ -27,6 +27,7 @@ import diklat.com.bps.sihaluan.models.TitleTable;
 public class TableFragment extends Fragment {
     String data="";
     String type_data = "xml";
+    String category_data = "dinas";
     Integer total_tabel=0;
     //TableLayout tbl_layout;
     LinearLayout rel_layout;
@@ -56,14 +57,15 @@ public class TableFragment extends Fragment {
         rel_layout = (LinearLayout) getView().findViewById(R.id.rel_layout);
 
         if (getArguments() != null) {
-            SetArgument(this.getArguments().getString("init", "pemerintahan"), this.getArguments().getString("type_data", "xml"));
+            SetArgument(this.getArguments().getString("init", "pemerintahan"), this.getArguments().getString("type_data", "xml"), this.getArguments().getString("category_data", "dinas"));
         }
         RefreshView();
     }
 
-    public void SetArgument(String init, String type_data){
+    public void SetArgument(String init, String type_data, String category_data){
         this.data = init;
         this.type_data = type_data;
+        this.category_data = category_data;
     }
 
     public void RefreshView(){
@@ -71,10 +73,20 @@ public class TableFragment extends Fragment {
         if(type_data=="json"){
             JsonGetter jGet = new JsonGetter(this.getActivity());
 
-            TitleTable[] titleTables = jGet.getDinasTitle(this.data);
-            TitleIsi[] titleIsis = jGet.getDinasIsi(this.data);
+            TitleTable[] titleTables= {};
+            TitleIsi[] titleIsis = {};
 
-            if(titleTables != null) {
+            if(category_data=="dinas") {
+                titleTables = jGet.getDinasTitle(this.data);
+                titleIsis = jGet.getDinasIsi(this.data);
+            }
+            else{
+                titleTables = jGet.getStatDasarTitle(this.data);
+                titleIsis = jGet.getStatDasarIsi(this.data);
+            }
+
+
+            if (titleTables != null) {
                 for (int i = 0; i < titleTables.length; ++i) {
                     this.createTableFromJson(titleTables[i], titleIsis[i]);
                 }

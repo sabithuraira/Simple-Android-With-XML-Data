@@ -74,7 +74,13 @@ public class DataActivity extends AppCompatActivity   {
         if(data_file.length()>0){
             if(type_data<2) {
                 int konsepId = r.getIdentifier(data_file, "string", this.getPackageName());
-                konsep.putString("txt_aboutus", r.getString(konsepId));
+
+                if(konsepId==0){
+                    konsep.putString("txt_aboutus", "Data tidak tersedia");
+                }
+                else{
+                    konsep.putString("txt_aboutus", r.getString(konsepId));
+                }
 
                 if (type_data != 0)
                     tabel.putString("init", "kab_" + data_file);
@@ -82,12 +88,21 @@ public class DataActivity extends AppCompatActivity   {
                     tabel.putString("init", data_file);
 
                 int analisisId = r.getIdentifier("analisis_" + data_file, "string", this.getPackageName());
-                analisis.putString("txt_aboutus", r.getString(analisisId));
+
+                if(analisisId==0){
+                    analisis.putString("txt_aboutus", "Data tidak tersedia");
+                }
+                else{
+                    analisis.putString("txt_aboutus", r.getString(analisisId));
+                }
                 image_bundle.putString("rsc","info_"+data_file);
             }
             else{
                 tabel.putString("init","kec_"+data_file);
             }
+
+            tabel.putString("type_data", "json");
+            tabel.putString("category_data", "dasar");
         }
 
         TableFragment tabel_frag=new TableFragment();
@@ -100,8 +115,8 @@ public class DataActivity extends AppCompatActivity   {
             SimpleFragment analisis_frag=new SimpleFragment();
             analisis_frag.setArguments(analisis);
 
-            adapter.addFragment(konsep_frag, "Konsep Definisi");
             adapter.addFragment(tabel_frag, "Tabel");
+            adapter.addFragment(konsep_frag, "Konsep Definisi");
             adapter.addFragment(analisis_frag, "Analisis");
 
             if(type_data==0) {

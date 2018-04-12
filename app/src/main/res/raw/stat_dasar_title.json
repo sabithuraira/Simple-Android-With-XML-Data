@@ -1,0 +1,111 @@
+{
+	"pemerintahan":[],
+	"penduduk":[
+		{
+			"title": "",
+			"header": ["Kecamatan", "Laki-Laki 2012", "Perempuan 2012", "Total 2012", "Sex Ratio 2012", "Jumlah Ruta 2012","Laki-Laki 2013", "Perempuan 2013", "Total 2013", "Sex Ratio 2013", "Jumlah Ruta 2013","Laki-Laki 2014", "Perempuan 2014", "Total 2014", "Sex Ratio 2014", "Jumlah Ruta 2014", "Laki-Laki 2015", "Perempuan 2015", "Total 2015", "Sex Ratio 2015", "Jumlah Ruta 2015", "Laki-Laki 2016", "Perempuan 2016", "Total 2016", "Sex Ratio 2016", "Jumlah Ruta 2016"]
+		},
+		{
+			"title": "",
+			"header": ["Kelompok Umur", "Laki-Laki 2012", "Perempuan 2012", "Total 2012", "Laki-Laki 2013", "Perempuan 2013", "Total 2013","Laki-Laki 2014", "Perempuan 2014", "Total 2014", "Laki-Laki 2015", "Perempuan 2015", "Total 2015", "Laki-Laki 2016", "Perempuan 2016", "Total 2016"]
+		}
+	],
+	"kemiskinan":[	
+		{
+			"title": "Perkembangan Penduduk Miskin menurut Berbagai Indikator, 2010-2016",
+			"header": ["Indikator", "2012", "2013", "2014", "2015", "2016"]
+		}
+	],
+	"IPM":[
+		{
+			"title": "Indeks Pembangunan Manusia (IPM) Kabupaten OKU Timur, 2012-2016",
+			"header": ["Kabupaten/Kota", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Rata-rata Lama Sekolah Penduduk Usia 15 Tahun Keatas Menurut Jenis Kelamin di Kabupaten OKU Timur, 2012-2016",
+			"header": ["Jenis Kelamin", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Pengeluaran Per Kapita di Kabupaten OKU Timur, 2012-2016",
+			"header": ["Jenis Kelamin", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Angka Harapan Lama Sekolah Kabupaten OKU Timur, 2012-2016",
+			"header": ["Kabupaten/Kota", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Angka Harapan Hidup Kabupaten OKU Timur, 2012-2016",
+			"header": ["Kabupaten/Kota", "2012", "2013", "2014", "2015", "2016"]
+		}
+	],
+	"tenaga_kerja":[
+		{
+			"title": "Tingkat Pengangguran Terbuka (TPT) menurut Jenis Kelamin, Tahun 2012-2017",
+			"header": ["TPT", "2012", "2013", "2014", "2015", "2016", "2017"]
+		},
+		{
+			"title": "Tingkat Partisipasi Angkatan Kerja (TPAK) menurut Jenis Kelamin, Tahun 2012-2017",
+			"header": ["TPAK", "2012", "2013", "2014", "2015", "2016", "2017"]
+		},
+		{
+			"title": "Persentase Penduduk Bekerja Menurut Status Pekerjaan, Tahun 2012-2017",
+			"header": ["Penduduk Bekerja Menurut Status Pekerjaan", "2012", "2013", "2014", "2015", "2016", "2017"]
+		},
+		{
+			"title": "Persentase Penduduk Bekerja Menurut Lapangan Usaha, Tahun 2012-2017",
+			"header": ["Penduduk Bekerja Menurut Lapangan Usaha", "2012", "2013", "2014", "2015", "2016", "2017"]
+		}
+	],
+	"pertanian]":[],
+	"pdrb":[],
+	"indikator_pendidikan":[
+		{
+			"title": "Angka Melek Huruf (AMH) Penduduk Usia 15 Tahun Keatas menurut Jenis Kelamin, Tahun 2012-2016",
+			"header": ["AMH", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Rata-Rata Lama Sekolah (RLS) Penduduk Usia 15 Tahun Keatas menurut Jenis Kelamin, Tahun 2012-2016",
+			"header": ["RLS", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Angka Partisipasi Sekolah (APS) menurut kelompok umur Tahun 2012-2016",
+			"header": ["APS", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Angka Partisipasi Murni (APM) Tahun 2012-2016 (dalam persen)",
+			"header": ["APM", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Angka Partisipasi Kasar (APK) Tahun 2012-2016",
+			"header": ["APK", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Angka Harapan Lama Sekolah (HLS) Tahun 2012-2016 (dalam Tahun)",
+			"header": ["HLS", "2012", "2013", "2014", "2015", "2016"]
+		}
+		
+	],
+	"indikator_kesehatan":[
+		{
+			"title": "Angka Harapan Hidup (AHH) Tahun 2012-2016",
+			"header": ["AHH", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Persentase Balita yang diimunisasi menurut jenis imunisasi Tahun 2012-2016",
+			"header": ["Alat KB", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Persentase Wanita Kawin Usia 15-49 yang menggunakan KB Tahun 2012-2016",
+			"header": ["Pengguna KB", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Persentase Wanita Kawin Usia 15-49 yang menggunakan KB menurut jenis alat/cara KB Tahun 2012-2016",
+			"header": ["Alat KB", "2012", "2013", "2014", "2015", "2016"]
+		},
+		{
+			"title": "Rata-rata Lama Anak Mendapa ASI Tahun 2012-2016 (dalam Bulan)",
+			"header": ["Rata-rata lama ASI", "Balita 2012", "Balita 2013", "Balita 2014", "Baluta 2015", " Baluta 2016"]
+		}
+	],
+	"ikk":[]
+}

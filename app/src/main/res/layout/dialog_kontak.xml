@@ -13,7 +13,7 @@
         android:layout_marginRight="25dp"
         android:layout_centerInParent="true">
         <TextView
-            android:text="BPS Kabupaten Ogan Ilir"
+            android:text="BPS Kabupaten Ogan Komering Ulu Timur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
@@ -21,7 +21,7 @@
             android:layout_marginTop="5dip" />
 
         <TextView
-            android:text="http://oganilirkab.bps.go.id/"
+            android:text="https://okutimurkab.bps.go.id/"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15sp"

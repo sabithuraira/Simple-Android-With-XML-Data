@@ -365,7 +365,7 @@
 
     <string name="kemiskinan">
 	<![CDATA[
-		<p>BPS menggunakan konsep kemampuan memenuhi kebutuhan dasar (basic needs approach). Dengan pendekatan ini, kemiskinan dipandang sebagai ketidakmampuan dari sisi ekonomi untuk memenuhi kebutuhan dasar makanan dan bukan makanan yang diukur dari sisi pengeluaran.</p>
+	    <p>BPS menggunakan konsep kemampuan memenuhi kebutuhan dasar (basic needs approach). Dengan pendekatan ini, kemiskinan dipandang sebagai ketidakmampuan dari sisi ekonomi untuk memenuhi kebutuhan dasar makanan dan bukan makanan yang diukur dari sisi pengeluaran.</p>
         <p><b>Penduduk Miskin</b> adalah penduduk yang memiliki rata-rata pengeluaran perkapita perbulan dibawah garis kemiskinan.</p>
         <p><b>Garis Kemiskinan (GK)</b> merupakan penjumlahan dari Garis Kemiskinan Makanan (GKM) dan Garis Kemiskinan Non Makanan (GKNM).</p>
         <p><b>Garis Kemiskinan Makanan (GKM)</b> merupakan nilai pengeluaran kebutuhan minimum makanan yang disetarakan dengan 2100 kilokalori perkapita perhari. Paket komoditi kebutuhan dasar makanan diwakili oleh 52 jenis komoditi (padi-padian, umbi-umbian, ikan, daging, telur dan susu, sayuran, kacang-kacangan, buah-buahan, minyak dan lemak, dll).</p>
@@ -582,6 +582,28 @@
 	]]>
 	</string>
 
+
+    <string name="ikk">
+	<![CDATA[
+		<p><b>Indeks Kemahalan Konstruksi (IKK) adalah</b> adalah Perbandingan Harga konstruksi terhadap kota acuan</p>
+        <p><b>Rumusan:</b><p>
+        <p>Ln Pnc = &sigma; <sub>c</sub> + Yn +Vnc</p>
+
+        <p><b>dengan:</b></p>
+        <p>Pnc = Harga komoditas ke-n di wilayah ke-c</p>
+        <p>&sigma; <sub>c</sub> = koefisien wil ke-c</p>
+        <p>Yn = Koefisien komoditas ke-n</p>
+        <p>Vnc = Error/sisaan</p>
+
+
+        <p><b>Kegunaan:</b></p>
+        <p>Alokator DAU</p>
+
+        <p><b>Interpretasi:</b></p>
+        <p>Presentase tingkat kemahalan konstruksi terhadap kota acuan</p>
+	]]>
+	</string>
+
     <string name="analisis_pemerintahan">
 	<![CDATA[
 	    <p>Terdapat 16 kecamatan di Kabupaten Ogan Ilir. Dari 16 kecamatan tersebut terdapat 227 desa dan 14 kelurahan. Kecamatan Pemulutan merupakan kecamatan dengan jumlah desa terbanyak, yaitu sebanyak 25 desa, sedangkan Kecamatan Lubuk Keliat merupakan kecamatan dengan jumlah desa paling sedikit yaitu 10 desa.</p>
@@ -592,9 +614,9 @@
 
     <string name="analisis_penduduk">
 	<![CDATA[
-        <p>Jumlah penduduk di Kabupaten Ogan Ilir setiap tahun mengalami peningkatan. Hal ini dipengaruhi oleh jumlah kelahiran dan penduduk datang yang lebih banyak daripada penduduk yang meninggal dan pergi keluar Kabupaten Ogan Ilir. Berdasarkan proyeksi penduduk yang dihitung oleh BPS Kabupaten Ogan Ilir, jumlah penduduk Kabupaten Ogan Ilir pada tahun 2016 sudah mencapai 414 ribu orang. Apabila dibandingkan hasil Sensus Penduduk tahun 2010 jumlahnya sudah meningkat 8,5 persen.</p>
-        <p>Seiring dengan pertambahan jumlah penduduk yang terjadi di Kabupaten Ogan Ilir setiap tahun, sedangkan luas wilayah di Kabupaten Ogan Ilir tidak bertambah maka kepadatan penduduk setiap kilometer persegi di Kabupaten Ogan Ilir meningkat setiap tahunnya. Dari tahun 2010 yang kepadatannya mencapai 143 orang per km2, sedangkan pada tahun 2016 kepadatannya sudah mencapai 155 orang per km2.</p>
-        <p>Pertumbuhan jumlah penduduk laki-laki di Kabupaten Ogan Ilir lebih tinggi daripada penduduk perempuan. Hal tersebut dapat dilihat dari rasio jenis kelamin pada tahun 2016 yang sudah melebihi angka 100. Sebelumnya berdasarkan hasil Sensus Penduduk tahun 2010 rasio jenis kelamin penduduk Kabupaten Ogan Ilir masih dibawah angka 100.</p>
+	    <p>Jumlah penduduk di Kabupaten OKU Timur selama tahun 2012 hingga 2016 meningkat setiap tahun. Dalam kurun waktu lima tahun (2012-2016), jumlah penduduk di Kabupaten OKU Timur meningkat sebesar 4,22 persen. Berdasarkan proyeksi penduduk yang dihitung oleh BPS Kabupaten OKU Timur, jumlah penduduk di Kabupaten OKU Timur pada tahun 2016 sudah mencapai 656.568 jiwa dimana 51,06 persen diantaranya atau 335.283 jiwa adalah laki-laki.</p>
+        <p></p>
+        <p>Sejak tahun 2012 hingga tahun 2016, jumlah penduduk laki-laki di Kabupaten OKU Timur selalu lebih banyak dari pada jumlah penduduk perempuan, hal tersebut dapat dilihat dari rasio jenis kelamin penduduk (sex ratio) pada setiap tahunnya yang bernilai lebih dari 100. Dari sisi kelompok umur, 65,37 persen penduduk di Kabupaten OKU Timur pada tahun 2016 berada dalam usia produktif (15-64 tahun) sedangkan sisanya 29,17 persen terdiri dari anak-anak ( < 15 tahun) dan 5,46 persen merupakan penduduk usia lanjut (64+ tahun).</p>
 	]]>
 	</string>
 
@@ -606,22 +628,19 @@
 
     <string name="analisis_kemiskinan">
 	<![CDATA[
-        <p>BPS Kabupaten Ogan Ilir melakukan penghitungan jumlah penduduk miskin melalui pendataan Survei Sosial Ekonomi Nasional (Susenas). Dari pendataan Susenas dapat dihitung rata-rata pengeluaran perkapita dan garis kemiskinan Kabupaten Ogan Ilir. Penduduk yang memiliki rata-rata pengeluaran perkapita perbulan dibawah garis kemiskinan digolongkan sebagai penduduk miskin. </p>
-        <p>Garis Kemiskinan (GK) dari tahun 2010 hingga 2015 cenderung mengalami kenaikan. Hal ini disebabkan tingkat perkembangan harga-harga komoditi kebutuhan pokok (seperti beras, telur, gula pasir, bawang, cabai) yang cenderung naik. Faktor penyumbang lainnya antara lain rokok, listrik dan bensin. Inflasi yang terjadi kalau tidak diimbangi dengan peningkatan pendapatan bisa meningkatkan angka kemiskinan. Pada 2015 Garis Kemiskinan di Kabupaten Ogan Ilir sebesar Rp 338.911 per kapita per bulan. Bila dibandingkan dengan 2014, GK di Kabupaten Ogan Ilir mengalami kenaikan sebesar Rp 16.586 (5,15 persen).</p>
-        <p>Pada 2010-2012, persentase penduduk miskin cenderung mengalami penurunan yaitu dari 13,98 persen menjadi 12,79 persen, tetapi pada 2013 persentase penduduk miskin mengalami peningkatan yaitu dari 12,79 persen menjadi 13,86 persen. Kemudian pada 2014 persentase penduduk miskin kembali mengalami penurunan 13,86 menjadi 13,38 persen. Persentase penduduk miskin di Kabupaten Ogan Ilir pada 2015 mencapai 14,43 persen. Jika dibandingkan dengan jumlah penduduk miskin pada 2014, maka selama kurun waktu tersebut terjadi penambahan jumlah penduduk miskin.</p>
-        <p>Permasalahan kemiskinan bukan hanya sekadar membahas berapa jumlah dan persentase penduduk miskin. Dimensi lain yang perlu diperhatikan adalah tingkat kedalaman dan keparahan dari kemiskinan. Selain harus mampu memperkecil jumlah penduduk miskin, kebijakan kemiskinan juga sekaligus harus bisa mengurangi tingkat kedalaman dan keparahan dari kemiskinan. selain harus mampu memperkecil jumlah penduduk miskin, kebijakan yang menyangkut kemiskinan juga sekaligus mengurangi tingkat kedalaman dan keparahan kemiskinan.</p>
-        <p>Nilai P1 di Kabupaten Ogan Ilir dalam 3 tahun terakhir mengalami peningkatan. Hal ini berarti rata‐rata pengeluaran penduduk miskin cenderung makin menjauhi garis kemiskinan. Sedangkan nilai P2 pada tahun 2015 mengalami kenaikan jika dibandingkan tahun sebelumnya. Pada tahun 2014 indeks keparahan kemiskinan (P2) mencapai 0,54 sedangkan pada tahun 2015 sebesar 0,73. Kenaikan nilai indeks sebesar 0,19 ini menunjukkan bahwa ketimpangan pengeluaran antar penduduk miskin semakin besar.</p>
+        <p>Garis Kemiskinan (GK) Kabupaten OKU Timur dari tahun 2012 hingga tahun 2016 mengalami peningkatan setiap tahun. Pada tahun 2016, GK di Kabupaten OKU Timur sebesar Rp274.608 per kapita per bulan. Bila dibandingkan dengan tahun 2015, GK di Kabupaten OKU Timur mengalami kenaikan sebesar Rp32.877 atau 11,97 persen.</p>
+        <p></p>
+        <p>Seiring denga peningkatan GK di Kabupaten OKU Timur, selama tahun 2012 hingga 2016, jumlah penduduk miskin juga cenderung mengalami peningkatan setiap tahun kecuali di tahun 2014. Pada tahun 2016, jumlah penduduk miskin di Kabupaten OKU Timur mencapai 73.930 jiwa atau 11,29 persen dari total penduduk di Kabupaten OKU Timur. Jika dibandingkan tahun 2015, jumlah penduduk miskin di Kabupaten OKU Timur tahun 2016 meningkat sebanyak 1.090 jiwa atau 1,47 persen.</p>
 	]]>
 	</string>
 
     <string name="analisis_ipm">
 	<![CDATA[
-        <p>Kemajuan pembangunan manusia secara umum dapat ditunjukkan melalui perkembangan Indeks Pembangunan Manusia (IPM). Selain merupakan ukuran kinerja pemerintah, IPM juga digunakan sebagai penentu alokasi Dana Alokasi Umum (DAU). Pada tahun 2010, United Nations Development Programme (UNDP), merekomendasikan untuk perubahan metode penghitungan IPM. Perubahan mencakup perubahan dari penggunaan aritmatic mean menjadi geometric mean, serta mengganti komponen Angka Melek Huruf dengan Harapan Usia Sekolah dan Rata-rata Lama Sekolah.</p>
-        <p>Selama lima tahun terakhir angka IPM Ogan Ilir terus mengalami peningkatan. Tahun 2010 IPM Kabupaten Ogan Ilir sebesar 61,62 dan terus meningkat menjadi 65,35 di tahun 2015. Peningkatan ini seiring dengan peningkatan seluruh komponen penyusun IPM (angka harapan hidup, harapan usia sekolah, rata-rata lama sekolah dan pengeluaran per kapita) yang juga terus mengalami peningkatan.</p>
-        <p>Angka Harapan Hidup (AHH) menunjukkan perkiraan banyaknya tahun yang dapat ditempuh seseorang dari mulai lahir hingga kematian. Dari tahun 2010 hingga tahun 2015 AHH penduduk Kabupaten Ogan Ilir mengalami peningkatan walaupun tidak signifikan. Pada tahun 2010 AHH penduduk sebesar 64,22 tahun, sedangkan pada tahun 2015 sebesar 64,58 tahun. Angka tersebut menunjukkan bahwa tingkat kesehatan penduduk Kabupaten Ogan Ilir yang semakin baik. </p>
-        <p>Sesuai arahan UNDP untuk penghitungan IPM, Angka Melek Huruf (AMH) pada metode lama diganti dengan angka Harapan Lama Sekolah (HLS). Angka Melek Huruf (AMH) sudah tidak relevan dalam mengukur pendidikan secara utuh karena tidak dapat menggambarkan kualitas pendidikan. Selain itu, karena AMH di sebagian besar daerah sudah tinggi, sehingga tidak dapat membedakan tingkat pendidikan antardaerah dengan baik. Dengan memasukkan Rata-rata Lama Sekolah (RLS) dan angka Harapan Lama Sekolah (HLS), bisa didapatkan gambaran yang lebih relevan dalam pendidikan dan perubahan yang terjadi.</p>
-        <p>Di Kabupaten Ogan Ilir baik Rata-rata Lama Sekolah maupun angka Harapan Lama Sekolah menunjukkan peningkatan di setiap tahunnya. Pada tahun 2015 angka HLS penduduk Kabupaten Ogan Ilir sebesar 12,24 tahun naik dibandingkan tahun sebelumnya yaitu sebesar 11,63 tahun. Sedangkan angka RLS juga mengalami peningkatan dari tahun sebelumnya yaitu pada tahun 2014 sebesar 7,34 tahun menjadi 7,35 tahun pada tahun 2015. Hal ini menunjukkan kesadaran penduduk Kabupaten Ogan Ilir terhadap pendidikan semakin baik.</p>
-        <p>Pengeluaran perkapita penduduk Kabupaten Ogan Ilir diperoleh dari pendataan Susenas yang dilakukan BPS kabupaten Ogan Ilir. Pengeluaran perkapita yang meningkat menggambarkan tingkat kesejahteraan yang dinikmati oleh penduduk sebagai dampak semakin membaiknya ekonomi. Pada tahun 2015 pengeluaran perkapita penduduk Kabupaten Ogan Ilir sebesar 9.809.000 per tahun meningkat 1,23 persen dibandingkan tahun sebelumnya. </p>
+	    <p>Selama tahun 2012 hingga 2016, Indeks Pembangunan Manusia (IPM) Kabupaten OKU Timur mengalami peningkatan setiap tahun. Dalam kurun waktu lima tahun tersebut, IPM Kabupaten OKU Timur mengalami peningkatan sebesar 3,26 persen. Pada tahun 2012, IPM Kabupaten OKU Timur sebesar 65,18 dan meningkat menjadi 67,38 di tahun 2016. Peningkatan tersebut terjadi seiring dengan peningkatan indikator-indikator penyusunan IPM.</p>
+        <p></p>
+        <p>Pada tahun 2012, Angka Harapan Hidup (AHH) di Kabupaten OKU Timur sebesar 67,75 tahun. Angka tersebut mengalami peningkatan setiap tahun dan mencapai 68,31 tahun pada tahun 2016. Selain indikator AHH, indikator penyusun IPM lain yang juga mengalami peningkatan setiap tahun yaitu indikator pengeluaran per kapita. Pada tahun 2012, pengeluaran per kapita di Kabupaten OKU Timur sebesar Rp10.105 dan meningkat 8,33 persen dalam kurun waktu lima tahun atau mencapai Rp11024 per kapita pada tahun 2016.</p>
+        <p></p>
+        <p>Indikator penyusun IPM dari sisi pendidikan yaitu Rata-Rata Lama Sekolah (RLS) tertinggi terjadi pada tahun 2014 yaitu 7,93 tahun. Pada tahun berikutnya, RLS mengalami penurunan 5,03 persen dan kembali meningkat 1,05 persen di tahun 2016 dengan RLS sebesar 7,63 tahun. Sementara itu, indikator lainnya yaitu Angka Harapan Lama Sekolah (HLS) terus mengalami peningkatan. dalam kurun waktu lima tahun (2012-2015), peningkatan angka HLS sebesar 4,32 persen dari 11,28 tahun pada tahun 2012 menjadi 11,79 tahun pada tahun 2016.</p>
     ]]>
 	</string>
 

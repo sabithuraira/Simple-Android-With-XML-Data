@@ -1,5 +1,14 @@
 {
-	"pemerintahan":[],
+	"pemerintahan":[
+		{
+			"title":"Jumlah  Desa/Kelurahan Menurut Kecamatan di   Kabupaten Ogan Komering Ulu Timur, 2016",
+			"header":["Kecamatan", "Desa", "Kelurahan", "Dusun"]
+		},
+		{
+			"title":"Jumlah  Anggota DPRD Tingkat II menurut Partai di   Kabupaten Ogan Komering Ulu Timur, 2016",
+			"header":["Partai", "Laki-laki", "Perempuan", "Jumlah"]
+		}
+	],
 	"penduduk":[
 		{
 			"title": "",
@@ -56,8 +65,34 @@
 			"header": ["Penduduk Bekerja Menurut Lapangan Usaha", "2012", "2013", "2014", "2015", "2016", "2017"]
 		}
 	],
-	"pertanian]":[],
-	"pdrb":[],
+	"pertanian]":[
+        {
+            "title":"LUAS PANEN, HASIL PER HEKTAR, DAN PRODUKSI TANAMAN PANGAN MENURUT KOMODITAS KABUPATEN OKU TIMUR(ATAP 2013)",
+            "header":"Komoditas,Hasil Per Hektar (Ku/Ha),Produksi (Ton),Luas Panen (Ha),Hasil Per Hektar (Ku/Ha),Produksi (Ton)"
+        },
+        {
+            "title":"LUAS PANEN, HASIL PER HEKTAR, DAN PRODUKSI TANAMAN PANGAN MENURUT KOMODITAS KABUPATEN OKU TIMUR(ATAP 2014)",
+            "header":"Komoditas,Hasil Per Hektar (Ku/Ha),Produksi (Ton),Luas Panen (Ha),Hasil Per Hektar (Ku/Ha),Produksi (Ton)"
+        },
+        {
+            "title": "LUAS PANEN, HASIL PER HEKTAR, DAN PRODUKSI TANAMAN PANGAN MENURUT KOMODITAS KABUPATEN OKU TIMUR(ATAP 2015)",
+            "header": "Komoditas,Hasil Per Hektar (Ku/Ha),Produksi (Ton),Luas Panen (Ha),Hasil Per Hektar (Ku/Ha),Produksi (Ton)"
+        }
+    ],
+	"pdrb":[
+        {
+          "title":"Distribusi PDRB Menurut Lapangan Usaha",
+          "header":["","2012","2013","2014","2015","2016","2017"]
+        },
+        {
+          "title":"Produk Domestik Regional Bruto Kabupaten  Ogan Komering Ulu Timur atas dasar harga Berlaku, 2016",
+          "header":["Kategori", "Uraian","2013","2014","2015","2016"]
+        },
+        {
+          "title":"Produk Domestik Regional Bruto Kabupaten  Ogan Komering Ulu Timur atas dasar harga Konstan, 2016",
+          "header":["Kategori", "Uraian","2013","2014","2015","2016"]
+        }
+    ],
 	"indikator_pendidikan":[
 		{
 			"title": "Angka Melek Huruf (AMH) Penduduk Usia 15 Tahun Keatas menurut Jenis Kelamin, Tahun 2012-2016",
@@ -107,5 +142,10 @@
 			"header": ["Rata-rata lama ASI", "Balita 2012", "Balita 2013", "Balita 2014", "Baluta 2015", " Baluta 2016"]
 		}
 	],
-	"ikk":[]
+	"ikk":[
+        {
+            "title":"IKK Kabupaten/kota Se-Sumatera Selatan TAHUN 2012 - 2017",
+            "header":["KAB/KOTA","2012","2013","2014","2015","2016","2017"]
+        }
+    ]
 }

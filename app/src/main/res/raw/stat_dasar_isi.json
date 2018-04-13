@@ -2,7 +2,40 @@
 	"pemerintahan":[
 		{
 			"data": [
-				
+				"Martapura;9;7;67",
+				"Bunga Mayang;8;-;34",
+				"Jayapura;8;-;35",
+				"Buay Pemuka Peliung;13;-;62",
+				"Buay Madang;17;-;78",
+				"Buay Madang Timur;33;-;125",
+				"Buay Pemuka Bangsa Raja;7;-;32",
+				"Madang Suku II;27;-;81",
+				"Madang Suku III;15;-;100",
+				"Madang Suku I;13;-;88",
+				"Belitang Madang Raya;17;-;77",
+				"Belitang;24;-;89",
+				"Belitang Jaya;17;-;56",
+				"Belitang III;20;-;65",
+				"Belitang II;27;-;97",
+				"Belitang Mulya;12;-;40",
+				"Semendawai Suku III;19;-;66",
+				"Semendawai Timur;21;-;92",
+				"Cempaka;13;-;70",
+				"Semendawai Barat;13;-;49",
+				"OGAN KOMERING ULU TIMUR;333;7;1403"
+			]
+		},
+		{
+			"data": [
+				"GOLKAR;7;1;8",
+				"GERINDRA;5;1;6",
+				"PDI P;6;-;6",
+				"NASDEM;5;-;5",
+				"DEMOKRAT;5;-;5",
+				"PKB;3;2;5",
+				"HANURA;4;-;4",
+				"KEADILAN AMANAT PEMBANGUNAN (KAP);6;-;6",
+				"Jumlah;41;4;45"
 			]
 		}
 	],
@@ -132,8 +165,105 @@
 			]
 		}
 	],
-	"pertanian]":[],
-	"pdrb":[],
+	"pertanian]":[
+        {
+            "data": [
+                "Padi;134024;54,4765426272309;730116,4149072",
+                "Padi Sawah;132113;54,951953547887;725986,7439072",
+                "Padi Ladang;1911;21,61;4129,671",
+                "Jagung;9208;68,3205647263249;62909,576",
+                "Kedelai;933;9,92868167202572;926,346",
+                "Ubi Kayu;2016;175,455773809524;35371,884",
+                "Ubi Jalar;116;87,7954310344828;1018,427",
+                "Kacang Tanah;339;14,8711504424779;504,132",
+                "Kacang Hijau;67;12,6441791044776;84,716"
+            ]
+        },
+
+        {
+            "data": [
+                "Padi;132459;54,18;717651,73",
+                "Padi Sawah;131500;54,38;715137,99",
+                "Padi Ladang;959;26,21;2513,74",
+                "Jagung;8531;70,97;60548,77",
+                "Kedelai;871;11,62;1011,94",
+                "Ubi Kayu;1914;148,38;28399,22",
+                "Ubi Jalar;226;131,46;2971",
+                "Kacang Tanah;469;8,47;397,08",
+                "Kacang Hijau;48;13,72;65,85"
+            ]
+        },
+
+        {
+            "data": [
+                "Padi;143326;60,31;864437",
+                "Padi Sawah;141729;60,77;861235",
+                "Padi Ladang;1597;20,05;3202",
+                "Jagung;7777;57,23;44510",
+                "Kedelai;754;8,05;607",
+                "Ubi Kayu;1751;175,75;30774",
+                "Ubi Jalar;140;120,43;1686",
+                "Kacang Tanah;324;9,23;299",
+                "Kacang Hijau;57;13,68;78"
+            ]
+        }
+    ],
+	"pdrb":[
+        {
+            "data": [
+                "Pertanian, kehutan, dan Perikanan;3539181,66;3878172,89;3971397,1;4155171,7;4440367",
+                "Konstruksi;1290921,62;1476255,41;1826818,3;2136569,1;2344833,3",
+                "Perdagangan Besar dan Eceran; Reparasi Mobil dan Sepeda Motor;962627,69;1054882,71;1274734,2;1610155,8;1883739,5",
+                "Lainnya;2051593,28;2365723,32;2780863,4;3199435,4;3486941,7"
+            ]
+        },
+        {
+            "data": [
+                "A;Pertanian, Kehutanan, dan Perikanan;3 878 173;3 992 765;4 158 848;4 440 367 ,0",
+                "B;Pertambangan dan Penggalian ;252 184;290 108;309 281;319 995 ,1",
+                "C;Industri Pengolahan;613 262;730 864;870 862;987 273 ,0",
+                "D;Pengadaan Listrik dan Gas;3 135;3 688;4 841;6 211 ,6",
+                "E;Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;1 008;1 261;1 411;1 683 ,4",
+                "F;Konstruksi;1 476 255;1 776 818;2 086 569;2 344 833 ,3",
+                "G;Perdagangan Besar dan Eceran; Reparasi Mobil dan Sepeda Motor;1 054 883;1 189 494;1 554 514;1 883 739 ,5",
+                "H;Transportasi dan Pergudangan ;92 496;108 205;128 259;140 510 ,7",
+                "I;Penyediaan Akomodasi dan Makan Minum;93 812;112 873;136 838;163 820 ,1",
+                "J;Informasi dan Komunikasi;74 444;88 711;99 573;111 655 ,3",
+                "K;Jasa Keuangan dan Asuransi;84 091;94 399;102 031;109 810 ,0",
+                "L;Real Estate;218 350;253 533;296 338;311 422 ,3",
+                "M,N;Jasa Perusahaan;3 928;4 474;4 908;5 318 ,1",
+                "O;Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib;586 604;704 132;816 860;887 658 ,3",
+                "P;Jasa Pendidikan;181 661;207 520;228 207;235 352 ,0",
+                "Q;Jasa Kesehatan dan Kegiatan Sosial;85 553;99 172;109 072;111 224 ,2",
+                "R,S,T,U;Jasa lainnya;75 195;81 822;91 186;95 007 ,3",
+                " PRODUK DOMESTIK REGIONAL BRUTO;;8 775 034;9 739 840;10 999 597;12 155 881 ,5",
+                " PRODUK DOMESTIK REGIONAL BRUTO TANPA MIGAS;;8 775 034;9 739 840;10 999 597;12 155 881 ,5"
+            ]
+        },
+        {
+            "data": [
+                "A;Pertanian, Kehutanan, dan Perikanan;3 878 173;3 992 765;4 158 848;3 754 277,3",
+                "B;Pertambangan dan Penggalian ;252 184;290 108;309 281;213 156,3",
+                "C;Industri Pengolahan;613 262;730 864;870 862;620 434,2",
+                "D;Pengadaan Listrik dan Gas;3 135;3 688;4 841;4 089,2",
+                "E;Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;1 008;1 261;1 411;1 261,1",
+                "F;Konstruksi;1 476 255;1 776 818;2 086 569;1 389 691,6",
+                "G;Perdagangan Besar dan Eceran; Reparasi Mobil dan Sepeda Motor;1 054 883;1 189 494;1 554 514;1 193 640,6",
+                "H;Transportasi dan Pergudangan ;92 496;108 205;128 259;102 122,8",
+                "I;Penyediaan Akomodasi dan Makan Minum;93 812;112 873;136 838;98 390,1",
+                "J;Informasi dan Komunikasi;74 444;88 711;99 573;101 659,2",
+                "K;Jasa Keuangan dan Asuransi;84 091;94 399;102 031;84 141,2",
+                "L;Real Estate;218 350;253 533;296 338;243 274,8",
+                "M,N;Jasa Perusahaan;3 928;4 474;4 908;3 656,6",
+                "O;Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib;586 604;704 132;816 860;621 961,2",
+                "P;Jasa Pendidikan;181 661;207 520;228 207;194 902,4",
+                "Q;Jasa Kesehatan dan Kegiatan Sosial;85 553;99 172;109 072;94 375,6",
+                "R,S,T,U;Jasa lainnya;75 195;81 822;91 186;76 015,2",
+                " PRODUK DOMESTIK REGIONAL BRUTO;;8 775 034;9 739 840;10 999 597;8 805 049,4",
+                " PRODUK DOMESTIK REGIONAL BRUTO TANPA MIGAS;;8 775 034;9 739 840;10 999 597;8 805 049,4"
+            ]
+        }
+    ],
 	"indikator_pendidikan":[
 		{
 			"data": [
@@ -216,5 +346,28 @@
 			]
 		}			
 	],
-	"ikk":[]
+	"ikk":[
+		{
+			"data": [
+				"OGAN KOMERING ULU;91,8;91,18;95,07;98,29;97,06;94,14",
+				"OGAN KOMERING ILIR;92,26;93,12;98,19;88,21;91,49;92,74",
+				"MUARA ENIM;98,65;99,2;100,11;98,47;95,34;94,88",
+				"LAHAT;85,77;98,65;97,93;98,35;103,01;94,46",
+				"MUSI RAWAS;101,31;106,45;108,33;101,88;103,31;102,36",
+				"MUSI BANYUASIN;144,95;106,36;113,29;99,11;99,8;98,35",
+				"BANYUASIN;127,91;111,91;107,21;109,11;102,41;104,72",
+				"OKU SELATAN;90,67;87,95;94,55;88,09;87,19;95,27",
+				"OKU TIMUR;87,48;90,46;93,68;94,62;101,49;96,59",
+				"OGAN ILIR;109,87;106,65;107,79;99,56;104,95;104,96",
+				"EMPAT LAWANG;85,16;101,19;103,8;98,64;103,68;100,81",
+				"PENUKAL ABAB LEMATANG ILIR;;;113,62;103,76;103,32;94,49",
+				"MUSI RAWAS UTARA;;;114,71;107,55;102,71;103,61",
+				"PALEMBANG;105,71;103,09;104,34;99,08;99,75;98,3",
+				"PRABUMULIH;106,17;102,21;105,62;99,09;103,31;97,87",
+				"PAGAR ALAM;104,36;109,69;109,26;102,32;99,13;100,29",
+				"LUBUK LINGGAU;100,55;94,28;99,73;102,29;107,6;104,5",
+				"SUMATERA SELATAN;94,42;95,29;98,8;105,12;106,15;98,64"
+			]
+		}
+	]
 }

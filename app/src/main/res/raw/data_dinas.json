@@ -71,8 +71,16 @@
       "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
     },
     {
-      "title": "Jumlah Panti Asuhan dan Anak Panti  menurut kecamatan di Kabupaten Ogan Komering Ulu Timur, 2016",
+      "title": "Jumlah Panti Asuhan dan Anak Panti  menurut kecamatan di Kabupaten Ogan Komering Ulu Timur",
       "header": ["Kecamatan", "Panti Asuhan", "Anak Asuh", "Pengurus"]
+    },
+    {
+      "title": "Jumlah Panti Asuhan dan Anak Panti dalam Kabupaten ogan Komering Ulu Timur, 2017",
+      "header": ["Nama Panti Asuhan", "Laki-laki", "Perempuan", "Total"]
+    },
+    {
+      "title": "Jumlah Penyandang Masalah Kesejahteraan Sosial (PMKS) di Kabupaten Ogan Komering Ulu Timur",
+      "header": ["Jenis Penyandang Kesejahteraan Sosial", "Laki-laki", "Perempuan", "Jumlah"]
     }
   ],
   "dinas_tenaga_kerja_dan_transmigrasi":[
@@ -131,8 +139,16 @@
   ],
   "dinas_penanaman_modal_dan_pelayanan_terpadu":[
     {
-      "title": "",
-      "header": ["Variabel", "2012", "2013", "2014", "2015", "2016"]
+      "title": "Persebaran Perusahaan Dagang Berdasarkan Penerbitan SIUP di Setiap Kecamatan dalm Kabupaten Ogan Komering Ulu Timur",
+      "header": ["Kecamatan", "PK 2016", "PM 2016", "PB 2016", "PK 2017", "PM 2017", "PB 2017"]
+    },
+    {
+      "title": "Jumlah Perusahaan Terdaftar Berdasarkan Bentuk Perusahaan di Kabupaten Ogan Komering Ulu Timur",
+      "header": ["Bentuk Perusahaan",	"Pendaftar Baru/ Pendaftar Ulang", "Jumlah"]
+    },
+    {
+      "title": "Daftar Rekapitulasi Penerbitan Perizinan di Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu Kabupaten Oku Timur Tahun 2017",
+      "header": ["No",	"Jenis Izin", "Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des", "Jumlah"]
     }
   ],
   "dinas_kepemudaan,_olahraga,_pariwisata_dan_kebudayaan":[
@@ -150,7 +166,23 @@
     },
     {
       "title": "Banyaknya objek wisata dan jenis wisata menurut kecamatan dalam Kabupaten Ogan Komering Ulu Timur, 2016 ",
-      "header": ["Kecamatan", "Wisata Air", "Wisata Kuliner", "Wisata Industri", "Wisata Alam", "Wisata Budaya", "Wisata Ziarah", "Wisata Cinderamata", "Wisata Holtikultura", "Wisata Persawahan", "Wisata Perkebunan", "Wisata Persawahan dan Perkebunan", "Wisata Outbound", "Wisata Sejarah", "Wisata Kerajinan", "Desa Wisata", "Wisata Perkemahan", "Total",]
+      "header": ["Kecamatan", "Wisata Air", "Wisata Kuliner", "Wisata Industri", "Wisata Alam", "Wisata Budaya", "Wisata Ziarah", "Wisata Cinderamata", "Wisata Holtikultura", "Wisata Persawahan", "Wisata Perkebunan", "Wisata Persawahan dan Perkebunan", "Wisata Outbound", "Wisata Sejarah", "Wisata Kerajinan", "Desa Wisata", "Wisata Perkemahan", "Total"]
+    },
+    {
+      "title": "Jumlah Fasilitas Penunjang Pariwisata dan Hiburan dalam Kabupaten Ogan Komering Ulu Timur Tahun 2017",
+      "header": ["Kecamatan", "Hotel","Penginapan/ Losmen","Restoran/ Restaurant","Rumah Makan","Billiard"]
+    },
+    {
+      "title": "Jumlah Fasilitas Penginapan, Kamar, dan Kapasitas Tempat Tidur di Kabupaten OKU Timur",
+      "header": ["Jenis Fasilitas/ Penginapan Kinds of Lodging Facility","Jumlah Fasilitas Penginapan Number of Lodging","Jumlah Kamar Number of Room","Jumlah Kapasitas Tempat Tidur Number of Bed Capacity"]
+    },
+    {
+      "title": "Nama Obyek Wisata dan Jenis Wisata serta Jarak dari Kota Martapura ke Tempat Wisata",
+      "header": ["Kecamatan/ Nama Obyek Wisata","Jenis Obyek Wisata","Jarak dari Martapura (km)"]
+    },
+    {
+      "title": "Jumlah Wisata Domestik di Kabupaten Ogan Komering Ulu Timur",
+      "header": ["Wisatawan", "2013", "2014", "2015", "2016", "2017"]
     }
 
   ],

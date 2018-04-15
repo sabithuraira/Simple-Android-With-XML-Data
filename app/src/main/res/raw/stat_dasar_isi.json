@@ -90,18 +90,18 @@
 	"kemiskinan":[
 		{
 			"data": [
-				" Jumlah Penduduk Miskin (ribu jiwa);56,51;65,41;65,25;72,84;73,93",
-				" Persentase Penduduk Miskin;8,98;10,28;10,13;11,24;11,29",
-				" Indeks Kedalaman Kemiskinan (P1);;;;;",
-				" Indeks Keparahan Kemiskinan (P2);;;;;",
-				" Garis Kemiskinan (Rp);217830;227516;232073;241731;274608"
+				" Jumlah Penduduk Miskin (ribu jiwa);56,51;65,41;65,25;72,84;73,93;72,81",
+				" Persentase Penduduk Miskin;8,98;10,28;10,13;11,24;11,29;11",
+				" Indeks Kedalaman Kemiskinan (P1);;;;;1,65;1,90",
+				" Indeks Keparahan Kemiskinan (P2);;;;;0,34;0,51",
+				" Garis Kemiskinan (Rp);217830;227516;232073;241731;274608;285970"
 			]
 		}
 	],
-	"IPM":[
+	"ipm":[
 		{
 			"data": [
-				" (01) Oku Timur;65,18;66,09;66,74;67,17;67,38"
+				"OKU Timur;65,18;66,09;66,74;67,17;67,38"
 			]
 		},
 		{
@@ -120,12 +120,12 @@
 		},
 		{
 			"data": [
-				" (01) Oku Timur;11.28;11.53;11.66;11.79;11.79"
+				"OKU Timur;11.28;11.53;11.66;11.79;11.79"
 			]
 		},
 		{
 			"data": [
-				" (01) Oku Timur;67.75;67.78;67.79;68.19;68.31"
+				"OKU Timur;67.75;67.78;67.79;68.19;68.31"
 			]
 		}
 	],
@@ -159,13 +159,13 @@
 		{
 			"data": [
 				"Pertanian;64.98;67.9;62.32;70.99;;",
-				"Industri;10.03;5.54;9.16;8.6;;",
+				"Industri;10.03;5.54;9.16;8.59;;",
 				"Jasa;24.99;26.56;28.52;20.42;;",
 				"OKU Timur;100;100;100;100;;"	
 			]
 		}
 	],
-	"pertanian]":[
+	"pertanian":[
         {
             "data": [
                 "Padi;134024;54,4765426272309;730116,4149072",
@@ -225,7 +225,7 @@
                 "D;Pengadaan Listrik dan Gas;3 135;3 688;4 841;6 211 ,6",
                 "E;Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;1 008;1 261;1 411;1 683 ,4",
                 "F;Konstruksi;1 476 255;1 776 818;2 086 569;2 344 833 ,3",
-                "G;Perdagangan Besar dan Eceran; Reparasi Mobil dan Sepeda Motor;1 054 883;1 189 494;1 554 514;1 883 739 ,5",
+                "G;Perdagangan Besar dan Eceran - Reparasi Mobil dan Sepeda Motor;1 054 883;1 189 494;1 554 514;1 883 739 ,5",
                 "H;Transportasi dan Pergudangan ;92 496;108 205;128 259;140 510 ,7",
                 "I;Penyediaan Akomodasi dan Makan Minum;93 812;112 873;136 838;163 820 ,1",
                 "J;Informasi dan Komunikasi;74 444;88 711;99 573;111 655 ,3",
@@ -248,7 +248,7 @@
                 "D;Pengadaan Listrik dan Gas;3 135;3 688;4 841;4 089,2",
                 "E;Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;1 008;1 261;1 411;1 261,1",
                 "F;Konstruksi;1 476 255;1 776 818;2 086 569;1 389 691,6",
-                "G;Perdagangan Besar dan Eceran; Reparasi Mobil dan Sepeda Motor;1 054 883;1 189 494;1 554 514;1 193 640,6",
+                "G;Perdagangan Besar dan Eceran - Reparasi Mobil dan Sepeda Motor;1 054 883;1 189 494;1 554 514;1 193 640,6",
                 "H;Transportasi dan Pergudangan ;92 496;108 205;128 259;102 122,8",
                 "I;Penyediaan Akomodasi dan Makan Minum;93 812;112 873;136 838;98 390,1",
                 "J;Informasi dan Komunikasi;74 444;88 711;99 573;101 659,2",

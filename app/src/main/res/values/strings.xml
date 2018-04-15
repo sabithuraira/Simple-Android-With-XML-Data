@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SIHALUAN OKUT</string>
+    <string name="app_name">SIHALUAN-OKUT</string>
 
     <string name="address">Jl. Adiwiyata Km 07 (SP. Lingot) Kota Baru Selatan - Martapura  (32181), Telp/Fax : (0735) 481606</string>
     <string name="email">Email : bps1609@bps.go.id</string>
@@ -52,16 +52,14 @@
     </string-array>
 
     <string-array name="aboutsimanis_title_array">
-        <item></item>
         <item>SIHALUAN OKUT</item>
     </string-array>
 
     <string-array name="aboutsimanis_data_array">
-        <item>simanis</item>
         <item>
             <![CDATA[
                 <p>SISTEM PENYEDIAAN DATA DAN INFORMASI STATISTIK KABUPATEN OKU TIMUR</p>
-                <p>SIHALUAN OKUT adalah aplikasi berbasis android yang bertujuan menyediakan data dan informasi statistik Kabupaten Ogan Komering Ulu Timur Provinsi Sumatera Selatan secara lebih cepat, lebih mudah dan lebih murah. Himpunan data pada SIHALUAN OKUT adalah data resmi yang bersumber dari Badan Pusat Statistik (BPS) maupun data sektoral(dari dinas OKU Timur) hasil kompilasi produk administrasi. Pengembangan dan penyempurnaan aplikasi akan terus dilaksanakan sesuai perkembangan IPTEK serta tuntutan pengguna data. Aplikasi SIHALUAN OKUT dikelola oleh BPS Kabupaten OKU Timur bersama Forum Satu Data Kabupaten OKU Timur. Jika terdapat kritik, saran dan pertanyaan dapat disampaikan melalui:</p>
+                <p>SIHALUAN-OKUT adalah aplikasi berbasis android yang bertujuan menyediakan data dan informasi statistik Kabupaten Ogan Komering Ulu Timur Provinsi Sumatera Selatan secara lebih cepat, lebih mudah dan lebih murah. Himpunan data pada SIHALUAN-OKUT adalah data resmi yang bersumber dari Badan Pusat Statistik (BPS) maupun data sektoral(dari dinas OKU Timur) hasil kompilasi produk administrasi. Pengembangan dan penyempurnaan aplikasi akan terus dilaksanakan sesuai perkembangan IPTEK serta tuntutan pengguna data. Aplikasi SIHALUAN-OKUT dikelola oleh BPS Kabupaten OKU Timur. Jika terdapat kritik, saran dan pertanyaan dapat disampaikan melalui:</p>
                 <p>Email: bps1609@bps.go.id</p>
 	        ]]>
         </item>
@@ -197,131 +195,54 @@
     <string-array name="aboutoi_title_array">
         <item></item>
         <item>Profil</item>
-        <item></item>
-        <item>Lambang</item>
-        <item>Kondisi Geografis</item>
+        <item>Batas</item>
         <item></item>
         <item>Wilayah Administratif</item>
-        <item>Iklim dan Topografi</item>
-        <item>Pemerintahan</item>
-        <item>Potensi Daerah</item>
     </string-array>
 
     <string-array name="aboutoi_data_array" formatted="false">
-        <item>wabup;H.M. ILYAS PANJI ALAM, SH, SE, MM;Plt. Bupati Ogan Ilir</item>
+        <item>wabup;HM. Kholid MD; Bupati Kabupaten Ogan Komering Ulu Timur</item>
+
         <item>
             <![CDATA[
-                <p ><span ><b>Visi </b></span></p>
-                <p ><span >TERWUJUDNYA MASYARAKAT OGAN ILIR LEBIH SEJAHTERA, UNGGUL DAN BERKUALITAS DILANDASI KEIMANAN DAN KETAQWAAN KEPADA TUHAN YANG MAHA ESA</span></p>
-                <p ><span ><b>Misi </b></span></p>
-
-                    <p>&#149; \t <span >Meningkatkan kualitas tata kelola pemerintahan yang baik, dan pelayanan masyarakat yang transparan, bersih dan bertanggungjawab.</span></p>
-                    <p>&#149; \t <span >Meningkatkan kualitas pendidikan dan kesehatan yang merata, guna mewujudkan SDM yang unggul dan bermartabat.</span></p>
-                    <p>&#149; \t <span >Meningkatkan perekonomian daerah melalui pemberdayaan masyarakat dan peningkatan investasi guna mengurangi  pengangguran dan kemiskinan, serta pemenuhan kebutuhan dasar masyarakat.</span></p>
-                    <p>&#149; \t <span >Meningkatkan kualitas infrastruktur wilayah perkotaan sampai pelosok perdesaan berbasis lingkungan hidup.</span></p>
-                    <p>&#149; \t <span >Meningkatkan kualitas politik dan demokrasi, ketentraman, ketertiban dan keamanan masyarakat, kehidupan sosial-budaya dan beragama, serta kepastian Hukum dan HAM. </span></p>
-
-                <p ><span ><b>Slogan </b></span></p>
-                <p ><span>SIAP MELANJUTKAN PEMBANGUNAN MENUJU OGAN ILIR GEMILANG DENGAN SEMANGAT BARU DAN JIWA BARU</span></p>
-	        ]]>
-        </item>
-        <item>lambang</item>
-        <item>
-            <![CDATA[
-                <p>Arti Lambang Daerah Kabupaten Ogan Ilir sesuai dengan Peraturan Daerah Kabupaten Ogan Ilir Nomor 8 Tahun 2005 adalah sebagai berikut :</p>
-
-                <p>&#149; \t \t Dasar Lambang berwarna biru muda, berbentuk perisai yang melambangkan pertahanan dan kekuatan masyarakat, pemerintah dan rakyat bahu membahu untuk membangun Kabupaten Ogan Ilir.</p>
-                <p>&#149; \t \t Atap berwarna merah bergaris hitam sebanyak 6 (enam) garis yang melambangkan awal terbentuknya Kabupaten Ogan Ilir.</p>
-                <p>&#149; \t \t Perahu berwarna putih di atas air, berwarna biru muda melambangkan salah satu alat transportasi masyarakat Ogan Ilir.</p>
-                <p>&#149; \t \t Tulisan Ogan Ilir berwarna hitam di atas warna dasar hijau melambangkan wilayah administrasi Pemerintahan Kabupaten Ogan Ilir.</p>
-                <p>&#149; \t \t Bintang berwarna kuning emas melambangkan bahwa masyarakat Ogan Ilir bertaqwa kepada Allah SWT.</p>
-                <p>&#149; \t \t Padi dan kapas, padi berjumlah 18 bulir dan kapas berjumlah 12 kuntum melambangkan kemakmuran dan kesejahteraan serta tanggal dan bulan lahirnya Kabupaten Ogan Ilir.</p>
-                <p>&#149; \t \t Buku berwarna putih dan hitam melambangkan pendidikan dan penguasaan ilmu pengetahuan.</p>
-                <p>&#149; \t \t Menara berwarna hitam melambangkan penguasaan teknologi dan Sumber Daya Alam Migas,</p>
-                <p>&#149; \t \t Sungai berwarna kuning emas sebanyak 5 (lima) garis melambangkan 5 (lima) sungai dan potensi rawa lebak.</p>
-                <p>&#149; \t \t Pita berwarna putih; Motto ”Caram Seguguk”, berwarna hitam merupakan motto Kabupaten Ogan Ilir yang mengandung makna kebersamaan atau gotong royong dengan azas kekeluargaan, demokratis dan menjunjung tinggi HAM dalam mewujudkan kesejahteraan dan kemakmuran masyarakat Ogan Ilir.</p>
+                <p><span>Ogan Komering Ulu Timur merupakan dataran rendah dengan ketinggian rata-rata + 45 meter diatas permukaan laut, terletak pada posisi 103<sup>o</sup>40 - 104<sup>o</sup>33 Bujur Timur, serta 3<sup>o</sup>45 dan 4<sup>o</sup>55 Lintang Selatan. Luas wilayah Ogan Komering Ulu Timur, adalah berupa daratan seluas 337.000 Ha atau 3.370 Km2.</span</p>
             ]]>
         </item>
+
+
         <item>
             <![CDATA[
-                <p ><span >Luas wilayah: 2.666,07 km</span><span ><sup>2</sup></span></p>
-                <p ><span >Letak wilayah: diantara 2</span><span ><sup>0</sup></span><span > 55 sampai 3</span><span ><sup>0 </sup></span><span >15 LS dan diantara 104</span><span ><sup>0</sup></span><span > 20<span class="Apple-converted-space">  </span>BT sampai 104</span><span ><sup>0</sup></span><span > 48 BT</span></p>
-                <p ><span >Batas wilayah</span></p>
-
-                <p ><span >Sebelah Utara        :        dengan Kecamatan Rambutan Kabupaten Banyuasin, Kecamatan Kertapati, Gandus dan Seberang Ulu I Kota Palembang</span></p>
-                <p ><span >Sebelah Selatan        :        dengan Kecamatan Peninjauan Kab. Ogan Komering Ulu</span></p>
-                <p ><span >Sebelah Timur        :        dengan Kecamatan Jejawi, SP Padang, Kayu Agung, Pedamaran, dan Tanjung Lubuk Kabupaten OKI dan Kecamatan Cempaka Kabupaten OKU Timur</span></p>
-                <p ><span >Sebelah Barat        :        dengan Kecamatan Lubai, Gelumbang, dan Muara Belida Kabupaten  Muara Enim dan Kecamatan Rambang Kapak Tengah Kota Prabumulih</span></p>
-                <p ><span >Peta Wilayah</span></p>
+                <p><span>Wilayah Provinsi Ogan Komering Ulu Timur bagian utara dan bagian timur berbatasan dengan Kabupaten Ogan Komering Ilir,Sumatera Selatan.  Bagian selatan berbatasan dengan Kabupaten OKU Selatan dan Provinsi Lampung, dan bagian barat berbatasan dengan Kabupaten OKU.</span</p>
             ]]>
         </item>
         <item>peta</item>
         <item>
             <![CDATA[
-                <p ><span >Kabupaten Ogan Ilir memiliki 16 kecamatan, 227 desa dan 14 kelurahan.</span></p>
-                <p ><span >Nama kecamatan di Kabupaten Ogan Ilir:</span></p>
-
-
-                    <p>&#149; \t <span >Kecamatan Muara Kuang</span></p>
-                    <p>&#149; \t <span >Kecamatan Rambang Kuang</span></p>
-                    <p>&#149; \t <span >Kecamatan Lubuk Keliat</span></p>
-                    <p>&#149; \t <span >Kecamatan Tanjung Batu</span></p>
-                    <p>&#149; \t <span >Kecamatan Payaraman</span></p>
-                    <p>&#149; \t <span >Kecamatan Rantau Alai</span></p>
-                    <p>&#149; \t <span >Kecamatan Kandis</span></p>
-                    <p>&#149; \t <span >Kecamatan Tanjung Raja</span></p>
-                    <p>&#149; \t <span >Kecamatan Rantau Panjang</span></p>
-                    <p>&#149; \t <span >Kecamatan Sungai Pinang</span></p>
-                    <p>&#149; \t <span >Kecamatan Pemulutan</span></p>
-                    <p>&#149; \t <span >Kecamatan Pemulutan Selatan</span></p>
-                    <p>&#149; \t <span >Kecamatan Pemulutan Barat</span></p>
-                    <p>&#149; \t <span >Kecamatan Indralaya</span></p>
-                    <p>&#149; \t <span >Kecamatan Indralaya Utara</span></p>
-                    <p>&#149; \t <span >Kecamatan Indralaya Selatan</span></p>
-
-            ]]>
-        </item>
-        <item>
-            <![CDATA[
-                <p ><span ><b>Iklim</b></span></p>
-                <p ><span >Kabupaten Ogan Ilir merupakan daerah beriklim Tropis Basah (Type B) dengan musim kemarau<span class="Apple-converted-space">  </span>berkisar antara bulan Mei sampai dengan bulan Oktober, sedangkan musim hujan berkisar antara bulan November sampai dengan April.</span></p>
-                <p ><span ><b>Topografi</b></span></p>
-                <p ><span >Wilayah bagian utara Kabupaten Ogan Ilir merupakan hamparan dataran rendah berawa yang sangat luas dan bertofografi datar sampai bergelombang dengan ketinggian 5 meter sampai 52 meter dari permukaan air laut (tertinggi di Kecamatan Rambang Kuang).<span class="Apple-converted-space">  </span>Wilayah daratan Kabupaten Ogan Ilir mencapai 65 % serta wilayah berair dan rawa-rawa sekitar<span class="Apple-converted-space">  </span>35 %.<span class="Apple-converted-space">  </span>Derajat keasaman tanah berkisar antara pH 4,0 sampai pH 6,0.</span></p>
-            ]]>
-        </item>
-
-        <item>
-            <![CDATA[
-                <p ><span >Pejabat Bupati Ogan Ilir:</span></p>
-                <p ><span >1. Tanggal 14 Januari 2004 - 22 Agustus 2005 :</span></p>
-                <p ><span >    H. INDRA RUSDI, SH (Penjabat Bupati Ogan Ilir)</span></p>
-                <p ><span >2. Tanggal 22 Agustus 2005 - 22 Agustus 2010 :   </span></p>
-                <p ><span >    Ir. H. MAWARDI YAHYA (Bupati Ogan Ilir)</span></p>
-                <p ><span >3. Tanggal 22 Agustus 2010 - 27 Juli 2015 :</span></p>
-                <p ><span >    Ir. H. MAWARDI YAHYA (Bupati Ogan Ilir)</span></p>
-                <p ><span >4. Tanggal 27 Juli 2015 - 22 Agustus 2015 :</span></p>
-                <p ><span >    DRS. H.M. DAUD HASYIM (Plt. Bupati Ogan Ilir)</span></p>
-                <p ><span >5. Tanggal 22 Agustus - 25 Agustus 2015 :</span></p>
-                <p ><span >    H. HERMAN, SH, MM (Plh. Bupati Ogan Ilir)</span></p>
-                <p ><span >6. Tanggal 25 Agustus - 17 Februari 2016 :</span></p>
-                <p ><span >    H. YULIZAR DINOTO, SH. (Penjabat Bupati Ogan Ilir)</span></p>
-                <p ><span >7. Tanggal 17 Februari 2016 - 21 Maret 2016 :</span></p>
-                <p ><span >    AHMAD WAZIR NOFIADI MAWARDI, S.Psi (Bupati Ogan Ilir)</span></p>
-                <p ><span >8. Tanggal 21 Maret 2016 - Sekarang :</span></p>
-                <p ><span >    H.M. ILYAS PANJI ALAM, SH, SE, MM (Plt. Bupati Ogan Ilir)  </span></p>
-            ]]>
-        </item>
-
-        <item>
-            <![CDATA[
-                    <p>&#149; \t <span >Luas lahan pertanian lebih dari 50.000 ha.</span></p>
-                    <p>&#149; \t <span >Sumber penghasil karet di Sumatera Selatan.</span></p>
-                    <p>&#149; \t <span >Penghasil gula terbesar di Sumatera Selatan dengan adanya Perkebunan PTPN VII Cinta Manis.</span></p>
-                    <p>&#149; \t <span >Industri Kerajinan yang dimiliki: membuat alat-alat dapur dari aluminium, pisau dan alat pertanian dari besi, tenun songket, kerajinan hiasan alat pengantin, pembuatan rumah knock down dan kerajinan anyam tikar dari purun.</span></p>
-                    <p>&#149; \t <span >Sumur-sumur minyak bumi di Kecamatan Rambang Kuang</span></p>
+                <p ><span >Berdasarkan data dari dinas PMD Kabupaten OKU Timur, Wilayah administrasi Provinsi Ogan Komering Ulu Timur terdiri dari 20 wilayah Kecamatan. Jarak antara Ibu Kabupaten ke Daerah Kecamatan:</span></p>
+                    <p>&#149; \t <span >Martapura : 0 km.</span></p>
+                    <p>&#149; \t <span >Negeri Ratu : 15 km.</span></p>
+                    <p>&#149; \t <span >Bunga Mayang : 7  km.</span></p>
+                    <p>&#149; \t <span >Pulau Negara : 15 km.</span></p>
+                    <p>&#149; \t <span >Kurungan Nyawa : 25 km.</span></p>
+                    <p>&#149; \t <span >Karang Tengah : 35 km.</span></p>
+                    <p>&#149; \t <span >Muncak Kabau : 35 km.</span></p>
+                    <p>&#149; \t <span >Kota Negara : 60 km.</span></p>
+                    <p>&#149; \t <span >Batumarta VI : 40 km.</span></p>
+                    <p>&#149; \t <span >Rasuan : 65 km</span></p>
+                    <p>&#149; \t <span >Tugu Mulyo : 65 km</span></p>
+                    <p>&#149; \t <span >Gumawang : 58 km</span></p>
+                    <p>&#149; \t <span >Karsa Jaya : 59 km</span></p>
+                    <p>&#149; \t <span >Nusa Bakti : 70 km</span></p>
+                    <p>&#149; \t <span >Sumber Jaya : 90 km</span></p>
+                    <p>&#149; \t <span >Purwodadi : 70 km</span></p>
+                    <p>&#149; \t <span >Taraman : 75 km</span></p>
+                    <p>&#149; \t <span >Burnai Mulya  : 101 km</span></p>
+                    <p>&#149; \t <span >Cempaka : 120 km</span></p>
+                    <p>&#149; \t <span >Betung : 90 km</span></p>
 
             ]]>
         </item>
+
     </string-array>
 
     <string name="pemerintahan">
@@ -606,31 +527,33 @@
 
     <string name="analisis_pemerintahan">
 	<![CDATA[
-	    <p>Terdapat 16 kecamatan di Kabupaten Ogan Ilir. Dari 16 kecamatan tersebut terdapat 227 desa dan 14 kelurahan. Kecamatan Pemulutan merupakan kecamatan dengan jumlah desa terbanyak, yaitu sebanyak 25 desa, sedangkan Kecamatan Lubuk Keliat merupakan kecamatan dengan jumlah desa paling sedikit yaitu 10 desa.</p>
-        <p>Jumlah Pegawai Negeri Sipil (PNS) di Kabupaten Ogan Ilir setiap tahun mengalami perubahan diakibatkan beberapa hal, seperti pensiun, mutasi, maupun penerimaan  PNS baru. Hal ini seiring dengan kebutuhan pemerintah daerah Kabupaten Ogan Ilir untuk memberikan pelayanan yang optimal kepada warga Kabupaten Ogan Ilir. Menurut jenis kelamin, sebagian besar PNS di Kabupaten Ogan Ilir berjenis kelamin perempuan. Pada periode 2013 hingga 2015 jumlah PNS perempuan di Kabupaten mencapai 60 persen dari kesuluruhan PNS. Apabila diklasikasikan menurut pendidikan yang dimiliki masing-masing PNS, kurang lebih 75 persen PNS pernah menempuh pendidikan di jenjang universitas maupun akademi, sisanya masih berpendidikan SMA ke bawah.</p>
-        <p>Pada tahun 2014 diselenggarakan pemilihan umum (pemilu) di seluruh wilayah Indonesia, salah satunya untuk memilih anggota DPRD tingkat kabupaten. Di Kabupaten Ogan Ilir pemilu tersebut untuk memilih anggota DPRD untuk masa bakti 2014-2019. Melalui pemilu tahun 2014 terpilih sebanyak 40 anggota DPRD untuk mewakili masyarakat di Kabupaten Ogan Ilir. Partai yang paling banyak memiliki keterwakilan di DPRD Kabupaten Ogan Ilir adalah Partai Golkar dan Partai Nasdem masing-masing sebanyak 7 orang atau 17,5 persen dari jatah kursi. Sedangkan Partai Hanura memiliki keterwakilan paling sedikit yaitu 1 orang (2,5 persen).</p>
+	    <p>Pada tahun 2016 Kabupaten OKU Timur memiliki 20 kecamatan dengan 325 desa dan 7 kelurahan yang hanya terdapat di Kecamatan Martapura. Jumlah desa meningkat sebanyak 4,17% dari tahun 2014 dengan adanya pemekaran desa di beberapa kecamatan. Kecamatan Buay Madang Timur merupakan kecamatan dengan jumlah desa terbanyak yaitu 33 desa disusul Kecamatan Madang Suku II dan Belitang II yang memiliki 27 desa, sedangkan jumlah desa paling sedikit dimiliki oleh Kecamatan Buay Pemuka Bangsa Raja yakni sebanyak tujuh desa. Sama halnya dengan jumlah desa, Kecamatan Buay madang Timur memiliki jumlah dusun terbanyak yaitu 125 dusun dan Kecamatan Buay Pemuka Bangsa Raja memiliki jumlah dusun paling sedikit yaitu 32 dusun. Namun, Kecamatan Madang Suku II merupakan kecamatan memiliki jumlah dusun terbanyak kedua yaitu sebanyak 100 dusun.</p>
+	    <p>Dari hasil Pemilu 2014 di Kabupaten OKU Timur berhasil terpilih sebanyak 45 anggota DPRD yang merupakan perwakilan masyarakat Kabupaten OKU Timur dan berasal dari delapan partai. Partai Golkar memiliki jumlah kursi terbanyak dalam mewakili masyarakat Kabupaten OKU Timur yaitu delapan kursi atau sekitar 17.78%, sedangkan jumlah kursi paling sedikit dimiliki oleh Partai Hanura yaitu empat kursi atau sekitar 8,89%. Berdasarkan jenis kelamin anggota dewan terlihat bahwa anggota dewan didominasi oleh laki-laki yaitu sebanyak 41 orang atau sekitar 91%, sedangkan perempuan hanya terwakili oleh sebanyak 4 orang atau sekitar 9% yang berasal dari tiga partai dengan jumlah anggota dewan berjenis kelamin perempuan terbanyak berasal dari Partai PKB yakni sekitar 40% atau sebanyak dua orang.</p>
 	]]>
 	</string>
 
     <string name="analisis_penduduk">
 	<![CDATA[
-	    <p>Jumlah penduduk di Kabupaten OKU Timur selama tahun 2012 hingga 2016 meningkat setiap tahun. Dalam kurun waktu lima tahun (2012-2016), jumlah penduduk di Kabupaten OKU Timur meningkat sebesar 4,22 persen. Berdasarkan proyeksi penduduk yang dihitung oleh BPS Kabupaten OKU Timur, jumlah penduduk di Kabupaten OKU Timur pada tahun 2016 sudah mencapai 656.568 jiwa dimana 51,06 persen diantaranya atau 335.283 jiwa adalah laki-laki.</p>
+	    <p>Jumlah penduduk di Kabupaten OKU Timur selama tahun 2012 hingga 2016 meningkat setiap tahun. Dalam kurun waktu lima tahun (2012-2016), jumlah penduduk di Kabupaten OKU Timur meningkat sebesar 4,22 persen. Berdasarkan proyeksi penduduk yang dihitung oleh BPS Kabupaten OKU Timur, jumlah penduduk di Kabupaten OKU Timur pada tahun 2016 sudah mencapai 656.568 jiwa dimana 335.283 jiwa (51,06 persen) berjenis kelamin laki-laki dan 321.285 jiwa (48,94 persen) berjenis kelamin perempuan.</p>
         <p></p>
-        <p>Sejak tahun 2012 hingga tahun 2016, jumlah penduduk laki-laki di Kabupaten OKU Timur selalu lebih banyak dari pada jumlah penduduk perempuan, hal tersebut dapat dilihat dari rasio jenis kelamin penduduk (sex ratio) pada setiap tahunnya yang bernilai lebih dari 100. Dari sisi kelompok umur, 65,37 persen penduduk di Kabupaten OKU Timur pada tahun 2016 berada dalam usia produktif (15-64 tahun) sedangkan sisanya 29,17 persen terdiri dari anak-anak ( < 15 tahun) dan 5,46 persen merupakan penduduk usia lanjut (64+ tahun).</p>
+        <p>Sejak tahun 2012 hingga tahun 2016, jumlah penduduk laki-laki di Kabupaten OKU Timur lebih banyak jumlahnya dari jumlah penduduk perempuan, hal tersebut dapat dilihat dari rasio jenis kelamin penduduk (sex ratio) pada setiap tahunnya yang bernilai lebih dari 100. Dari sisi kelompok umur sebanyak 65,37 persen penduduk di Kabupaten OKU Timur pada tahun 2016 berada dalam usia produktif (15-64 tahun) sedangkan sisanya 29,17 persen terdiri dari anak-anak (kurang dari 15 tahun) dan 5,46 persen merupakan penduduk usia lanjut (diatas 64 tahun).</p>
 	]]>
 	</string>
 
     <string name="analisis_tenaga_kerja">
 	<![CDATA[
-        <p>Berdasarkan hasil Survei Angkatan Kerja Nasional Tahun 2015, Tingkat Partisipasi Angkatan Kerja (TPAK) mengalami peningkatan dari tahun sebelumnya, yaitu dari 71.83 persen menjadi 73.60 persen. Akan tetapi peningkatan TPAK ini juga diikuti dengan peningkatan Tingkat Pengangguran Terbuka, yaitu dari 3.03 persen menjadi 5.43 persen. Peningkatan jumlah angkatan kerja harusnya diikuti dengan penciptaan lapangan kerja yang baru, sehingga permasalahan pengangguran bisa diatasi. </p>
+        <p>Tingkat partisipasi angkatan kerja (TPAK) penduduk OKU Timur yang sempat mengalami penurunan pada tahun 2013-2014 kembali meningkat di tahun 2015 menjadi 71,68% dan sedikit menurun pada tahun 2017 menjadi 70,66 persen. Kondisi perekonomian yang mulai membaik mendorong penduduk usia kerja (15 tahun ke atas) untuk kembali berusaha terlibat dan berpartisipasi dalam kegiatan produksi barang maupun jasa di OKU Timur.</p>
+        <p>Untuk Tingkat Pengangguran Terbuka (TPT), sempat mengalami peningkatan dari kurun waktu 3 tahun, dari tahun 2013 hingga tahun 2015 yaitu sebesar 4,09 persen, 4,32 persen, dan 4,74 persen. Sebaliknya pada tahun 2017, angka TPT mengalami penurunan yang cukup signifikan menjadi 2,35 persen. Hal ini merupakan kondisi yang cukup positif dan perlu untuk dipertahankan melalui penyediaan lapangan kerja yang memadai sehingga angka pengangguran dapat terkendali.</p>
+        <p>Jika dilihat kondisi penduduk bekerja menurut status pekerjaan, maka untuk wilayah OKU Timur masih didominasi oleh pekerja dengan status sebagai buruh/karyawan/pegawai. Sedangkan persentase penduduk bekerja menurut lapangan usaha masih didominasi oleh sektor primer yaitu pertanian (Agriculture). Pada tahun 2015 penyerapan angkatan kerja oleh  ndust pertanian (agriculture) sebesar 70,99 persen diikuti  ndust jasa-jasa (services) sebesar  20,42 persen, dan  ndust  ndustry (manufacture) sebesar 8,59 persen.
+Catatan : Untuk tahun 2016 data tidak tersedia karena Survei Angkatan Kerja Nasional hanya dilaksanakan untuk level provinsi, tidak sampai di level kabupaten/kota akibat adanya efisiensi anggaran secara nasional.</p>
 	]]>
 	</string>
 
     <string name="analisis_kemiskinan">
 	<![CDATA[
-        <p>Garis Kemiskinan (GK) Kabupaten OKU Timur dari tahun 2012 hingga tahun 2016 mengalami peningkatan setiap tahun. Pada tahun 2016, GK di Kabupaten OKU Timur sebesar Rp274.608 per kapita per bulan. Bila dibandingkan dengan tahun 2015, GK di Kabupaten OKU Timur mengalami kenaikan sebesar Rp32.877 atau 11,97 persen.</p>
+        <p>Garis Kemiskinan (GK) Kabupaten OKU Timur dari tahun 2012 hingga tahun 2016 mengalami peningkatan setiap tahun. Pada tahun 2016, GK di Kabupaten OKU Timur sebesar Rp 274.608 per kapita per bulan. Bila dibandingkan dengan tahun 2015, GK di Kabupaten OKU Timur mengalami kenaikan sebesar Rp 32.877 atau 11,97 persen. Sedangkan Garis Kemiskinan (GK) Maret 2017 sebesar Rp.285.970,- mengalami kenaikan dari Garis Kemiskinan (GK) Maret 2016 yang sebesar Rp.274.608,-. Garis Kemiskinan sendiri merupakan representasi dari jumlah rupiah minimum yang dibutuhkan untuk memenuhi kebutuhan pokok minimum makanan yang setara dengan 2100 kilokalori per kapita per hari dan kebutuhan pokok bukan makanan. Garis Kemiskinan (GK) merupakan sebuah nilai yang sangat penting karena penduduk yang memiliki rata-rata pengeluaran konsumsi per kapita per bulan di bawah Garis Kemiskinan (GK) dikategorikan sebagai penduduk miskin. Kenaikan Garis Kemiskinan ini dapat disebabkan karena adanya pengaruh kenaikan harga baik dari komoditas makanan maupun komoditas non makanan. Jika kenaikan harga komoditi tersebut tidak diimbangi dengan peningkatan pendapatan masyarakat, maka akan berpeluang meningkatkan jumlah penduduk miskin di suatu wilayah.</p>
         <p></p>
-        <p>Seiring denga peningkatan GK di Kabupaten OKU Timur, selama tahun 2012 hingga 2016, jumlah penduduk miskin juga cenderung mengalami peningkatan setiap tahun kecuali di tahun 2014. Pada tahun 2016, jumlah penduduk miskin di Kabupaten OKU Timur mencapai 73.930 jiwa atau 11,29 persen dari total penduduk di Kabupaten OKU Timur. Jika dibandingkan tahun 2015, jumlah penduduk miskin di Kabupaten OKU Timur tahun 2016 meningkat sebanyak 1.090 jiwa atau 1,47 persen.</p>
+        <p>Seiring dengan peningkatan GK di Kabupaten OKU Timur, selama tahun 2012 hingga 2016, jumlah penduduk miskin juga cenderung mengalami peningkatan setiap tahun kecuali di tahun 2014. Pada tahun 2016, jumlah penduduk miskin di Kabupaten OKU Timur mencapai 73.930 jiwa atau 11,29 persen dari total penduduk di Kabupaten OKU Timur. Jika dibandingkan tahun 2015, jumlah penduduk miskin di Kabupaten OKU Timur tahun 2016 meningkat sebanyak 1.090 jiwa atau 1,47 persen. Pada periode Maret 2016 hingga Maret 2017, tingkat kemiskinan Kabupaten OKU Timur mengalami penurunan dari 11,29 persen menjadi 11,00 persen. Angka ini menunjukkan adanya penurunan jumlah penduduk miskin di Kabupaten OKU Timur dari 73,93 ribu jiwa menjadi 72,81 ribu jiwa.</p>
 	]]>
 	</string>
 
@@ -638,64 +561,54 @@
 	<![CDATA[
 	    <p>Selama tahun 2012 hingga 2016, Indeks Pembangunan Manusia (IPM) Kabupaten OKU Timur mengalami peningkatan setiap tahun. Dalam kurun waktu lima tahun tersebut, IPM Kabupaten OKU Timur mengalami peningkatan sebesar 3,26 persen. Pada tahun 2012, IPM Kabupaten OKU Timur sebesar 65,18 dan meningkat menjadi 67,38 di tahun 2016. Peningkatan tersebut terjadi seiring dengan peningkatan indikator-indikator penyusunan IPM.</p>
         <p></p>
-        <p>Pada tahun 2012, Angka Harapan Hidup (AHH) di Kabupaten OKU Timur sebesar 67,75 tahun. Angka tersebut mengalami peningkatan setiap tahun dan mencapai 68,31 tahun pada tahun 2016. Selain indikator AHH, indikator penyusun IPM lain yang juga mengalami peningkatan setiap tahun yaitu indikator pengeluaran per kapita. Pada tahun 2012, pengeluaran per kapita di Kabupaten OKU Timur sebesar Rp10.105 dan meningkat 8,33 persen dalam kurun waktu lima tahun atau mencapai Rp11024 per kapita pada tahun 2016.</p>
+        <p>Pada tahun 2012, Angka Harapan Hidup (AHH) di Kabupaten OKU Timur sebesar 67,75 tahun. Angka tersebut mengalami peningkatan setiap tahun dan mencapai 68,31 tahun pada tahun 2016. Selain indikator AHH, indikator penyusun IPM lain yang juga mengalami peningkatan setiap tahun yaitu indicator pengeluaran per kapita. Pada tahun 2012, pengeluaran per kapita di Kabupaten OKU Timur sebesar 10,105 juta rupiah dan meningkat 8,33 persen dalam kurun waktu lima tahun atau mencapai 11,024 juta rupiah per kapita pada tahun 2016.</p>
         <p></p>
-        <p>Indikator penyusun IPM dari sisi pendidikan yaitu Rata-Rata Lama Sekolah (RLS) tertinggi terjadi pada tahun 2014 yaitu 7,93 tahun. Pada tahun berikutnya, RLS mengalami penurunan 5,03 persen dan kembali meningkat 1,05 persen di tahun 2016 dengan RLS sebesar 7,63 tahun. Sementara itu, indikator lainnya yaitu Angka Harapan Lama Sekolah (HLS) terus mengalami peningkatan. dalam kurun waktu lima tahun (2012-2015), peningkatan angka HLS sebesar 4,32 persen dari 11,28 tahun pada tahun 2012 menjadi 11,79 tahun pada tahun 2016.</p>
+        <p>Indikator penyusun IPM dari sisi pendidikan yaitu Rata-Rata Lama Sekolah (RLS) tertinggi terjadi pada tahun 2014 yaitu 7,93 tahun. Pada tahun berikutnya, RLS mengalami penurunan 5,03 persen dan kembali meningkat 1,05 persen di tahun 2016 dengan RLS sebesar 7,63 tahun. Sementara itu, indicator lainnya yaitu Angka Harapan Lama Sekolah (HLS) terus mengalami peningkatan dalam kurun waktu lima tahun (2012-2015), peningkatan angka HLS sebesar 4,32 persen dari 11,28 tahun pada tahun 2012 menjadi 11,79 tahun pada tahun 2016.</p>
     ]]>
 	</string>
 
     <string name="analisis_indikator_pendidikan">
 	<![CDATA[
-		<p>Kualitas pendidikan yang memadai diperlukan penduduk untuk meningkatkan kualitas hidup mereka. Tingginya permintaan jasa pendidikan menuntut tersedianya penyelenggara pendidikan yang makin bermutu. Secara nasional, pendidikan diselenggarakan baik oleh pemerintah maupun swasta. Demi terselenggaranya pendidikan yang bermutu maka diperlukan sarana pendidikan yang cukup untuk menunjang kegiatan belajar penduduk usia sekolah, salah satunya adalah jumlah sekolah. Pada tahun 2015 jumlah sekolah negeri paling banyak di Kabupaten Ogan Ilir terdapat pada jenjang pendidikan Sekolah Dasar (SD) yaitu sebanyak 249 sekolah, sedangkan paling sedikit pada jenjang pendidikan Madrasah Ibtidaiyah (MI) dan Madrasah Aliyah (MA) yaitu masing-masing sebanyak 1 sekolah. Berbeda dengan sekolah negeri, jumlah sekolah swasta paling banyak terdapat pada jenjang pendidikan Madrasah Tsanawiyah (MTs) yaitu sebanyak 38 sekolah dan paling sedikit terdapat pada jenjang pendidikan Sekolah Menengah Kejuruan (SMK) yaitu sebanyak 5 sekolah.</p>
-        <p>Ketersediaan tenaga pengajar atau guru diperlukan untuk menghasilkan pendidikan yang berkualitas. Pada tahun 2015, seiring dengan banyaknya jumlah sekolah maka jumlah guru di sekolah negeri paling banyak di Kabupaten Ogan Ilir terdapat pada jenjang pendidikan Sekolah Dasar (SD) yaitu sebanyak 3.332 guru, sedangkan paling sedikit pada jenjang pendidikan Madrasah Ibtidaiyah (MI) sebanyak 30 guru. Hal yang sama  juga terjadi pada sekolah swasta dimana jumlah guru paling banyak terdapat pada jenjang pendidikan Madrasah Tsanawiyah (MTs) yaitu sebanyak 722 guru dan paling sedikit terdapat pada jenjang pendidikan Sekolah Menengah Kejuruan (SMK) yaitu sebanyak 146 guru.</p>
-        <p>Jumlah murid sekolah negeri di jenjang pendidikan Sekolah Dasar (SD) pada tahun 2015 menurun sebanyak 961 orang dibandingkan tahun sebelumnya, tetapi jumlahnya paling banyak dibandingkan dengan jumlah murid di jenjang pendidikan lainnya. Jumlahnya mencapai 44.677 atau 62 persen dari jumlah murid di sekolah negeri. Sedangkan murid di sekolah swasta jumlah terbanyak terdapat pada jenjang pendidikan Madrasah Tsanawiyah (MTs) yaitu sebanyak 7.121 orang. Jumlahnya meningkat 25 persen dibandingkan dengan tahun 2014. Semakin banyaknya anak usia sekolah yang menempuh pendidikan di setiap jenjang pendidikan akan meningkatkan kualitas sumber daya manusia di masa mendatang. </p>
+	]]>
+	</string>
 
-        <p>Tingkat partisipasi sekolah yang paling tinggi berada pada kelompok usia 7 – 12 tahun. Semakin tinggi usia, tingkat partisipasi sekolah mengalami penurunan. Tingkat partisipasi sekolah di setiap kelompok usia selalu meningkat dari tahun ke tahun. Angka ini membuktikan bahwa kesadaran penduduk Kabupaten Ogan Ilir akan pentingnya pendidikan bagi anak usia sekolah semakin meningkat, misalnya pada kelompok usia 7-12, pada tahun 2013 angka partisipasi sekolah menunjukkan angka 98,86 persen dan pada tahun 2015 angkanya meningkat menjadi 99,23 persen.</p>
-        <p>Angka Partisipasi Murni (APM) mengukur proporsi anak yang bersekolah tepat waktu. Bila seluruh anak usia sekolah dapat bersekolah tepat waktu, maka APM akan mencapai nilai 100. APM menunjukkan proporsi siswa yang terlambat atau terlalu cepat bersekolah. Semakin rendahnya nilai APM berarti kemungkinan adanya siswa diluar kelompok usia yang standar di tingkat pendidikan tertentu. Contoh: Seorang anak usia 6 tahun bersekolah di SD kelas 1 tidak akan masuk dalam penghitungan APM karena usianya lebih rendah dibanding kelompok usia standar SD yaitu 7-12 tahun. </p>
-        <p>Di setiap jenjang pendidikan di Kabupaten Ogan Ilir menunjukkan nilai APM yang meningkat setiap tahunnya, misalnya nilai APM jenjang pendidikan SD/MI pada tahun 2013 sebesar 97,47 dan pada tahun 2015 meningkat menjadi 98,40. Hal ini berarti bahwa terdapat 98,40 persen penduduk yang berusia 7-12 tahun yang bersekolah di SD pada tahun 2015 meningkat dibandingkan dengan tahun 2013 yang hanya 97,47 persen  penduduk yang berusia 7-12 tahun yang bersekolah di SD.</p>
-        <p>Angka Partisipasi Kasar (APK), menunjukkkan partisipasi penduduk yang sedang mengenyam pendidikan sesuai dengan jenjang pendidikannya. APK digunakan untuk mengukur keberhasilan program pembangunan pendidikan yang diselenggarakan dalam rangka memperluas kesempatan bagi penduduk untuk mengenyam pendidikan. APK merupakan indikator yang paling sederhana untuk mengukur daya serap penduduk usia sekolah di masing-masing jenjang pendidikan. </p>
-        <p>Angka Partisipasi Kasar (APK) jenjang pendidikan SD/MI di Kabupaten Ogan Ilir pada tahun 2015 adalah sebesar 103 persen. Hal ini berarti bahwa terdapat 3 persen penduduk yang tidak berusia 7-12 tahun yang bersekolah di SD/MI.</p>
+
+    <string name="analisis_ikk">
+	<![CDATA[
+	    <p>Indeks Kemahalan Konstruksi (IKK) adalah angka indeks yang menggambarkan perbandingan tingkat kemahalan harga bangunan/konstruksi (TKK) suatu kabupaten/kota atau provinsi terhadap kota acuan. TKK merupakan cerminan dari suatu nilai bangunan/konstruksi atau biaya yang dibutuhkan untuk membangun 1 (satu) unit bangunan per satuan ukuran luas di suatu kabupaten/kota atau provinsi. Kota yang menjadi acuan dalam perhitungan IKK adalah Kota Surabaya.</p>
+	    <p>IKK Kabupaten OKU Timur pada tahun 2017 mengalami penurunan jika dibandingkan dengan tahun 2016, dimana IKK OKU Timur pada tahun 2016 sebesar 101,49 sedangkan tahun 2017 turun sebesar 96,59. Hal ini menunjukkan perbandingan tingkat kemahalan harga bangunan/konstruksi pada tahun 2016 untuk wilayah OKU Timur lebih tinggi/mahal jika dibandingkan dengan Kota Surabaya. Sedangkan pada tahun 2017, tingkat kemahalan harga bangunan/konstruksi Kota Surabaya lebih tinggi/mahal jika dibandingkan dengan OKU Timur. Hal ini bisa disebabkan oleh beberapa faktor antara lain proyek konstruksi di OKU Timur masih bersifat pekerjaan sederhana jika dibandingkan dengan proyek konstruksi di Kota Surabaya pada tahun 2017 dan penggunaan material bahan alam untuk pekerjaan fisik konstruksi di OKU Timur lebih dominan jika dibandingkan dengan pekerjaan fisik di Kota Surabaya yang lebih banyak menggunakan bahan pabrikasi (industri logam besi & baja).</p>
+	    <p>Jika dibandingkan dengan kabupaten/kota lain di Provinsi Sumatera Selatan, IKK OKU Timur berada pada urutan ke-11 tertinggi dari 17 kabupaten/kota se-Sumatera Selatan. Sedangkan jika dibandingkan dengan rata-rata angka IKK Provinsi Sumatera Selatan yang sebesar 98,64, angka IKK OKU Timur masih berada di bawah angka IKK Provinsi Sumatera Selatan. Perhitungan IKK ini menggunakan metode Bill of Quantity (BoQ) dari proyek/pekerjaan yang sudah selesai, dimana metode ini memadukan 2 metode penghitungan yaitu pendekatan input (harga material di pasaran) dan pendekatan output (harga bahan yang digunakan pada proyek yang sudah selesai). Jika suatu wilayah memiliki sumber bahan material alami yang berlimpah tentu akan berakibat pada rendahnya harga input dan output yang digunakan dalam penghitungan IKK. Apalagi   pekerjaan konstruksi di wilayah tersebut juga dominan menggunakan bahan material alami, maka dapat menghasilkan angka IKK wilayah tersebut relatif lebih rendah dibandingkan dengan kota acuan yang mana lebih dominan dalam penggunaan bahan pabrikasi atau bahan material alami dengan harga yang lebih tinggi.</p>
 	]]>
 	</string>
 
     <string name="analisis_indikator_kesehatan">
 	<![CDATA[
-		<p>Jumlah sarana kesehatan di Kabupaten Ogan Ilir masih jauh dari cukup untuk memberikan pelayanan optimal di bidang kesehatan. Pada tahun 2015 jumlah sarana kesehatan di Kabupaten Ogan Ilir terdiri dari 2 rumah sakit, 25 puskesmas, 319 posyandu, 8 klinik/balai kesehatan dan 202 polindes. Pada tahun mendatang diharapkan jumlah sarana kesehatan terus ditambah seiring jumlah penduduk Kabupaten Ogan Ilir yang bertambah setiap tahun.</p>
-        <p>Jumlah tenaga kesehatan di Kabupaten Ogan Ilir pada tahun 2015 mengalami peningkatan dibandingkan dengan tahun sebelumnya seiring dengan permintaan terhadap pelayanan kesehatan yang semakin baik. Jumlah dokter di Kabupaten Ogan Ilir bertambah sebanyak 18 orang atau 90 persen dibandingkan tahun 2014. Selain itu, jumlah perawat dan bidan juga mengalami peningkatan masing-masing sebanyak 96 orang (39 persen) dan 60 orang (25 persen). Dengan penambahan jumlah tenaga kesehatan diharapkan akan tercapai derajat kesehatan masyarakat yang baik, yang pada gilirannya memperoleh kehidupan yang sehat dan produktif.  </p>
-        <p>Untuk mengendalikan pertumbuhan penduduk, pemerintah mencanangkan program keluarga berencana (KB) dengan memberikan sarana pelayanan dan prasarana yang memadai.Hal ini memperoleh respon baik dari  masyarakat yang tercermin dari tingginya pencapaian peserta KB aktif, dan pada tahun 2015 tercatat mencapai 61.646 orang. Hampir dari separuh peserta KB aktif (45,98 persen) memilih suntik sebagai alat kontrasepsi, disusul 26,18 persen menggunakan pil, pengguna implan sebanyak 16,46 persen, dan sisanya 11,38 persen menggunakan alat kontrasepsi lainnya.</p>
+	    <p>Angka harapan hidup (AHH) yang merupakan indikator dari tingkat kesehatan yang dimiliki oleh penduduk suatu kabupaten. Dari AHH Kabupaten OKU Timur yang terus meningkat dari tahun 2012 sampai tahun 2018 menunjukkan bahwa tingkat kesehatan penduduk Kabupaten OKU Timur semakin baik. Peningkatan tingkat kesehatan penduduk OKU Timur terbesar terjadi pada tahun 2015.</p>
+	    <p>Dari perkembangan persentase balita yang diimunasi menurut jenis imunisasi pada tahun 2012 sampai 2016 terlihat bahwa persentase balita yang mendapatkan imunisasi BCG cenderung lebih stabil perkembangannya. Kenaikan maupun penurunan persentase balita yang diimunasi dengan BCG tidak terlalu signifikan. Hal ini berbeda dengan persentase balita yang mendapatkan imunisasi campak. Pada tahun 2015, persentase balita yang mendapatkan imunisasi campak mengalami peningkatan yang signifikan sekitar 10% dari tahun 2014. Namun, pada tahun 2016 terjadi penurunan persentase balita yang mendapatkan imunisasi campak yang cukup  signifikan sekitar 12% dibandingkan tahun 2015.</p>
+	    <p>Berdasarkan persentase wanita kawin usia 15-49 yang menggunakan KB dari tahun 2012-2016 terlihat bahwa kenaikan maupun penurunan persentasenya tidak stabil. Penurunan persentasenya signifikan pada tahun 2014 yang kemudian meningkat signifikan pada tahun 2015. Meskipun, pada tahun 2016 juga mengalami penurunan persentase peserta KB. </p>
+	    <p>Berdasarkan persentase wanita kawin usia 15-49 yang menggunakan KB dari tahun 2012-2016 menunjukkan bahwa sebagian besar wanita lebih suka menggunakan alat KB jenis suntik dibandingkan alat KB yang lain. Hal ini terlihat dari besarnya persentase pengguna alat KB yang sekitar 60 s.d 70 % memilih suntik. Alat KB yang tidak disukai oleh wanita kawin usia 15-49 yang menggunakan KB dari tahun 2012-2016 di Kabupaten OKU Timur adalah intravag/tisu dan kondom wanita. Hal ini ditunjukkan dari persentasenya yang 0%.</p>
+	    <p>Mengingat adanya perbedaan referensi waktu usia bayi yang digunakan oleh Susenas terkait lamanya pemberian ASI maka analisis tidak dapat dilakukan dari tahun 2012 sampai dengan 2016. Rata-rata lama pemberian ASI untuk balita mengalami peningkatan pada tahun 2013 sebesar 4.5%. Namun, pada tahun 2014 mengalami penurunan sebesar 2.5%. Pada tahun 2016 terjadi kenaikan yang cukup signifikan lamanya waktu pemberian ASI pada bayi di bawah dua tahun yaitu sekitar 22.44%. Hal ini menunjukkan meningkatkannya pengetahuan masyarakat mengenai manfaat ASI bagi bayi dan sang ibu.</p>
+
 	]]>
 	</string>
 
     <string name="analisis_pertanian">
 	<![CDATA[
-		<p>Pada tahun 2015 baik luas tanam dan luas panen sebagian besar komoditi tanaman pangan mengalami penurunan. Tanaman padi sawah mengalami penurunan luas tanam mencapai 5 persen sedangkan luas panen berkurang 4 persen. Penurunan sangat besar  terjadi pada tanaman kedelai yang luas tanam berkurang 76 persen daripada tahun 2014, sedangkan luas panen berkurang 75 persen. Tanaman padi sawah menjadi komoditi yang paling dominan yang dibudidayakan oleh penduduk Kabupaten Ogan Ilir. </p>
-        <p>Perkebunan rakyat adalah perkebunan yang diselenggarakan atau dikelola oleh rakyat/pekebun, diluar perkebunan yang dikelola perusahaan berbadan hukum. Di Kabupaten Ogan Ilir, perkebunan rakyat terluas ditanami oleh tanaman karet. Pada tahun 2015 luas perkebunan mencapai 30.235 hektar dengan produksi mencapai 22.584 ton. Perkebunan rakyat yang terluas berikutnya ditanami dengan tanaman kelapa sawit yang luas perkebunannya mencapai 3.551 dengan produksi mencapai 21.484 ton.</p>
-        <p>Komoditas peternakan yang paling banyak dikembangbiakkan di Kabupaten Ogan Ilir pada tahun 2015 adalah kambing. Jumlahnya mencapai 18.802 ekor atau naik 25 persen dibandingkan dengan tahun 2014. Selain kambing, penduduk Kabupaten Ogan Ilir juga banyak mengembangbiakkan sapi. Jumlah ternak sapi yang dikembangbiakkan mencapai 17.930 atau naik 33 persen dibandingkan tahun sebelumnya. Untuk ternak unggas, ayam buras merupakan komoditi yang paling banyak dikembangbiakkan. Salah satu jenis ayam buras yang paling banyak diternakkan adalah ayam kampung. Jumlah ayam buras yang dikembangbiakkan mencapai 762 ribu pada tahun 2015.</p>
-        <p>Jumlah produksi ikan baik dari hasil budidaya maupun penangkapan hampir berimbang. Pada tahun 2015 total produksi ikan dari hasil budidaya mencapai 7,7 juta ton, sedangkan yang berasal dari hasil penangkapan produksinya mencapai 8,1 juta ton. Perikanan budidaya banyak dilakukan di keramba yang diletakkan di sungai. Untuk penangkapan ikan, penduduk Kabupaten Ogan Ilir banyak melakukan di sungai dan rawa-rawa. </p>
 	]]>
 	</string>
 
     <string name="analisis_industri_dan_pertambangan">
 	<![CDATA[
-		<p>Jumlah industri besar yang terdaftar di Dinas Koperasi, UMKM, Industri, dan Perdagangan Kab. Ogan Ilir pada tahun 2015 sebanyak 33 perusahaan dengan jumlah tenaga kerja mencapai 7.167 orang. Jumlahnya meningkat 2 perusahaan dibandingkan tahun sebelumnya. Selain itu, di Kabupaten Ogan Ilir juga terdapat 203 industri kecil yang mampu menampung 1.132 tenaga kerja dimana sebelumnya hanya terdapat 198 industri kecil selama tahun 2014.</p>
-        <p>Pada tahun 2015 jumlah produksi minyak dari semua sumur minyak yang dikelola perusahaan sebanyak 1,18 juta barel. Jumlahnya menurun 8 persen dibandingkan tahun 2014. Sedangkan pada penggalian golongan C, produksi terbesar di Kabupaten Ogan Ilir adalah tanah urugan. Pada tahun 2015 jumlah produksinya mencapai 569 ribu m3.</p>
 	]]>
 	</string>
 
     <string name="analisis_infrastruktur">
 	<![CDATA[
-		<p>Pembangunan infrastruktur yang paling utama di Kabupaten Ogan Ilir adalah jalan karena merupakan sarana penggerak perekonomian. Pembangunan jalan di Kabupaten Ogan Ilir tidak mengalami penambahan yang signifikan dari tahun ke tahun. Panjang jalan nasional di Kabupaten Ogan Ilir selama lima tahun kemarin tidak mengalami perubahan yaitu sepanjang 61,38 km. Hanya terdapat penambahan panjang jalan provinsi dan jalan kabupaten pada tahun 2015 yaitu masing-masing sepanjang 18,78 km dan 37,53 km.</p>
 	]]>
 	</string>
 
     <string name="analisis_pdrb">
 	<![CDATA[
-		<p>Setiap tahun PDRB Kabupaten Ogan Ilir mengalami peningkatan daripada tahun sebelumnya baik dihitung berdasarkan harga berlaku maupun harga konstan tahun 2010. Hal ini membuktikan bahwa perekonomian Kabupaten Ogan Ilir terus tumbuh sesuai pembangunan yang dilakukan di Kabupaten Ogan Ilir. Berdasarkan harga berlaku maka dari tahun 2010 hingga tahun 2015 perekonomian Kabupaten Ogan Ilir tumbuh sebesar 85 persen. Dengan tujuan untuk menghilangkan pengaruh inflasi maka pertumbuhan ekonomi dihitung dengan menggunakan harga konstan 2010, selama lima tahun terakhir (2010-2015), perekonomian Kabupaten Ogan Ilir tumbuh dari 4,40 milyar rupiah menjadi 6,12 milyar rupiah atau tumbuh sebesar 38 persen. </p>
-		<p>Untuk melakukan penghitungan pertumbuhan ekonomi lebih tepat menggunakan PDRB atas harga konstan tahun 2010. Hal ini diperlukan untuk menghilangkan pengaruh inflasi yang terjadi hampir di setiap tahun. Pada tahun 2015 PDRB Kabupaten Ogan Ilir atas dasar konstan 2010 bernilai 6,12 milyar rupiah atau naik 4,6 persen dibandingkan dengan tahun 2014. Apabila dihitung mulai dari tahun 2010 maka PDRB Kabupaten Ogan Ilir sudah tumbuh sebesar 38 persen.
-        <p>Sektor pertanian, kehutanan dan perikanan memiliki kontribusi paling besar terhadap perekonomian di Kabupaten Ogan Ilir. Sektor ini pada tahun 2015 memiliki kontribusi sebesar 1,9 milyar rupiah atau 23 persen dari keseluruhan nilai PDRB Kabupaten Ogan Ilir. Sektor lain yang memiliki kontribusi besar terhadap perekonomian Kabupaten Ogan Ilir adalah sektor konstruksi dan sektor perdagangan besar dan eceran, reparasi dan perawatan mobil dan sepeda motor. Kontribusi kedua sektor ini masing-masing sebesar 17 persen dan 14 persen.
-        <p>Pengeluaran konsumsi rumah tangga menjadi penggerak ekonomi di Kabupaten Ogan Ilir. Selama lima tahun terakhir kontribusi terhadap PDRB Kabupaten Ogan Ilir mencapai 60-62 persen dari seluruh kegiatan ekonomi. Pengeluaran untuk kapital (PMTB) juga terlihat mempunyai peran yang cukup besar dengan kontribusi sekitar 29.90 persen. Sedangkan proporsi konsumsi akhir pemerintah di jangka waktu yang sama berada pada rentang 16 hingga 17 persen.
-        <p>Dari tahun 2010 hingga 2015 pertumbuhan ekonomi paling tinggi terjadi pada tahun 2012 yaitu sebesar 8,03 persen. Sedangkan yang paling rendah terjadi di tahun 2010 yaitu sebesar 2,51 persen. Pada tahun 2015 pertumbuhan ekonomi di Kabupaten Ogan Ilir mencapai 4,61 persen turun dibandingkan tahun 2014 yang sebesar 6,55 persen.
-        <p>Distribusi persentase berguna untuk melihat peranan masing-masing sektor lapangan usaha terhadap perekonomian Kabupaten Ogan Ilir. Sektor pertanian, kehutanan, dan perikanan memiliki peranan paling besar, kontribusinya mencapai 23,27 dari seluruh lapangan usaha di Kabupaten Ogan Ilir. Akan tetapi dari tahun 2010 hingga 2015 sektor ini mengalami pertumbuhan kontribusi yang negatif atau mengalami penurunan. Pada tahun 2010 sektor tersebut memiliki peranan sebesar 31,05 persen dan menurun hingga 23,27 persen pada tahun 2015. Berbanding terbalik dengan sektor konstruksi yang justru meningkat setiap tahunnya. Pada tahun 2010 sektor ini berkontribusi sebesar 13,40 persen dan pada tahun 2015 meningkat menjadi 17,08 persen.
 	]]>
 	</string>
 </resources>

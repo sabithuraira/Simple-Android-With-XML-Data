@@ -120,7 +120,7 @@ public class DataSpinnerActivity extends AppCompatActivity {
 //        Bundle konsep=new Bundle();
         Bundle tabel=new Bundle();
 //        Bundle analisis=new Bundle();
-        Bundle image_bundle=new Bundle();
+//        Bundle image_bundle=new Bundle();
 
         if(data_file.length()>0){
             if(type_data<2) {
@@ -134,7 +134,7 @@ public class DataSpinnerActivity extends AppCompatActivity {
 
 //                int analisisId = r.getIdentifier("analisis_" + data_file, "string", this.getPackageName());
 //                analisis.putString("txt_aboutus", r.getString(analisisId));
-                image_bundle.putString("rsc","info_"+data_file);
+//                image_bundle.putString("rsc","info_"+data_file);
             }
             else{
                 tabel.putString("init","kec_"+data_file);
@@ -157,12 +157,12 @@ public class DataSpinnerActivity extends AppCompatActivity {
             adapter.addFragment(tabel_frag, "Tabel");
 //            adapter.addFragment(analisis_frag, "Analisis");
 
-            if(type_data==0) {
+//            if(type_data==0) {
 //                ImageFragment image_frag=new ImageFragment();
-                image_frag.setArguments(image_bundle);
+//                image_frag.setArguments(image_bundle);
 
-                adapter.addFragment(image_frag, "Infografis");
-            }
+//                adapter.addFragment(image_frag, "Infografis");
+//            }
         }
         else{
             adapter.addFragment(tabel_frag, "Tabel");

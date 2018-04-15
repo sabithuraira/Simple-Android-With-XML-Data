@@ -6,7 +6,7 @@
 		},
 		{
 			"title":"Jumlah  Anggota DPRD Tingkat II menurut Partai di   Kabupaten Ogan Komering Ulu Timur, 2016",
-			"header":["Partai", "Laki-laki", "Perempuan", "Jumlah"]
+			"header":["Fraksi", "Laki-laki", "Perempuan", "Jumlah"]
 		}
 	],
 	"penduduk":[
@@ -81,17 +81,29 @@
     ],
 	"pdrb":[
         {
-          "title":"Distribusi PDRB Menurut Lapangan Usaha",
-          "header":["","2012","2013","2014","2015","2016","2017"]
+          "title":"PDRB OKU Timur Atas Dasar Harga Berlaku Menurut Lapangan Usaha Tahun 2012-2016 (Juta Rupiah)",
+          "header":["Lapangan Usaha","2012","2013","2014","2015","2016"]
         },
-        {
-          "title":"Produk Domestik Regional Bruto Kabupaten  Ogan Komering Ulu Timur atas dasar harga Berlaku, 2016",
-          "header":["Kategori", "Uraian","2013","2014","2015","2016"]
-        },
-        {
-          "title":"Produk Domestik Regional Bruto Kabupaten  Ogan Komering Ulu Timur atas dasar harga Konstan, 2016",
-          "header":["Kategori", "Uraian","2013","2014","2015","2016"]
-        }
+		{
+			"title":"Distribusi PDRB OKU Timur Atas Dasar Harga Berlaku Menurut Lapangan Usaha Tahun 2012-2016 (Persen)",
+			"header":["Lapangan Usaha","2012","2013","2014","2015","2016"]
+		},
+		{
+			"title":"PDRB OKU Timur Atas Dasar Harga Konstan 2010 Menurut Lapangan Usaha Tahun 2012-2016 (Juta Rupiah)",
+			"header":["Lapangan Usaha","2012","2013","2014","2015","2016"]
+		},
+		{
+			"title":"Laju Pertumbuhan ekonomi OKU Timur Tahun 2012-2016 (Persen)",
+			"header":["Lapangan Usaha","2012","2013","2014","2015","2016"]
+		},
+		{
+			"title":"PDRB OKU Timur ADHB menurut Pengeluaran (Juta Rupiah)",
+			"header":["PDRB Pengeluaran (Seri 2010)","2012","2013","2014","2015","2016"]
+		},
+		{
+			"title":"PDRB OKU Timur ADHK menurut Pengeluaran Tahun 2012-2016 (Juta Rupiah)",
+			"header":["PDRB Pengeluaran (Seri 2010)","2012","2013","2014","2015","2016"]
+		}
     ],
 	"indikator_pendidikan":[
 		{

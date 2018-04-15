@@ -211,58 +211,117 @@
 	"pdrb":[
         {
             "data": [
-                "Pertanian, kehutan, dan Perikanan;3539181,66;3878172,89;3971397,1;4155171,7;4440367",
-                "Konstruksi;1290921,62;1476255,41;1826818,3;2136569,1;2344833,3",
-                "Perdagangan Besar dan Eceran; Reparasi Mobil dan Sepeda Motor;962627,69;1054882,71;1274734,2;1610155,8;1883739,5",
-                "Lainnya;2051593,28;2365723,32;2780863,4;3199435,4;3486941,7"
+				"A. Pertanian, Kehutanan, dan Perikanan;3539181.70;3878172.90;3971397.10;4155171.70;4440367",
+				"B. Pertambangan dan Penggalian;222757.90;252183.50;290108.20;309280.60;319995.10",
+				"C. Industri Pengolahan;533814.70;613261.80;730863.70;870581.80;987273",
+				"D. Pengadaan Listrik dan Gas;3018;3134.70;3787.80;4891.50;6211.60",
+				"E. Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;928;1008.10;1261.30;1411.10;1683.40",
+				"F. Konstruksi;1290921.60;1476255.40;1826818.30;2136569.10;2344833.30",
+				"G. Perdagangan Besar dan Eceran - Reparasi Mobil dan Sepeda Motor;962627.70;1054882.70;1274734.20;1610155.80;1883739.50",
+				"H. Transportasi dan Pergudangan;79292.60;92496.30;108205.40;128258.60;140510.70",
+				"I. Penyediaan Akomodasi dan Makan Minum;78473.40;93812.40;112872.70;136837.70;163820.10",
+				"J. Informasi dan Komunikasi;65178;74443.80;88711.20;99572.50;111655.30",
+				"K. Jasa Keuangan dan Asuransi;75108.60;84091.30;94399;102030.90;109810.20",
+				"L. Real Estate;198453.10;218349.90;253533;296337.90;311422.30",
+				"M,N. Jasa Perusahaan;3304.80;3928.10;4474.30;4907.60;5318.10",
+				"O. Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib;491199.90;586604;704132.20;816859.70;887658.30",
+				"P. Jasa Pendidikan;156084.80;181660.70;207520.30;228207.50;235352",
+				"Q. Jasa Kesehatan dan Kegiatan Sosial;75449.60;85553.10;99171.70;109071.80;111224.20",
+				"R,S,T,U. Jasa lainnya;68529.90;75195.50;81822.40;91186.40;95007.30",
+				"PDRB;7844324.20;8775034.30;9853813;11101332.20;12155881.50"
             ]
         },
-        {
-            "data": [
-                "A;Pertanian, Kehutanan, dan Perikanan;3 878 173;3 992 765;4 158 848;4 440 367 ,0",
-                "B;Pertambangan dan Penggalian ;252 184;290 108;309 281;319 995 ,1",
-                "C;Industri Pengolahan;613 262;730 864;870 862;987 273 ,0",
-                "D;Pengadaan Listrik dan Gas;3 135;3 688;4 841;6 211 ,6",
-                "E;Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;1 008;1 261;1 411;1 683 ,4",
-                "F;Konstruksi;1 476 255;1 776 818;2 086 569;2 344 833 ,3",
-                "G;Perdagangan Besar dan Eceran - Reparasi Mobil dan Sepeda Motor;1 054 883;1 189 494;1 554 514;1 883 739 ,5",
-                "H;Transportasi dan Pergudangan ;92 496;108 205;128 259;140 510 ,7",
-                "I;Penyediaan Akomodasi dan Makan Minum;93 812;112 873;136 838;163 820 ,1",
-                "J;Informasi dan Komunikasi;74 444;88 711;99 573;111 655 ,3",
-                "K;Jasa Keuangan dan Asuransi;84 091;94 399;102 031;109 810 ,0",
-                "L;Real Estate;218 350;253 533;296 338;311 422 ,3",
-                "M,N;Jasa Perusahaan;3 928;4 474;4 908;5 318 ,1",
-                "O;Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib;586 604;704 132;816 860;887 658 ,3",
-                "P;Jasa Pendidikan;181 661;207 520;228 207;235 352 ,0",
-                "Q;Jasa Kesehatan dan Kegiatan Sosial;85 553;99 172;109 072;111 224 ,2",
-                "R,S,T,U;Jasa lainnya;75 195;81 822;91 186;95 007 ,3",
-                " PRODUK DOMESTIK REGIONAL BRUTO;;8 775 034;9 739 840;10 999 597;12 155 881 ,5",
-                " PRODUK DOMESTIK REGIONAL BRUTO TANPA MIGAS;;8 775 034;9 739 840;10 999 597;12 155 881 ,5"
-            ]
-        },
-        {
-            "data": [
-                "A;Pertanian, Kehutanan, dan Perikanan;3 878 173;3 992 765;4 158 848;3 754 277,3",
-                "B;Pertambangan dan Penggalian ;252 184;290 108;309 281;213 156,3",
-                "C;Industri Pengolahan;613 262;730 864;870 862;620 434,2",
-                "D;Pengadaan Listrik dan Gas;3 135;3 688;4 841;4 089,2",
-                "E;Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;1 008;1 261;1 411;1 261,1",
-                "F;Konstruksi;1 476 255;1 776 818;2 086 569;1 389 691,6",
-                "G;Perdagangan Besar dan Eceran - Reparasi Mobil dan Sepeda Motor;1 054 883;1 189 494;1 554 514;1 193 640,6",
-                "H;Transportasi dan Pergudangan ;92 496;108 205;128 259;102 122,8",
-                "I;Penyediaan Akomodasi dan Makan Minum;93 812;112 873;136 838;98 390,1",
-                "J;Informasi dan Komunikasi;74 444;88 711;99 573;101 659,2",
-                "K;Jasa Keuangan dan Asuransi;84 091;94 399;102 031;84 141,2",
-                "L;Real Estate;218 350;253 533;296 338;243 274,8",
-                "M,N;Jasa Perusahaan;3 928;4 474;4 908;3 656,6",
-                "O;Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib;586 604;704 132;816 860;621 961,2",
-                "P;Jasa Pendidikan;181 661;207 520;228 207;194 902,4",
-                "Q;Jasa Kesehatan dan Kegiatan Sosial;85 553;99 172;109 072;94 375,6",
-                "R,S,T,U;Jasa lainnya;75 195;81 822;91 186;76 015,2",
-                " PRODUK DOMESTIK REGIONAL BRUTO;;8 775 034;9 739 840;10 999 597;8 805 049,4",
-                " PRODUK DOMESTIK REGIONAL BRUTO TANPA MIGAS;;8 775 034;9 739 840;10 999 597;8 805 049,4"
-            ]
-        }
+		{
+			"data": [
+                "A. Pertanian, Kehutanan, dan Perikanan;45.12;44.20;40.30;37.43;36.53",
+                "B. Pertambangan dan Penggalian;2.84;2.87;2.94;2.79;2.63",
+                "C. Industri Pengolahan;6.81;6.99;7.42;7.84;8.12",
+                "D. Pengadaan Listrik dan Gas;0.04;0.04;0.04;0.04;0.05",
+                "E. Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;0.01;0.01;0.01;0.01;0.01",
+                "F. Konstruksi;16.46;16.82;18.54;19.25;19.29",
+                "G. Perdagangan Besar dan Eceran - Reparasi Mobil dan Sepeda Motor;12.27;12.02;12.94;14.50;15.50",
+                "H. Transportasi dan Pergudangan;1.01;1.05;1.10;1.16;1.16",
+                "I. Penyediaan Akomodasi dan Makan Minum;1;1.07;1.15;1.23;1.35",
+                "J. Informasi dan Komunikasi;0.83;0.85;0.90;0.90;0.92",
+                "K. Jasa Keuangan dan Asuransi;0.96;0.96;0.96;0.92;0.90",
+                "L. Real Estate;2.53;2.49;2.57;2.67;2.56",
+                "M,N. Jasa Perusahaan;0.04;0.04;0.05;0.04;0.04",
+                "O. Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib;6.26;6.68;7.15;7.36;7.30",
+                "P. Jasa Pendidikan;1.99;2.07;2.11;2.06;1.94",
+                "Q. Jasa Kesehatan dan Kegiatan Sosial;0.96;0.97;1.01;0.98;0.91",
+                "R,S,T,U. Jasa lainnya;0.87;0.86;0.83;0.82;0.78",
+                "PDRB;100;100;100;100;100"
+			]
+		},
+		{
+			"data": [
+                "A. Pertanian, Kehutanan, dan Perikanan;3214713.60;3386314.80;3422161.80;3582518.20;3754277.30",
+                "B. Pertambangan dan Penggalian;188840.60;200032.20;212151.30;212871.20;213156.30",
+                "C. Industri Pengolahan;464609.60;503670.20;546317.30;576507.10;620434.20",
+                "D. Pengadaan Listrik dan Gas;3390.90;3617.70;3898.40;3971.20;4089.20",
+                "E. Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;907.20;987.70;1066.80;1159.30;1261.10",
+                "F. Konstruksi;1018435.70;1113994.40;1196810.60;1283704.40;1398691.60",
+                "G. Perdagangan Besar dan Eceran - Reparasi Mobil dan Sepeda Motor;886196.50;945932.20;1046412.50;1120906;1193640.60",
+                "H. Transportasi dan Pergudangan;76043.20;81446.80;87376;96642.30;102122.80",
+                "I. Penyediaan Akomodasi dan Makan Minum;66204.30;72738.90;79949.10;87987.70;98390.10",
+                "J. Informasi dan Komunikasi;65436.70;75926.80;88446.20;96124.90;101659.20",
+                "K. Jasa Keuangan dan Asuransi;67219.60;72193.80;77311.40;80853;84141.20",
+                "L. Real Estate;189362.30;206468;218180.30;233664.60;243274.80",
+                "M,N. Jasa Perusahaan;2881;3180.10;3395.90;3545.70;3656.60",
+                "O. Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib;426106.40;466756.10;505352.60;558345.90;621961.20",
+                "P. Jasa Pendidikan;142220.20;153829.10;174823;188635.40;193902.40",
+                "Q. Jasa Kesehatan dan Kegiatan Sosial;71541.80;78967.50;86880.60;93216.30;94375.60",
+                "R,S,T,U. Jasa lainnya;67774.60;69393.90;71326.10;74216.20;76015.20",
+                "PDRB;6951884.20;7435450.20;7821859.80;8294869.40;8805049.40"
+			]
+		},
+		{
+			"data": [
+                "A. Pertanian, Kehutanan, dan Perikanan;5.07;5.34;1.06;4.69;4.79",
+                "B. Pertambangan dan Penggalian;5.85;5.93;6.06;0.34;0.13",
+                "C. Industri Pengolahan;8.06;8.41;8.47;5.53;7.62",
+                "D. Pengadaan Listrik dan Gas;7.88;6.69;7.76;1.87;2.97",
+                "E. Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang;14.89;8.87;8.01;8.67;8.78",
+                "F. Konstruksi;10.13;9.38;7.43;7.26;8.96",
+                "G. Perdagangan Besar dan Eceran - Reparasi Mobil dan Sepeda Motor;7.40;6.74;10.62;7.12;6.49",
+                "H. Transportasi dan Pergudangan;8.76;7.11;7.28;10.61;5.67",
+                "I. Penyediaan Akomodasi dan Makan Minum;9.80;9.87;9.91;10.05;11.82",
+                "J. Informasi dan Komunikasi;21.95;16.03;16.49;8.68;5.76",
+                "K. Jasa Keuangan dan Asuransi;8.62;7.40;7.09;4.58;4.07",
+                "L. Real Estate;10.33;9.03;5.67;7.10;4.11",
+                "M,N. Jasa Perusahaan;14.91;10.38;6.79;4.41;3.13",
+                "O. Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib;11.97;9.54;8.27;10.49;11.39",
+                "P. Jasa Pendidikan;6.71;8.16;13.65;7.90;2.79",
+                "Q. Jasa Kesehatan dan Kegiatan Sosial;13.35;10.38;10.02;7.29;1.24",
+                "R,S,T,U. Jasa lainnya;2.07;2.39;2.78;4.05;2.42",
+                "PDRB;7.20;6.96;5.20;6.05;6.15"
+			]
+		},
+		{
+			"data": [
+                "1. Pengeluaran Konsumsi Rumah Tangga;5392026.06;6201582.04;6792344.87;7308731.35;8034719.84",
+                "2. Pengeluaran Konsumsi LNPRT;80733.67;96161.15;116360.26;126164.90;138005.39",
+                "3. Pengeluaran Konsumsi Pemerintah;866981.56;969073.43;1078388.59;1155423;1181110.66",
+                "4. Pembentukan Modal Tetap Bruto;3142094.88;3418054.16;3700791.32;3713652.75;4150959.43",
+                "5. Perubahan Inventori;344101.84;343924.47;105819.25;843855.56;388443.62",
+                "6. Ekspor;2554489.01;2728832.83;2970324.38;3025387.67;3266777.45",
+                "7. Impor;4536102.77;4982593.75;4910215.68;5071883.01;5004134.91",
+                "Produk Domestik Regional Bruto;7844324.25;8775034.33;9853812.98;11101332.22;12155881.49"
+			]
+		},
+		{
+			"data": [
+                "1. Pengeluaran Konsumsi Rumah Tangga;4646743.06;4915828.84;5119556.34;5329459.87;5608063.03",
+                "2. Pengeluaran Konsumsi LNPRT;74521.08;82220.27;92338.95;97719.96;103583.56",
+                "3. Pengeluaran Konsumsi Pemerintah;747825.36;790898.47;811020.37;846110.59;842506.86",
+                "4. Pembentukan Modal Tetap Bruto;2568422.97;2685716.60;2759600.78;2768766.79;2972216.57",
+                "5. Perubahan Inventori;341609.32;246757.85;293148.65;653034.72;293148.65",
+                "6. Ekspor;2457739.64;2755859.10;2964913.34;2752919.01;2987301.50",
+                "7. Impor;3884977.27;4041830.96;4218718.60;4153141.55;4001770.78",
+                "Produk Domestik Regional Bruto;6951884.16;7435450.17;7821859.83;8294869.40;8805049.40"
+			]
+		}
+
     ],
 	"indikator_pendidikan":[
 		{

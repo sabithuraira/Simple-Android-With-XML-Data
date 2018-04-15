@@ -403,25 +403,6 @@
 
             <p>&#149; \t Padi (padi sawah dan padi ladang)</p>
             <p>&#149; \t Palawija (jagung, kedelai, ubi kayu, ubi jalar, kacang tanah, kacang hijau)</p>
-
-
-	    <h4>Perkebunan</h4>
-		<p>Komoditi Perkebunan yang paling banyak dibudidayakan, antara lain : Karet, Kelapa sawit dan Kelapa</p>
-
-	    <h4>Peternakan</h4>
-		<p>Ternak terbagi menjadi 3, yaitu :</p>
-
-            <p>&#149; \t Ternak Besar (sapid dan kerbau)</p>
-            <p>&#149; \t Ternak Kecil (kambing dan domba)</p>
-            <p>&#149; \t Unggas (ayam petelur, ayam pedaging, ayam buras, itik, puyuh)</p>
-
-
-	    <h4>Perikanan</h4>
-		<p>Perikanan terbagi menjadi 2, yaitu :</p>
-
-            <p>&#149; \t Perikanan Budidaya</p>
-            <p>&#149; \t Perikanan Tangkap</p>
-
 	]]>
 	</string>
 
@@ -569,6 +550,14 @@ Catatan : Untuk tahun 2016 data tidak tersedia karena Survei Angkatan Kerja Nasi
 
     <string name="analisis_indikator_pendidikan">
 	<![CDATA[
+	    <p>Pendidikan memiliki peranan yang strategis dalam pembangunan. Pendidikan merupakan investasi bagi terbentuknya sumber daya manusia uang berkualitas. Melalui pendidikan yang baik, diharapkan tercipta manusia sebagai pelaku pembangunan yang berjiwa pembaharu, yang dapat mengembangkan segala potensi diri dan mengambil peran dalam pembangunan berbagai aspek kehidupan.</p>
+	    <p>Adapun indikator untuk mengetahui keberhasilan pendidikan di suatu wilayah dapat dilihat dari beberapa indikator berikut, yaitu angka melek huruf (AMH), rata-rata lama sekolah (RLS), angka partisipasi sekolah (APS), angka partisipasi murni (APM), angka partisipasi kasar (APK), dan harapan lama sekolah (HLS).</p>
+	    <p>Tingkat melek huruf yang tinggi menunjukkan adanya sebuah sistem pendidikan dasar yang efektif dan atau program keaksaraan yang memungkinkan sebagian besar penduduk untuk memperoleh kemampuan menggunakan kata-kata tertulis dalam kehidupan sehari-hari dan melanjutkan pembelajaran. Secara umum, perkembangan angka melek huruf di kabupaten OKU Timur menunjukkan trend yang positif. Pada harun 2012; 93,79% penduduk usia 15+ tahun dapat membaca huruf latin atau huruf lainnya. Angka ini terus mengalami peningkatan hingga pada tahun 2016; angka melek huruf untuk kabupaten OKU Timur mencapai 97,80%. Jika dilihat berdasarkan jenis kelamin, kemampuan untuk menbaca dan menulis di kalangan laki-laki dapat dikatakan cukup stabil, yaitu di kisaran 96% dan melonjak menjadi 98,84% pada tahun 2016. Sedangkan pada jenis kelamin perempuan, pergerakan angkanya cukup meningkat dari 91,20% pada 2012, melonjak hingga 96,70% pada 2016.</p>
+	    <p>Rata-rata lama sekolah dapat diartikan sebagai jumlah tahun belajar penduduk usia 15 tahun ke atas yang telah diselesaikan dalam pendidikan formal (tidak termasuk tahun yang mengulang). Untuk kabupaten OKU Timur sendiri, angka ini bisa dibilang cukup memprihatinkan. Rata-rata lama sekolah di kabupaten OKU Timur cenderung stagnan di kisaran 7 tahun saja. Dalam rentang 2012-2016, angka tertinggi yang dicapai hanya 7,93 tahun pada tahun 2014 dan menurun pada tahun 2016, yaitu hanya 7,63 tahun saja. Hal ini tentunya harus menjadi perhatian pemerintah setempat mengingat pendidikan merupakan salah satu modal penting dalam pembangunan SDM yang handal, dan merupaka investasi pemerintahan jangka panjang.</p>
+	    <p>Untuk perbandingan jenis kelamin, rata-rata lama sekolah penduduk 15+ laki-laki ternyata selalu lebih tinggi dibanding perempuan. Kendati angka yang dihasilkan tidak terlalu jauh, hal ini menunjukkan bahwa laki-laki masih lebih diprioritaskan dalam pendidikan. Angka terakhir menunjukkan bahwa rata-rata lama sekolah penduduk laki-laki mencapai 7,83 tahun, sedangkan perempuan 7,41 tahun.</p>
+	    <p>Angka partisipasi sekolah merupakan proporsi dari semua anak yang masih sekolah pada suatu kelompok umur tertentu terhadap penduduk dengan kelompok umur yang sesuai. Untuk kondisi di kabupaten OKU Timur, penduduk usia 7-12 tahun dapat dikatakan hampir seluruhnya bersekolah. Angka yang diperoleh menunjukkan persentase yang tinggi, hampir mencapai 100% di setiap tahunnya. Dengan demikian dapat dikatakan hampir seluruh anak usia 7-12 tahunan di kabupaten OKU Timur masih bersekolah. </p>
+	    <p>Untuk penduduk usia 13-15 tahun, proporsi penduduk yang bersekolah sedikit menurun dari penduduk usia 7-12 tahun. Pada tahun 2012, proporsi penduduk yang bersekolah pada kelompok umur ini mencapai 88,91%. Proporsi ini terus mengalami peningkatan hingga pada tahun 2015 mencapai puncaknya di 95,11%. Pada tahun 2016, angka ini mengalami penurunan yang cukup besar, yaitu menjadi 92,82% saja.</p>
+	    <p>Kondisi yang sama juga terjadi pada proporsi penduduk yang bersekolah pada kelompok umur 16-18 tahun. Pada tahun 2012, proporsi yang dihasilkan mencapai 59,23% dan mencapai puncaknya pada tahun 2015, yaitu 68,28%. Pada tahun 2016, angka tersebut mengalami penurunan menjadi 64,32%.</p>
 	]]>
 	</string>
 
@@ -609,6 +598,10 @@ Catatan : Untuk tahun 2016 data tidak tersedia karena Survei Angkatan Kerja Nasi
 
     <string name="analisis_pdrb">
 	<![CDATA[
+	    <p>PDRB OKU Timur pada  tahun 2016 sebesar 12,15 triliun rupiah dimana share terbesar berasal dari kategori Pertanian, Kehutanan dan Perikanan yaitu 36,53 persen. Disusul dari kategori Konstruksi dengan share sebesar 19,29 persen dan kategori perdagangan besar dan eceran dengan share sebesar 15,50 persen. Besarnya share dari kategori Pertanian, Kehuatan dan Perikanan disebabkan potensi alam yang cukup subur dan melimpah khususnya tanaman padi sehingga menjadi sektor primadona (unggulan) bagi daerah OKU Timur.</p>
+	    <p>Untuk pertumbuhan ekonomi OKU Timur, dalam kurun 2012-2014 sempat mengalami perlambatan yaitu dari 7,20 persen pada tahun 2012 melambat menjadi 6,96 persen pada tahun 2013 dan kembali melambat pada tahun 2014 menjadi 5,20 persen. Sedangkan pada periode 2015 dan 2016 pertumbuhan ekonomi OKU Timur kembali merangkak naik sebesar 6,05 dan 6,15 persen. Hal ini menandakan adanya recovery/pemulihan kondisi perekonomian di OKU Timur pada kurun waktu 2 tahun tersebut.</p>
+	    <p>Laju pertumbuhan tertinggi pada tahun 2016 terjadi pada kategori Penyedia Akomodasi dan Makan Minum serta kategori Administrasi Pemerintahan, Pertahanan, dan Jaminan Sosial Wajib yaitu dengan laju pertumbuhan masing-masing sebesar 11,82 dan 11,39 persen. Hal ini perlu menjadi perhatian khusus pemerintah untuk terus mengembangkan kategori-kategori yang memiliki prospek yang positif dalam mendukung pertumbuhan ekonomi di masa mendatang.</p>
+	    <p>Jika ditinjau menurut pengeluaran, selama periode 2012-2016 PDRB OKU Timur masih dominan dipengaruhi dari komponen Konsumsi Rumah Tangga dan Pembentukan Modal Tetap Bruto (PMTB). Sedangkan posisi neraca perdagangan antara ekspor dan impor antar wilayah, nilai impor masih lebih besar dibandingkan dengan nilai ekspor. Hal ini menunjukkan tingginya tingkat ketergantungan OKU Timur terhadap wilayah di luar OKU Timur. Perlu kajian secara khusus dan mendalam guna meningkatkan kemandirian wilayah khususnya dalam memproduksi barang dan jasa di luar dari sektor pertanian.</p>
 	]]>
 	</string>
 </resources>

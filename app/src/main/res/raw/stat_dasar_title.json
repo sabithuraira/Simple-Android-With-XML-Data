@@ -1,11 +1,11 @@
 {
 	"pemerintahan":[
 		{
-			"title":"Jumlah  Desa/Kelurahan Menurut Kecamatan di   Kabupaten Ogan Komering Ulu Timur, 2016",
+			"title":"Jumlah  Desa/Kelurahan Menurut Kecamatan di Kabupaten Ogan Komering Ulu Timur, 2016",
 			"header":["Kecamatan", "Desa", "Kelurahan", "Dusun"]
 		},
 		{
-			"title":"Jumlah  Anggota DPRD Tingkat II menurut Partai di   Kabupaten Ogan Komering Ulu Timur, 2016",
+			"title":"Jumlah  Anggota DPRD Tingkat II menurut Partai di Kabupaten Ogan Komering Ulu Timur, 2016",
 			"header":["Fraksi", "Laki-laki", "Perempuan", "Jumlah"]
 		}
 	],
@@ -21,13 +21,13 @@
 	],
 	"kemiskinan":[	
 		{
-			"title": "Perkembangan Penduduk Miskin menurut Berbagai Indikator, 2010-2017",
+			"title": "Perkembangan Penduduk Miskin menurut Berbagai Indikator, 2010-2017 Kabupaten OKU Timur",
 			"header": ["Indikator", "2012", "2013", "2014", "2015", "2016", "2017"]
 		}
 	],
 	"ipm":[
 		{
-			"title": "Indeks Pembangunan Manusia (IPM) Kabupaten OKU Timur, 2012-2016",
+			"title": "Indeks Pembangunan Manusia (IPM) Kabupaten OKU Timur, 2012-2016 Kabupaten OKU Timur",
 			"header": ["Kabupaten/Kota", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
@@ -49,19 +49,19 @@
 	],
 	"tenaga_kerja":[
 		{
-			"title": "Tingkat Pengangguran Terbuka (TPT) menurut Jenis Kelamin, Tahun 2012-2017",
+			"title": "Tingkat Pengangguran Terbuka (TPT) menurut Jenis Kelamin, Tahun 2012-2017 Kabupaten OKU Timur",
 			"header": ["TPT", "2012", "2013", "2014", "2015", "2016", "2017"]
 		},
 		{
-			"title": "Tingkat Partisipasi Angkatan Kerja (TPAK) menurut Jenis Kelamin, Tahun 2012-2017",
+			"title": "Tingkat Partisipasi Angkatan Kerja (TPAK) menurut Jenis Kelamin, Tahun 2012-2017 Kabupaten OKU Timur",
 			"header": ["TPAK", "2012", "2013", "2014", "2015", "2016", "2017"]
 		},
 		{
-			"title": "Persentase Penduduk Bekerja Menurut Status Pekerjaan, Tahun 2012-2017",
+			"title": "Persentase Penduduk Bekerja Menurut Status Pekerjaan, Tahun 2012-2017 Kabupaten OKU Timur",
 			"header": ["Penduduk Bekerja Menurut Status Pekerjaan", "2012", "2013", "2014", "2015", "2016", "2017"]
 		},
 		{
-			"title": "Persentase Penduduk Bekerja Menurut Lapangan Usaha, Tahun 2012-2017",
+			"title": "Persentase Penduduk Bekerja Menurut Lapangan Usaha, Tahun 2012-2017 Kabupaten OKU Timur",
 			"header": ["Penduduk Bekerja Menurut Lapangan Usaha", "2012", "2013", "2014", "2015", "2016", "2017"]
 		}
 	],
@@ -107,19 +107,19 @@
     ],
 	"indikator_pendidikan":[
 		{
-			"title": "Angka Melek Huruf (AMH) Penduduk Usia 15 Tahun Keatas menurut Jenis Kelamin, Tahun 2012-2016",
+			"title": "Angka Melek Huruf (AMH) Penduduk Usia 15 Tahun Keatas menurut Jenis Kelamin, Tahun 2012-2016 Kabupaten OKU Timur",
 			"header": ["AMH", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
-			"title": "Rata-Rata Lama Sekolah (RLS) Penduduk Usia 15 Tahun Keatas menurut Jenis Kelamin, Tahun 2012-2016",
+			"title": "Rata-Rata Lama Sekolah (RLS) Penduduk Usia 15 Tahun Keatas menurut Jenis Kelamin, Tahun 2012-2016 Kabupaten OKU Timur",
 			"header": ["RLS", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
-			"title": "Angka Partisipasi Sekolah (APS) menurut kelompok umur Tahun 2012-2016",
+			"title": "Angka Partisipasi Sekolah (APS) menurut kelompok umur Tahun 2012-2016 Kabupaten OKU Timur",
 			"header": ["APS", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
-			"title": "Angka Partisipasi Murni (APM) Tahun 2012-2016 (dalam persen)",
+			"title": "Angka Partisipasi Murni (APM) Tahun 2012-2016 (dalam persen) Kabupaten OKU Timur",
 			"header": ["APM", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
@@ -127,30 +127,30 @@
 			"header": ["APK", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
-			"title": "Angka Harapan Lama Sekolah (HLS) Tahun 2012-2016 (dalam Tahun)",
+			"title": "Angka Harapan Lama Sekolah (HLS) Tahun 2012-2016 (dalam Tahun) Kabupaten OKU Timur",
 			"header": ["HLS", "2012", "2013", "2014", "2015", "2016"]
 		}
 		
 	],
 	"indikator_kesehatan":[
 		{
-			"title": "Angka Harapan Hidup (AHH) Tahun 2012-2016",
+			"title": "Angka Harapan Hidup (AHH) Tahun 2012-2016 Kabupaten OKU Timur",
 			"header": ["AHH", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
-			"title": "Persentase Balita yang diimunisasi menurut jenis imunisasi Tahun 2012-2016",
+			"title": "Persentase Balita yang diimunisasi menurut jenis imunisasi Tahun 2012-2016 Kabupaten OKU Timur",
 			"header": ["Alat KB", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
-			"title": "Persentase Wanita Kawin Usia 15-49 yang menggunakan KB Tahun 2012-2016",
+			"title": "Persentase Wanita Kawin Usia 15-49 yang menggunakan KB Tahun 2012-2016 Kabupaten OKU Timur",
 			"header": ["Pengguna KB", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
-			"title": "Persentase Wanita Kawin Usia 15-49 yang menggunakan KB menurut jenis alat/cara KB Tahun 2012-2016",
+			"title": "Persentase Wanita Kawin Usia 15-49 yang menggunakan KB menurut jenis alat/cara KB Tahun 2012-2016 Kabupaten OKU Timur",
 			"header": ["Alat KB", "2012", "2013", "2014", "2015", "2016"]
 		},
 		{
-			"title": "Rata-rata Lama Anak Mendapat ASI Tahun 2012-2016 (dalam Bulan)",
+			"title": "Rata-rata Lama Anak Mendapat ASI Tahun 2012-2016 (dalam Bulan) Kabupaten OKU Timur",
 			"header": ["Rata-rata lama ASI", "Balita 2012", "Balita 2013", "Balita 2014", "Baduta 2015", " Baduta 2016"]
 		}
 	],

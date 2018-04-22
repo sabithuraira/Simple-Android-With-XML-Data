@@ -1,10 +1,12 @@
 package diklat.com.bps.sihaluan.components;
 
 import android.content.Context;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -70,6 +72,12 @@ public class HomeImageAdapter extends BaseAdapter {
                 title.setText(p);
 //                desc.setText(d);
             }
+
+
+            ImageView img = (ImageView) v.findViewById(R.id.img_grid);
+
+            if(position==1)
+                img.setImageResource(R.mipmap.okut);
         }
 
         return v;

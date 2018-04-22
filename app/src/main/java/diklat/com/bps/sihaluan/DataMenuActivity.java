@@ -24,6 +24,7 @@ public class DataMenuActivity extends AppCompatActivity  {
         setContentView(R.layout.app_bar_main);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setBackgroundColor(getResources().getColor(R.color.orange));
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -40,6 +41,7 @@ public class DataMenuActivity extends AppCompatActivity  {
         setupViewPager(viewPager);
 
         tabLayout = (TabLayout) findViewById(R.id.tabs);
+        tabLayout.setBackgroundColor(getResources().getColor(R.color.orange));
         tabLayout.setupWithViewPager(viewPager);
 
         /*

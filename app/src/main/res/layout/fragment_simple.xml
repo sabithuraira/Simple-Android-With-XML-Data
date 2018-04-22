@@ -1,19 +1,26 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:orientation="vertical"
     tools:context="diklat.com.bps.sihaluan.fragments.SimpleFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hai"
-        android:textSize="14sp"
-        android:scrollbars = "vertical"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView2"
-        android:textColor="@android:color/black" />
+    <!--<com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="14sp"-->
+        <!--android:scrollbars = "vertical"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/textView2"-->
+        <!--ext:documentView_text="@string/analisis_ikk"-->
+        <!--ext:documentView_textAlignment="justified"-->
+        <!--ext:documentView_textColor="@android:color/black"-->
+        <!--ext:documentView_textStyle="bold|strikeThru|underline"-->
+        <!--ext:documentView_textSubPixel="true"-->
+        <!--ext:documentView_textTypefacePath="fonts/helvetica.ttf"-->
+        <!--ext:documentView_wordSpacingMultiplier="5.0" />-->
 
-</RelativeLayout>
+</LinearLayout>

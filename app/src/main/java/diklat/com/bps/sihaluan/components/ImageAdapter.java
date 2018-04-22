@@ -23,7 +23,7 @@ public class ImageAdapter extends BaseAdapter {
     private Context mContext;
     private String[] data;
 
-    private String[] list_color={"#672D9C", "#3F3F46"};
+    private String[] list_color={"#46B04A", "#00A1EA"};
 
     public ImageAdapter(Context c, String[] data) {
 

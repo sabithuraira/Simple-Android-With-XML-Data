@@ -15,6 +15,8 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
+
 import diklat.com.bps.sihaluan.R;
 import diklat.com.bps.sihaluan.helpers.JsonGetter;
 import diklat.com.bps.sihaluan.models.TitleIsi;
@@ -60,6 +62,19 @@ public class TableFragment extends Fragment {
             SetArgument(this.getArguments().getString("init", "pemerintahan"), this.getArguments().getString("type_data", "xml"), this.getArguments().getString("category_data", "dinas"));
         }
         RefreshView();
+    }
+
+    public boolean isNumeric(String str)
+    {
+        try
+        {
+            double d = Double.parseDouble(str);
+        }
+        catch(NumberFormatException nfe)
+        {
+            return false;
+        }
+        return true;
     }
 
     public void SetArgument(String init, String type_data, String category_data){
@@ -165,7 +180,9 @@ public class TableFragment extends Fragment {
             tv0.setBackgroundResource(R.drawable.cell_shape);
             tv0.setTypeface(null, Typeface.BOLD);
             tv0.setPadding(10,5,10,5);
+
             tv0.setGravity(Gravity.CENTER);
+
             tv0.setText(headers[i]);
             tbrow0.addView(tv0);
         }
@@ -185,9 +202,17 @@ public class TableFragment extends Fragment {
                     tv1.setText("");
                 }
                 else{
-                    tv1.setText(explode_data[j]);
+
+                    if(isNumeric(explode_data[j])) {
+                        DecimalFormat df = new DecimalFormat("#,###.00");
+                        tv1.setText(df.format(Double.parseDouble(explode_data[j])));
+                        tv1.setGravity(Gravity.CENTER);
+                    }
+                    else{
+                        tv1.setText(explode_data[j]);
+                    }
                 }
-                tv1.setGravity(Gravity.CENTER);
+
                 tbrow.addView(tv1);
             }
             tbl_layout.addView(tbrow);

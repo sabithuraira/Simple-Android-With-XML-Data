@@ -31,6 +31,40 @@ public class JsonGetter {
         this.context=context;
     }
 
+
+    public String getAlamatDinas(String name){
+        int jsonFile = this.context.getResources().getIdentifier("alamat", "raw", context.getPackageName());
+        InputStream is = this.context.getResources().openRawResource(jsonFile);
+        Writer writer = new StringWriter();
+        char[] buffer = new char[1024];
+        try {
+            Reader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            int n;
+            while ((n = reader.read(buffer)) != -1) {
+                writer.write(buffer, 0, n);
+            }
+            is.close();
+        }
+        catch(UnsupportedEncodingException e){
+
+        }
+        catch(IOException e){
+
+        }
+
+        String jsonString =  writer.toString();
+
+        JsonElement jelement = new JsonParser().parse(jsonString);
+        JsonObject jobject =  (JsonObject)jelement;
+//        JsonObject jarray = jobject.getAsJsonObject(name);
+
+
+//        Gson gson = new Gson();
+//        return gson.fromJson(jarray, new TypeToken<String>(){}.getType());
+
+        return jobject.getAsJsonPrimitive(name).toString();
+    }
+
     public TitleTable[] getDinasTitle(String name){
         int jsonFile = this.context.getResources().getIdentifier("data_dinas", "raw", context.getPackageName());
         InputStream is = this.context.getResources().openRawResource(jsonFile);

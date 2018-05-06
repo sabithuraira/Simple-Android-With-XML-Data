@@ -12,7 +12,11 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 import diklat.com.bps.sihaluan.fragments.ImageFragment;
+import diklat.com.bps.sihaluan.fragments.SimpleFragment;
 import diklat.com.bps.sihaluan.fragments.TableFragment;
+import diklat.com.bps.sihaluan.helpers.JsonGetter;
+import diklat.com.bps.sihaluan.models.TitleIsi;
+import diklat.com.bps.sihaluan.models.TitleTable;
 
 public class DataSpinnerActivity extends AppCompatActivity {
     private String[] listDataHeader = {};
@@ -99,7 +103,8 @@ public class DataSpinnerActivity extends AppCompatActivity {
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
                 this, R.array.dinas_menu_array, R.layout.top_spinner);
 
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        adapter.setDropDownViewResource(R.layout.spinner_dropdown_item);
         bar_spinner_data.setAdapter(adapter);
 
         bar_spinner_data.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -119,7 +124,7 @@ public class DataSpinnerActivity extends AppCompatActivity {
 
 //        Bundle konsep=new Bundle();
         Bundle tabel=new Bundle();
-//        Bundle analisis=new Bundle();
+//        Bundle kontak=new Bundle();
 //        Bundle image_bundle=new Bundle();
 
         if(data_file.length()>0){
@@ -132,7 +137,12 @@ public class DataSpinnerActivity extends AppCompatActivity {
                 else
                     tabel.putString("init", data_file);
 
+//                JsonGetter jGet = new JsonGetter(this);
+//                kontak.putString("txt_aboutus", jGet.getAlamatDinas(data_file));
+
 //                int analisisId = r.getIdentifier("analisis_" + data_file, "string", this.getPackageName());
+
+
 //                analisis.putString("txt_aboutus", r.getString(analisisId));
 //                image_bundle.putString("rsc","info_"+data_file);
             }
@@ -140,6 +150,7 @@ public class DataSpinnerActivity extends AppCompatActivity {
                 tabel.putString("init","kec_"+data_file);
             }
             tabel.putString("type_data", "json");
+
         }
 
 //        TableFragment tabel_frag=new TableFragment();
@@ -149,13 +160,12 @@ public class DataSpinnerActivity extends AppCompatActivity {
         if(type_data<2){
 //            SimpleFragment konsep_frag=new SimpleFragment();
 //            konsep_frag.setArguments(konsep);
-
-//            SimpleFragment analisis_frag=new SimpleFragment();
-//            analisis_frag.setArguments(analisis);
+//            SimpleFragment kontak_frag=new SimpleFragment();
+//            kontak_frag.setArguments(kontak);
 
 //            adapter.addFragment(konsep_frag, "Konsep Definisi");
             adapter.addFragment(tabel_frag, "Tabel");
-//            adapter.addFragment(analisis_frag, "Analisis");
+//            adapter.addFragment(kontak_frag, "Kontak");
 
 //            if(type_data==0) {
 //                ImageFragment image_frag=new ImageFragment();
@@ -167,6 +177,7 @@ public class DataSpinnerActivity extends AppCompatActivity {
         else{
             adapter.addFragment(tabel_frag, "Tabel");
         }
+
 
         viewPager.setAdapter(adapter);
     }

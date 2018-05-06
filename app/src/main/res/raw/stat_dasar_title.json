@@ -68,15 +68,15 @@
 	"pertanian":[
         {
             "title":"LUAS PANEN, HASIL PER HEKTAR, DAN PRODUKSI TANAMAN PANGAN MENURUT KOMODITAS KABUPATEN OKU TIMUR(ATAP 2013)",
-            "header":["Komoditas","Hasil Per Hektar (Ku/Ha)","Produksi (Ton)","Luas Panen (Ha)"]
+            "header":["Komoditas","Luas Panen (Ha)","Hasil Per Hektar (Ku/Ha)","Produksi (Ton)"]
         },
         {
             "title":"LUAS PANEN, HASIL PER HEKTAR, DAN PRODUKSI TANAMAN PANGAN MENURUT KOMODITAS KABUPATEN OKU TIMUR(ATAP 2014)",
-          	"header":["Komoditas","Hasil Per Hektar (Ku/Ha)","Produksi (Ton)","Luas Panen (Ha)"]
+			"header":["Komoditas","Luas Panen (Ha)","Hasil Per Hektar (Ku/Ha)","Produksi (Ton)"]
         },
         {
             "title": "LUAS PANEN, HASIL PER HEKTAR, DAN PRODUKSI TANAMAN PANGAN MENURUT KOMODITAS KABUPATEN OKU TIMUR(ATAP 2015)",
-          "header":["Komoditas","Hasil Per Hektar (Ku/Ha)","Produksi (Ton)","Luas Panen (Ha)"]
+			"header":["Komoditas","Luas Panen (Ha)","Hasil Per Hektar (Ku/Ha)","Produksi (Ton)"]
         }
     ],
 	"pdrb":[
